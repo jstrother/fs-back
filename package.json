@@ -1,10 +1,21 @@
 {
+  "name": "fs-back",
+  "description": "This is where I am building the back-end of my fantasy soccer app with Node & Express. MongoDB and Mongoose are also major parts.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Jim Strother",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
   "dependencies": {
     "axios": "^1.7.8",
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
     "express": "^4.21.1",
     "mongodb": "^6.11.0",
-    "mongoose": "^8.8.3"
+    "mongoose": "^8.8.3",
+    "nodemon": "^3.1.7"
   }
 }
