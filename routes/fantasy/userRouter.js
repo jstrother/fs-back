@@ -1,4 +1,5 @@
 import express from "express";
+import mongoose from "mongoose";
 import User from "../../schema/userSchema.js";
 
 const userRouter = express.Router();
@@ -12,14 +13,15 @@ userRouter.post("/register", async (req, res) => {
     });
     await user.save();
     res.status(201).send(user);
-    alert('registered');
+    console.log('registered');
   } catch (error) {
     res.status(400).send(error);
     console.log('Uh-oh! Something went wrong! Unable to register');
+    console.error(error);
   }
 });
 
-userRouter.post("/login", async (req, res) => {
+userRouter.get("/login", async (req, res) => {
   try {
     const user = await User.findOne({ email: req.body.email });
     if (!user) {
@@ -28,7 +30,8 @@ userRouter.post("/login", async (req, res) => {
     if (user.password !== req.body.password) {
       return res.status(403).send("Invalid password");
     }
-    res.send("Logged in");
+    res.send(user);
+    console.log('logged in');
   } catch (error) {
     res.status(400).send(error);
     console.log('Uh-oh! Something went wrong! Unable to login');

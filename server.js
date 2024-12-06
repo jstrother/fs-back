@@ -1,6 +1,6 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-import cors from 'cors';
+// import cors from 'cors';
 import connectDB from './database/connection.js';
 import userRouter from './routes/fantasy/userRouter.js';
 
@@ -10,8 +10,9 @@ const app = express();
 const jsonParser = bodyParser.json();
 
 connectDB();
+
 app.use(jsonParser);
-app.use(cors);
+// app.use(cors);
 app.use('/user', userRouter);
 
 app.listen(PORT, () => {
