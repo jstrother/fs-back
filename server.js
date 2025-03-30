@@ -12,7 +12,10 @@ const app = express();
 connectDB();
 // clearDatabase(); // Uncomment to clear database during testing
 
-app.use(cors());
+app.use(cors({
+  origin: 'http://localhost:5173',
+  credentials: true,
+}));
 app.use(bodyParser.json());
 app.use(express.static('public'));
 app.use('/user', userRouter);

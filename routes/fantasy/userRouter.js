@@ -21,7 +21,6 @@ userRouter.post("/register", async (req, res) => {
     const hashedPassword = await bcrypt.hash(password, 10);
 
     const user = new User({
-      _id: new mongoose.Types.ObjectId(),
       email,
       password: hashedPassword,
       username,
@@ -32,15 +31,21 @@ userRouter.post("/register", async (req, res) => {
     const token = jwt.sign({ email }, JWT_SECRET, { expiresIn: '1h' });
 
     res.status(201).json({ message: 'User created and logged in', token });
-    console.log('registered');
   } catch (error) {
-    res.status(500).json(error);
+    if (error.name === 'ValidationError') {
+      // Mongoose validation error
+      console.error('Mongoose Validation Error:', error.errors);
+      res.status(400).json({ message: 'Validation Error', errors: error.errors });
+    } else {
+      // Other errors
+      console.error('Error during registration:', error);
+      res.status(500).json(error);
+    }
     console.log('Uh-oh! Something went wrong! Unable to register');
-    console.error(error);
   }
 });
 
-userRouter.get("/login", async (req, res) => {
+userRouter.post("/login", async (req, res) => {
   try {
     const { email, password, username } = req.body;
     const user = await User.findOne({
