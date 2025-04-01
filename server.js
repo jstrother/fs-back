@@ -5,12 +5,10 @@ import cors from 'cors';
 import connectDB from './database/connection.js';
 import userRouter from './routes/fantasy/userRouter.js';
 import { PORT } from './config.js';
-import clearDatabase from './database/clearDatabase.js';
 
 const app = express();
 
 connectDB();
-// clearDatabase(); // Uncomment to clear database during testing
 
 app.use(cors({
   origin: 'http://localhost:5173',
