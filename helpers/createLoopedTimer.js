@@ -1,4 +1,4 @@
-export function createLoopedTimer(array, callback, time, repeat = false) {
+export default function createLoopedTimer(array, callback, time, repeat = false) {
   let index = 0;
   const TOTAL = array.length;
 
