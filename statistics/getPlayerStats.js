@@ -1,24 +1,34 @@
-import { API_BASE_URL, API_TOKEN } from '../config';
-import createLoopedTimer from '../helpers/createLoopedTimer';
+import createEndpointString from '../helpers/createEndpointString.js';
 
 export default async function fetchPlayers() {
+  const leagueData = await fetchLeagues();
 
-}
+  const leagueArray = leagueData.data.filter(league => league.sub_type === 'domestic');
+  const leagueIDs = [];
 
-async function createEndpointString(specificEndpoint, uniqueId, includes = '') {
-  if (typeof specificEndpoint !== 'string' || typeof uniqueId !== 'number' || typeof includes !== 'string') {
-    return null;
+  for (const league of leagueArray) {
+    leagueIDs.push(league.id);
   }
 
-  let uri = '';
-
-  if (includes) {
-    uri = `${API_BASE_URL}${specificEndpoint}/${uniqueId}?api_token=${API_TOKEN}&includes=${includes}`;
-  } else {
-    uri = `${API_BASE_URL}${specificEndpoint}/${uniqueId}?api_token=${API_TOKEN}`;
-  }
-
-  return uri;
+  console.log(leagueIDs);
 }
 
-// https://api.sportmonks.com/v3/football/players?api_token=YOUR_TOKEN
+async function fetchLeagues() {
+  try {
+    const endpoint = await createEndpointString('leagues');
+    
+    const response = await fetch(endpoint);
+
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status ${response.status}`);      
+    }
+
+    const data = await response.json();
+
+    return data;
+
+  } catch (error) {
+    console.error(`Error fetching leagues: ${error}`);
+    throw error;
+  }
+}
