@@ -11,7 +11,7 @@ import { PORT, FRONTEND_URL } from './config.js';
 const app = express();
 
 connectDB();
-// getPlayerStats();
+getPlayerStats();
 
 app.use(cors({
   origin: FRONTEND_URL,
