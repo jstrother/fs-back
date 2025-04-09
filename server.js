@@ -2,16 +2,17 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 
-import connectDB from './database/connection.js';
-import createLoopedTimer from './helpers/createLoopedTimer.js';
-import getPlayerStats from './statistics/getPlayerStats.js';
+import connectDB from './schema/index.js';
+import getStats from './statistics/getStats.js';
 import userRouter from './routes/fantasy/userRouter.js';
+import leaguesRouter from './routes/stats/leaguesRouter.js';
+
 import { PORT, FRONTEND_URL } from './config.js';
 
 const app = express();
 
 connectDB();
-getPlayerStats();
+getStats();
 
 app.use(cors({
   origin: FRONTEND_URL,
@@ -20,6 +21,7 @@ app.use(cors({
 app.use(bodyParser.json());
 app.use(express.static('public'));
 app.use('/user', userRouter);
+app.use('/leagues', leaguesRouter)
 
 app.get('/', (req, res) => {
   res.send('Fantasy Soccer for All!');
