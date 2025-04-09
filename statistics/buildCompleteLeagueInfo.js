@@ -9,7 +9,7 @@ export default async function buildCompleteLeagueInfo(league, fixtureData) {
     fixtures: [],
   };
 
-  for (const club of fixtureData) {
+  for (const club of fixtureData.teams) {
     const currentClub = await extractClubInfo(club, league.league_id);
     currentClub.club_roster = await processClubRoster(currentClub.club_id);
     completeLeagueInfo.clubs.push(currentClub);

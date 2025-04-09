@@ -1,4 +1,5 @@
 import processLeague from './processLeague.js';
+import createFetchCall from '../helpers/createFetchCall.js';
 
 export default async function getStats() {
   try {

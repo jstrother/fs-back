@@ -1,8 +1,8 @@
 import { League } from '../schema/index.js';
 import extractLeagueInfo from './extractLeagueInfo.js';
 import enrichLeagueWithSeasonData from './enrichLeagueWithSeasonData.js';
-import buildCompleteLeagueInfo from './buildCompleteLeagueInfo.js';
 import createFetchCall from '../helpers/createFetchCall.js';
+import buildCompleteLeagueInfo from './buildCompleteLeagueInfo.js';
 
 
 export default async function processLeague(league) {

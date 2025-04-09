@@ -2,7 +2,7 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 
-import connectDB from './schema/index.js';
+import { connectDB } from './schema/index.js';
 import getStats from './statistics/getStats.js';
 import userRouter from './routes/fantasy/userRouter.js';
 import leaguesRouter from './routes/stats/leaguesRouter.js';
