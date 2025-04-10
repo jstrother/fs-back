@@ -4,8 +4,8 @@ import cors from 'cors';
 
 import { connectDB } from './schema/index.js';
 import getStats from './statistics/getStats.js';
-import userRouter from './routes/fantasy/userRouter.js';
-import leaguesRouter from './routes/stats/leaguesRouter.js';
+import userRouter from './routes/userRouter.js';
+import logger from './utils/logger.js';
 
 import { PORT, FRONTEND_URL } from './config.js';
 
@@ -21,7 +21,6 @@ app.use(cors({
 app.use(bodyParser.json());
 app.use(express.static('public'));
 app.use('/user', userRouter);
-app.use('/leagues', leaguesRouter)
 
 app.get('/', (req, res) => {
   res.send('Fantasy Soccer for All!');
@@ -32,5 +31,11 @@ app.get('/user', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+  logger.info(`Server running on port ${PORT}`);
 });
+
+app.use((err, req, res, next) => {
+  logger.error(`Unhandled error: ${err}`);
+  res.status(500).send('Internal Server Error');
+});
+

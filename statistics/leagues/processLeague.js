@@ -1,5 +1,5 @@
 import { League } from '../../schema/index.js';
-import createFetchCall from '../../helpers/createFetchCall.js';
+import { fetchSpecificLeague, fetchClubs } from '../../utils/fetchFunctions.js';
 import extractLeagueInfo from './extractLeagueInfo.js';
 import enrichLeagueWithSeasonData from './enrichLeagueWithSeasonData.js';
 import buildCompleteLeagueInfo from './buildCompleteLeagueInfo.js';
@@ -26,10 +26,3 @@ export default async function processLeague(league) {
   return await buildCompleteLeagueInfo(currentLeague, clubFixtureDataString);
 }
 
-async function fetchSpecificLeague(leagueId) {
-  return createFetchCall('leagues', leagueId, 'currentSeason');
-}
-
-async function fetchClubs(seasonId) {
-  return createFetchCall('seasons', seasonId, 'teams;fixtures');
-}

@@ -3,8 +3,8 @@ import mongoose from "mongoose";
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 
-import User from "../../schema/fantasy/userSchema.js";
-import { JWT_SECRET } from "../../config.js";
+import User from "../schema/fantasy/userSchema.js";
+import { JWT_SECRET } from "../config.js";
 
 const userRouter = express.Router();
 

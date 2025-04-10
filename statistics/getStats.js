@@ -1,5 +1,5 @@
 import processLeague from './leagues/processLeague.js';
-import createFetchCall from '../helpers/createFetchCall.js';
+import { fetchLeagues } from '../utils/fetchFunctions.js';
 
 export default async function getStats() {
   try {
@@ -18,8 +18,4 @@ export default async function getStats() {
     console.error(`Error in getStats: ${error}`);
     throw error;
   }
-}
-
-async function fetchLeagues() {
-  return createFetchCall('leagues');
 }

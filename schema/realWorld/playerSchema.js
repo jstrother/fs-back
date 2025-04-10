@@ -26,7 +26,7 @@ const playerSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  clubTeam: {
+  player_club: {
     type: String,
     required: true,
   },

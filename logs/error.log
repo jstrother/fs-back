@@ -1,0 +1,1 @@
+{"level":"error","message":"Error clearing database: TypeError: Cannot create property 'Symbol(level)' on string 'Database cleared'","service":"sportmonks api","timestamp":"2025-04-10T02:34:28.665Z"}
