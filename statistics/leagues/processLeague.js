@@ -1,7 +1,7 @@
-import { League } from '../schema/index.js';
+import { League } from '../../schema/index.js';
+import createFetchCall from '../../helpers/createFetchCall.js';
 import extractLeagueInfo from './extractLeagueInfo.js';
 import enrichLeagueWithSeasonData from './enrichLeagueWithSeasonData.js';
-import createFetchCall from '../helpers/createFetchCall.js';
 import buildCompleteLeagueInfo from './buildCompleteLeagueInfo.js';
 
 

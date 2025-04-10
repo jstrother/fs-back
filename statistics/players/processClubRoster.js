@@ -1,5 +1,5 @@
 import extractPlayerInfo from './extractPlayerInfo.js';
-import createFetchCall from '../helpers/createFetchCall.js';
+import createFetchCall from '../../helpers/createFetchCall.js';
 
 export default async function processClubRoster(clubId) {
   const rosterData = await fetchRoster(clubId);

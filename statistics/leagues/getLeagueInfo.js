@@ -1,5 +1,4 @@
 import createFetchCall from '../helpers/createFetchCall.js';
-import saveLeagueIDS from './saveLeagueIDs.js';
 
 export default async function getLeagueInfo() {
   const leagueData = await fetchLeagues();

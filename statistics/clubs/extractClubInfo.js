@@ -1,4 +1,4 @@
-import { Club } from '../schema/index.js';
+import { Club } from '../../schema/index.js';
 
 export default async function extractClubInfo(club, leagueId) {
   const clubInfo = {

@@ -1,4 +1,4 @@
-import { Fixture } from '../schema/index.js';
+import { Fixture } from '../../schema/index.js';
 
 export default async function processFixtures(fixturesData, leagueId) {
   const fixtures = [];

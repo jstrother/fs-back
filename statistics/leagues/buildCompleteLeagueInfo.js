@@ -1,6 +1,6 @@
-import extractClubInfo from './extractClubInfo.js';
-import processClubRoster from './processClubRoster.js';
-import processFixtures from './processFixtures.js';
+import extractClubInfo from '../clubs/extractClubInfo.js';
+import processClubRoster from '../players/processClubRoster.js';
+import processFixtures from '../fixtures/processFixtures.js';
 
 export default async function buildCompleteLeagueInfo(league, fixtureData) {
   const completeLeagueInfo = {

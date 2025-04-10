@@ -1,4 +1,4 @@
-import processLeague from './processLeague.js';
+import processLeague from './leagues/processLeague.js';
 import createFetchCall from '../helpers/createFetchCall.js';
 
 export default async function getStats() {
