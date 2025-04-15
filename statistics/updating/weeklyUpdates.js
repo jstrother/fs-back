@@ -4,7 +4,7 @@ import { League, Club } from '../../schema/index.js';
 import logger from '../../utils/logger.js';
 import { fetchFixtures } from '../../utils/fetchFunctions.js';
 
-export async function updatePlayersAndFixtures() {
+export default async function updatePlayersAndFixtures() {
   try {
     const leagues = await League.find({});
     logger.info(`Found ${leagues.length} leagues to update players and fixtures`);

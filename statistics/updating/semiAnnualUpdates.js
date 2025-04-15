@@ -5,7 +5,7 @@ import extractClubInfo from '../clubs/extractClubInfo.js';
 import { League, Club } from '../../schema/index.js';
 import logger from '../../utils/logger.js';
 
-export async function updateLeaguesAndClubs() {
+export default async function updateLeaguesAndClubs() {
   try {
     const leagueData = await fetchLeagues();
     const leagueArray = leagueData.data.filter(league => league.sub_type === 'domestic');
