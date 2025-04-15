@@ -2,6 +2,7 @@ import cron from 'node-cron';
 import getStats from '../getStats.js';
 import { updatePlayersAndFixtures } from './weeklyUpdates.js';
 import { updateLeaguesAndClubs } from './semiAnnualUpdates.js';
+import fetchApiTypes from '../../utils/fetchApiTypes.js';
 import logger from '../../utils/logger.js';
 
 export async function initializeData() {
@@ -34,6 +35,7 @@ export function setupScheduledJobs() {
     logger.info('Starting semi-annual update for leagues and clubs');
     try {
       await updateLeaguesAndClubs();
+      await fetchApiTypes();
       logger.info('Semi-annual update successfully completed');
     } catch (error) {
       logger.error(`Semi-annual update failed: ${error.message}`);

@@ -15,7 +15,7 @@ export default async function createFetchCall(specificEndpoint, uniqueId = '', i
       return data;
   
     } catch (error) {
-      console.error(`Error fetching leagues: ${error}`);
+      console.error(`Error fetching ${specificEndpoint}: ${error}`);
       throw error;
     }
 }

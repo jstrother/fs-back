@@ -37,5 +37,4 @@ export { default as Player } from './realWorld/playerSchema.js';
 export { default as League } from './realWorld/leagueSchema.js';
 export { default as Club } from './realWorld/clubSchema.js';
 export { default as Fixture } from './realWorld/fixtureSchema.js';
-
 export { default as User } from './fantasy/userSchema.js';

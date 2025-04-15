@@ -38,4 +38,3 @@ app.use((err, req, res, next) => {
   logger.error(`Unhandled error: ${err}`);
   res.status(500).send('Internal Server Error');
 });
-
