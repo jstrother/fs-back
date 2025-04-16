@@ -1107,3 +1107,376 @@
 {"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-15T02:55:17.384Z"}
 {"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-15T02:55:17.425Z"}
 {"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-15T02:55:17.433Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:28:03.667Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:44:43.416Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:44:43.460Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:44:43.504Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:44:43.515Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:46:05.227Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:46:05.261Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:46:05.294Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:46:05.301Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:46:18.199Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:46:18.238Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:46:18.283Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:46:18.293Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:46:22.518Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:46:22.557Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:46:22.602Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:46:22.614Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:46:30.343Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:46:30.377Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:46:30.417Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:46:30.425Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:46:42.485Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:46:42.517Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:46:42.561Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:46:42.571Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:47:31.581Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:47:31.609Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:47:31.645Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:47:31.653Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:52:36.351Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:52:36.391Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:52:36.430Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:52:36.444Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:53:14.822Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:53:14.853Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:53:14.887Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:53:14.898Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:53:17.393Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:53:17.450Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:53:17.512Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:53:17.521Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:53:29.034Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:53:29.065Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:53:29.094Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:53:29.104Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:53:30.340Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:53:30.368Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:53:30.412Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:53:30.422Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:53:32.282Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:53:32.336Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:53:32.403Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:53:32.410Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:53:37.709Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:53:37.755Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:53:37.789Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:53:37.796Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:53:43.358Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:53:43.435Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:53:43.480Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:53:43.488Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:53:46.008Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:53:46.036Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:53:46.068Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:53:46.076Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:53:54.386Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:53:54.422Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:53:54.459Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:53:54.468Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:53:59.472Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:53:59.549Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:53:59.612Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:53:59.623Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:54:03.945Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:54:03.978Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:54:04.027Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:54:04.034Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:54:06.661Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:54:06.695Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:54:06.730Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:54:06.738Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:54:09.441Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:54:09.482Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:54:09.515Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:54:09.522Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:54:13.681Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:54:13.717Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:54:13.769Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:54:13.792Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:54:14.902Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:54:14.940Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:54:14.980Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:54:14.995Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:54:33.118Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:54:33.185Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:54:33.242Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:54:33.251Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:54:42.298Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:54:42.335Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:54:42.367Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:54:42.375Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:54:50.942Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:54:50.977Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:54:51.015Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:54:51.021Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:54:53.124Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:54:53.161Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:54:53.211Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:54:53.222Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:55:14.145Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:55:14.178Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:55:14.224Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:55:14.234Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:55:23.617Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:55:23.653Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:55:23.696Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:55:23.707Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:55:34.681Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:55:34.712Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:55:34.754Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:55:34.774Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:55:37.948Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:55:37.979Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:55:38.011Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:55:38.020Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:55:44.547Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:55:44.579Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:55:44.610Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:55:44.617Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:55:47.732Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:55:47.780Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:55:47.817Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:55:47.826Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:56:14.745Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:56:14.794Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:56:14.862Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:56:14.870Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:56:27.002Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:56:27.040Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:56:27.078Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:56:27.092Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:56:32.707Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:56:32.745Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:56:32.812Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:56:32.822Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:56:37.039Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:56:37.070Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:56:37.104Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:56:37.115Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:56:39.621Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:56:39.659Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:56:39.704Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:56:39.712Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:56:55.534Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:56:55.562Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:56:55.593Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:56:55.602Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:56:58.204Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:56:58.247Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:56:58.300Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:56:58.312Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:57:02.657Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:57:02.696Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:57:02.742Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:57:02.753Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:57:11.365Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:57:11.404Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:57:11.440Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:57:11.451Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:57:13.082Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:57:13.115Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:57:13.148Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:57:13.159Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:57:22.173Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:57:22.206Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:57:22.242Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:57:22.251Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:57:27.269Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:57:27.296Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:57:27.329Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:57:27.339Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:57:34.275Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:57:34.320Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:57:34.350Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:57:34.360Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:57:35.841Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:57:35.876Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:57:35.927Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:57:35.937Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:57:39.744Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:57:39.779Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:57:39.811Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:57:39.822Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:57:47.064Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:57:47.092Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:57:47.124Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:57:47.132Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:58:03.007Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:58:03.036Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:58:03.069Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:58:03.078Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:58:06.073Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:58:06.112Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:58:06.155Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:58:06.168Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:58:08.028Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:58:08.063Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:58:08.110Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:58:08.119Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:58:12.271Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:58:12.324Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:58:12.379Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:58:12.392Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:58:14.476Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:58:14.510Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:58:14.549Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:58:14.557Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:58:15.587Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:58:15.622Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:58:15.654Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:58:15.663Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:58:30.120Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:58:30.186Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:58:30.223Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:58:30.231Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:58:38.047Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:58:38.077Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:58:38.111Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:58:38.122Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:58:41.784Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:58:41.816Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:58:41.859Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:58:41.869Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:58:50.154Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:58:50.195Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:58:50.236Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:58:50.250Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:58:56.832Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:58:56.896Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:58:56.931Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:58:56.941Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:58:58.581Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:58:58.623Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:58:58.667Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:58:58.676Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:58:59.991Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:59:00.026Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:59:00.072Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:59:00.081Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:59:02.760Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:59:02.795Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:59:02.827Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:59:02.839Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:59:03.903Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:59:03.941Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:59:03.977Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:59:03.988Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:59:12.375Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:59:12.408Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:59:12.447Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:59:12.458Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:59:14.101Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:59:14.151Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:59:14.190Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:59:14.201Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:59:15.368Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:59:15.411Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:59:15.453Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:59:15.464Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:59:39.425Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:59:39.464Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:59:39.503Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:59:39.514Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:59:45.372Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:59:45.411Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:59:45.456Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:59:45.467Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:59:47.835Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:59:47.868Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:59:47.903Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:59:47.913Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:59:49.664Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:59:49.696Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:59:49.730Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:59:49.740Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T01:59:53.440Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T01:59:53.472Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T01:59:53.504Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T01:59:53.510Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T02:00:07.004Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T02:00:07.066Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T02:00:07.127Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T02:00:07.138Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T02:00:09.777Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T02:00:09.807Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T02:00:09.841Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T02:00:09.850Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T02:00:18.548Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T02:00:18.579Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T02:00:18.616Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T02:00:18.623Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T02:00:24.778Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T02:00:24.817Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T02:00:24.855Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T02:00:24.865Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T02:00:34.854Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T02:00:34.896Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T02:00:34.940Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T02:00:34.951Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T02:00:45.585Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T02:00:45.620Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T02:00:45.667Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T02:00:45.678Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T02:00:53.905Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T02:00:53.935Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T02:00:53.967Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T02:00:53.977Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T02:00:56.401Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T02:00:56.437Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T02:00:56.472Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T02:00:56.482Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T02:01:05.058Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T02:01:05.092Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T02:01:05.128Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T02:01:05.139Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T02:01:06.943Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T02:01:06.983Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T02:01:07.029Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T02:01:07.040Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T02:01:12.949Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T02:01:12.982Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T02:01:13.033Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T02:01:13.042Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T02:01:15.648Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T02:01:15.684Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T02:01:15.732Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T02:01:15.741Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T02:01:24.411Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T02:01:24.462Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T02:01:24.508Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T02:01:24.517Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T02:01:33.602Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T02:01:33.669Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T02:01:33.722Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T02:01:33.735Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T02:01:35.020Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T02:01:35.081Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T02:01:35.125Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T02:01:35.136Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T02:02:45.616Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T02:02:45.649Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T02:02:45.682Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T02:02:45.692Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T02:02:53.185Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T02:02:53.231Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T02:02:53.280Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T02:02:53.290Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T02:03:02.610Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T02:03:02.640Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T02:03:02.679Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T02:03:02.686Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T02:03:05.304Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T02:03:05.336Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T02:03:05.377Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T02:03:05.386Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T02:03:07.990Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T02:03:08.024Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T02:03:08.057Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T02:03:08.067Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-16T02:03:10.394Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-16T02:03:10.429Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-16T02:03:10.471Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-16T02:03:10.483Z"}
