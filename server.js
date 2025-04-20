@@ -3,7 +3,6 @@ import bodyParser from 'body-parser';
 import cors from 'cors';
 
 import { connectDB } from './schema/index.js';
-import getStats from './statistics/getStats.js';
 import userRouter from './routes/userRouter.js';
 import logger from './utils/logger.js';
 
@@ -12,7 +11,6 @@ import { PORT, FRONTEND_URL } from './config.js';
 const app = express();
 
 connectDB();
-getStats();
 
 app.use(cors({
   origin: FRONTEND_URL,
