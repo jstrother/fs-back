@@ -2,6 +2,7 @@ import mongoose from 'mongoose';
 import { DB_URL } from '../config.js';
 import logger from '../utils/logger.js';
 import { initializeData, setupScheduledJobs } from '../statistics/updating/scheduledUpdates.js';
+import fetchApiTypes from '../utils/fetchApiTypes.js';
 
 async function connectDB() {
   try {
@@ -21,6 +22,7 @@ async function startApplication() {
     if (dataCount === 0) {
       logger.info('No existing data found, initializing database...');
       await initializeData();
+      await fetchApiTypes();
     } else {
       logger.info(`Found existing data (${dataCount} leagues), skipping initialization`);
     }

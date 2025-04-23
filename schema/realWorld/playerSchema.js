@@ -34,6 +34,10 @@ const playerSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  stats: {
+    type: Object,
+    required: true,
+  },
   updated_at: {
     type: Date,
     default: Date.now,

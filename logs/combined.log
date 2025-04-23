@@ -1852,3 +1852,249 @@
 {"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-18T01:39:30.614Z"}
 {"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-18T01:39:30.655Z"}
 {"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-18T01:39:30.663Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-23T01:26:54.249Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-23T01:27:19.514Z"}
+{"level":"info","message":"No existing data found, initializing database...","service":"sportmonks api","timestamp":"2025-04-23T01:27:19.601Z"}
+{"level":"info","message":"Initializing complete dataset","service":"sportmonks api","timestamp":"2025-04-23T01:27:19.602Z"}
+{"level":"info","message":"Successfully initialized data for 2 leagues","service":"sportmonks api","timestamp":"2025-04-23T01:29:42.029Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-23T01:29:42.039Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-23T02:14:29.504Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-23T02:14:29.549Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-23T02:14:29.593Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-23T02:14:29.603Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-23T02:14:31.914Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-23T02:14:31.961Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-23T02:14:32.008Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-23T02:14:32.019Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-23T02:15:07.454Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-23T02:15:07.480Z"}
+{"level":"info","message":"No existing data found, initializing database...","service":"sportmonks api","timestamp":"2025-04-23T02:15:07.501Z"}
+{"level":"info","message":"Initializing complete dataset","service":"sportmonks api","timestamp":"2025-04-23T02:15:07.502Z"}
+{"level":"info","message":"Starting to fetch all TYPES from API","service":"sportmonks api","timestamp":"2025-04-23T02:17:37.862Z"}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:38.116Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 1","page":1,"service":"sportmonks api","timestamp":"2025-04-23T02:17:38.117Z","totalSoFar":25}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:38.415Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 2","page":2,"service":"sportmonks api","timestamp":"2025-04-23T02:17:38.416Z","totalSoFar":50}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:38.615Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 3","page":3,"service":"sportmonks api","timestamp":"2025-04-23T02:17:38.616Z","totalSoFar":75}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:38.822Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 4","page":4,"service":"sportmonks api","timestamp":"2025-04-23T02:17:38.823Z","totalSoFar":100}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:39.009Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 5","page":5,"service":"sportmonks api","timestamp":"2025-04-23T02:17:39.010Z","totalSoFar":125}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:39.195Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 6","page":6,"service":"sportmonks api","timestamp":"2025-04-23T02:17:39.195Z","totalSoFar":150}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:39.435Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 7","page":7,"service":"sportmonks api","timestamp":"2025-04-23T02:17:39.435Z","totalSoFar":175}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:39.640Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 8","page":8,"service":"sportmonks api","timestamp":"2025-04-23T02:17:39.640Z","totalSoFar":200}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:39.846Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 9","page":9,"service":"sportmonks api","timestamp":"2025-04-23T02:17:39.847Z","totalSoFar":225}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:40.049Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 10","page":10,"service":"sportmonks api","timestamp":"2025-04-23T02:17:40.050Z","totalSoFar":250}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:40.255Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 11","page":11,"service":"sportmonks api","timestamp":"2025-04-23T02:17:40.255Z","totalSoFar":275}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:40.459Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 12","page":12,"service":"sportmonks api","timestamp":"2025-04-23T02:17:40.459Z","totalSoFar":300}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:40.664Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 13","page":13,"service":"sportmonks api","timestamp":"2025-04-23T02:17:40.664Z","totalSoFar":325}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:40.869Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 14","page":14,"service":"sportmonks api","timestamp":"2025-04-23T02:17:40.869Z","totalSoFar":350}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:41.074Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 15","page":15,"service":"sportmonks api","timestamp":"2025-04-23T02:17:41.074Z","totalSoFar":375}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:41.279Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 16","page":16,"service":"sportmonks api","timestamp":"2025-04-23T02:17:41.279Z","totalSoFar":400}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:41.483Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 17","page":17,"service":"sportmonks api","timestamp":"2025-04-23T02:17:41.483Z","totalSoFar":425}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:41.686Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 18","page":18,"service":"sportmonks api","timestamp":"2025-04-23T02:17:41.687Z","totalSoFar":450}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:41.894Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 19","page":19,"service":"sportmonks api","timestamp":"2025-04-23T02:17:41.894Z","totalSoFar":475}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:42.099Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 20","page":20,"service":"sportmonks api","timestamp":"2025-04-23T02:17:42.099Z","totalSoFar":500}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:42.303Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 21","page":21,"service":"sportmonks api","timestamp":"2025-04-23T02:17:42.303Z","totalSoFar":525}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:42.506Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 22","page":22,"service":"sportmonks api","timestamp":"2025-04-23T02:17:42.506Z","totalSoFar":550}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:42.714Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 23","page":23,"service":"sportmonks api","timestamp":"2025-04-23T02:17:42.714Z","totalSoFar":575}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:42.916Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 24","page":24,"service":"sportmonks api","timestamp":"2025-04-23T02:17:42.916Z","totalSoFar":600}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:43.122Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 25","page":25,"service":"sportmonks api","timestamp":"2025-04-23T02:17:43.122Z","totalSoFar":625}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:43.326Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 26","page":26,"service":"sportmonks api","timestamp":"2025-04-23T02:17:43.326Z","totalSoFar":650}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:43.531Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 27","page":27,"service":"sportmonks api","timestamp":"2025-04-23T02:17:43.531Z","totalSoFar":675}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:43.838Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 28","page":28,"service":"sportmonks api","timestamp":"2025-04-23T02:17:43.838Z","totalSoFar":700}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:44.043Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 29","page":29,"service":"sportmonks api","timestamp":"2025-04-23T02:17:44.043Z","totalSoFar":725}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:44.246Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 30","page":30,"service":"sportmonks api","timestamp":"2025-04-23T02:17:44.247Z","totalSoFar":750}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:44.452Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 31","page":31,"service":"sportmonks api","timestamp":"2025-04-23T02:17:44.453Z","totalSoFar":775}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:44.657Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 32","page":32,"service":"sportmonks api","timestamp":"2025-04-23T02:17:44.658Z","totalSoFar":800}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:44.966Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 33","page":33,"service":"sportmonks api","timestamp":"2025-04-23T02:17:44.966Z","totalSoFar":825}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:45.169Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 34","page":34,"service":"sportmonks api","timestamp":"2025-04-23T02:17:45.169Z","totalSoFar":850}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:45.377Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 35","page":35,"service":"sportmonks api","timestamp":"2025-04-23T02:17:45.377Z","totalSoFar":875}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:45.578Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 36","page":36,"service":"sportmonks api","timestamp":"2025-04-23T02:17:45.578Z","totalSoFar":900}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:45.784Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 37","page":37,"service":"sportmonks api","timestamp":"2025-04-23T02:17:45.785Z","totalSoFar":925}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:45.990Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 38","page":38,"service":"sportmonks api","timestamp":"2025-04-23T02:17:45.991Z","totalSoFar":950}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:46.192Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 39","page":39,"service":"sportmonks api","timestamp":"2025-04-23T02:17:46.193Z","totalSoFar":975}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:46.397Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 40","page":40,"service":"sportmonks api","timestamp":"2025-04-23T02:17:46.397Z","totalSoFar":1000}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:46.592Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 41","page":41,"service":"sportmonks api","timestamp":"2025-04-23T02:17:46.592Z","totalSoFar":1025}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:46.768Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 42","page":42,"service":"sportmonks api","timestamp":"2025-04-23T02:17:46.769Z","totalSoFar":1050}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:47.014Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 43","page":43,"service":"sportmonks api","timestamp":"2025-04-23T02:17:47.015Z","totalSoFar":1075}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:17:47.211Z","upserted":6}
+{"count":6,"level":"info","message":"Added 6 TYPES from page 44","page":44,"service":"sportmonks api","timestamp":"2025-04-23T02:17:47.211Z","totalSoFar":1081}
+{"level":"info","message":"Successfully fetched all TYPES: 1081 total TYPES","service":"sportmonks api","timestamp":"2025-04-23T02:17:47.211Z"}
+{"level":"info","message":"Successfully initialized data for 2 leagues","service":"sportmonks api","timestamp":"2025-04-23T02:17:47.212Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-23T02:17:47.222Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-23T02:18:07.171Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-23T02:18:07.199Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-23T02:18:07.227Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-23T02:18:07.235Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-23T02:18:22.861Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-23T02:18:22.893Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-23T02:18:22.919Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-23T02:18:22.928Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-23T02:18:25.227Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-23T02:18:25.260Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-23T02:18:25.294Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-23T02:18:25.303Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-23T02:18:44.294Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-23T02:18:44.327Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-23T02:18:44.359Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-23T02:18:44.366Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-23T02:19:17.782Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-23T02:19:17.810Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-23T02:19:17.839Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-23T02:19:17.845Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-23T02:19:30.032Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-23T02:19:30.063Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-23T02:19:30.094Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-23T02:19:30.103Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-23T02:22:18.241Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-23T02:22:18.269Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-23T02:22:18.301Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-23T02:22:18.310Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-23T02:24:00.853Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-23T02:24:00.893Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-23T02:24:00.937Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-23T02:24:00.948Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-23T02:24:14.042Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-23T02:24:14.075Z"}
+{"level":"info","message":"Found existing data (2 leagues), skipping initialization","service":"sportmonks api","timestamp":"2025-04-23T02:24:14.107Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-23T02:24:14.117Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-23T02:25:33.250Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-23T02:25:33.279Z"}
+{"level":"info","message":"No existing data found, initializing database...","service":"sportmonks api","timestamp":"2025-04-23T02:25:33.300Z"}
+{"level":"info","message":"Initializing complete dataset","service":"sportmonks api","timestamp":"2025-04-23T02:25:33.301Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-04-23T02:28:30.314Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-04-23T02:28:30.346Z"}
+{"level":"info","message":"No existing data found, initializing database...","service":"sportmonks api","timestamp":"2025-04-23T02:28:30.369Z"}
+{"level":"info","message":"Initializing complete dataset","service":"sportmonks api","timestamp":"2025-04-23T02:28:30.369Z"}
+{"level":"info","message":"Successfully initialized data for 2 leagues","service":"sportmonks api","timestamp":"2025-04-23T02:31:07.373Z"}
+{"level":"info","message":"Starting to fetch all TYPES from API","service":"sportmonks api","timestamp":"2025-04-23T02:31:07.378Z"}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:07.692Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 1","page":1,"service":"sportmonks api","timestamp":"2025-04-23T02:31:07.693Z","totalSoFar":25}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:07.986Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 2","page":2,"service":"sportmonks api","timestamp":"2025-04-23T02:31:07.987Z","totalSoFar":50}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:08.190Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 3","page":3,"service":"sportmonks api","timestamp":"2025-04-23T02:31:08.190Z","totalSoFar":75}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:08.495Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 4","page":4,"service":"sportmonks api","timestamp":"2025-04-23T02:31:08.497Z","totalSoFar":100}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:08.803Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 5","page":5,"service":"sportmonks api","timestamp":"2025-04-23T02:31:08.804Z","totalSoFar":125}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:09.004Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 6","page":6,"service":"sportmonks api","timestamp":"2025-04-23T02:31:09.004Z","totalSoFar":150}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:09.200Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 7","page":7,"service":"sportmonks api","timestamp":"2025-04-23T02:31:09.201Z","totalSoFar":175}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:09.518Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 8","page":8,"service":"sportmonks api","timestamp":"2025-04-23T02:31:09.519Z","totalSoFar":200}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:09.721Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 9","page":9,"service":"sportmonks api","timestamp":"2025-04-23T02:31:09.722Z","totalSoFar":225}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:09.926Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 10","page":10,"service":"sportmonks api","timestamp":"2025-04-23T02:31:09.927Z","totalSoFar":250}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:10.129Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 11","page":11,"service":"sportmonks api","timestamp":"2025-04-23T02:31:10.130Z","totalSoFar":275}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:10.334Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 12","page":12,"service":"sportmonks api","timestamp":"2025-04-23T02:31:10.334Z","totalSoFar":300}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:10.514Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 13","page":13,"service":"sportmonks api","timestamp":"2025-04-23T02:31:10.514Z","totalSoFar":325}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:10.743Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 14","page":14,"service":"sportmonks api","timestamp":"2025-04-23T02:31:10.743Z","totalSoFar":350}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:10.949Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 15","page":15,"service":"sportmonks api","timestamp":"2025-04-23T02:31:10.949Z","totalSoFar":375}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:11.156Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 16","page":16,"service":"sportmonks api","timestamp":"2025-04-23T02:31:11.157Z","totalSoFar":400}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:11.358Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 17","page":17,"service":"sportmonks api","timestamp":"2025-04-23T02:31:11.358Z","totalSoFar":425}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:11.563Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 18","page":18,"service":"sportmonks api","timestamp":"2025-04-23T02:31:11.563Z","totalSoFar":450}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:11.769Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 19","page":19,"service":"sportmonks api","timestamp":"2025-04-23T02:31:11.770Z","totalSoFar":475}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:11.953Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 20","page":20,"service":"sportmonks api","timestamp":"2025-04-23T02:31:11.953Z","totalSoFar":500}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:12.178Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 21","page":21,"service":"sportmonks api","timestamp":"2025-04-23T02:31:12.178Z","totalSoFar":525}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:12.383Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 22","page":22,"service":"sportmonks api","timestamp":"2025-04-23T02:31:12.383Z","totalSoFar":550}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:12.588Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 23","page":23,"service":"sportmonks api","timestamp":"2025-04-23T02:31:12.588Z","totalSoFar":575}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:12.772Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 24","page":24,"service":"sportmonks api","timestamp":"2025-04-23T02:31:12.773Z","totalSoFar":600}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:12.998Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 25","page":25,"service":"sportmonks api","timestamp":"2025-04-23T02:31:12.998Z","totalSoFar":625}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:13.202Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 26","page":26,"service":"sportmonks api","timestamp":"2025-04-23T02:31:13.202Z","totalSoFar":650}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:13.408Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 27","page":27,"service":"sportmonks api","timestamp":"2025-04-23T02:31:13.409Z","totalSoFar":675}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:13.612Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 28","page":28,"service":"sportmonks api","timestamp":"2025-04-23T02:31:13.612Z","totalSoFar":700}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:13.819Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 29","page":29,"service":"sportmonks api","timestamp":"2025-04-23T02:31:13.819Z","totalSoFar":725}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:14.020Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 30","page":30,"service":"sportmonks api","timestamp":"2025-04-23T02:31:14.020Z","totalSoFar":750}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:14.225Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 31","page":31,"service":"sportmonks api","timestamp":"2025-04-23T02:31:14.226Z","totalSoFar":775}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:14.431Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 32","page":32,"service":"sportmonks api","timestamp":"2025-04-23T02:31:14.432Z","totalSoFar":800}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:14.638Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 33","page":33,"service":"sportmonks api","timestamp":"2025-04-23T02:31:14.639Z","totalSoFar":825}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:14.843Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 34","page":34,"service":"sportmonks api","timestamp":"2025-04-23T02:31:14.843Z","totalSoFar":850}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:15.047Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 35","page":35,"service":"sportmonks api","timestamp":"2025-04-23T02:31:15.047Z","totalSoFar":875}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:15.249Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 36","page":36,"service":"sportmonks api","timestamp":"2025-04-23T02:31:15.249Z","totalSoFar":900}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:15.430Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 37","page":37,"service":"sportmonks api","timestamp":"2025-04-23T02:31:15.430Z","totalSoFar":925}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:15.633Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 38","page":38,"service":"sportmonks api","timestamp":"2025-04-23T02:31:15.634Z","totalSoFar":950}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:15.966Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 39","page":39,"service":"sportmonks api","timestamp":"2025-04-23T02:31:15.967Z","totalSoFar":975}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:16.169Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 40","page":40,"service":"sportmonks api","timestamp":"2025-04-23T02:31:16.169Z","totalSoFar":1000}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:16.376Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 41","page":41,"service":"sportmonks api","timestamp":"2025-04-23T02:31:16.376Z","totalSoFar":1025}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:16.580Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 42","page":42,"service":"sportmonks api","timestamp":"2025-04-23T02:31:16.581Z","totalSoFar":1050}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:16.785Z","upserted":25}
+{"count":25,"level":"info","message":"Added 25 TYPES from page 43","page":43,"service":"sportmonks api","timestamp":"2025-04-23T02:31:16.785Z","totalSoFar":1075}
+{"level":"info","matched":0,"message":"Database update of TYPES completed","modified":0,"service":"sportmonks api","timestamp":"2025-04-23T02:31:16.986Z","upserted":6}
+{"count":6,"level":"info","message":"Added 6 TYPES from page 44","page":44,"service":"sportmonks api","timestamp":"2025-04-23T02:31:16.986Z","totalSoFar":1081}
+{"level":"info","message":"Successfully fetched all TYPES: 1081 total TYPES","service":"sportmonks api","timestamp":"2025-04-23T02:31:16.986Z"}
+{"level":"info","message":"Scheduled jobs have been setup","service":"sportmonks api","timestamp":"2025-04-23T02:31:16.996Z"}

@@ -14,6 +14,7 @@ export default async function extractPlayerInfo(playerData, clubId) {
     player_position: playerData.position.name,
     player_jersey_number: playerData.statistics.jersey_number,
     player_club: clubId,
+    player_stats: {},
     updated_at: new Date(),
   };
 
