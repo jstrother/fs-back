@@ -1,3 +1,6 @@
+// This file is the main entry point for the application.
+// It is executed directly via 'node server.js' or through npm scripts.
+
 import express from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';

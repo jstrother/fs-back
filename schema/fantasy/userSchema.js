@@ -1,3 +1,6 @@
+// This file is imported in:
+// - /routes/userRouter.js (for user authentication and registration)
+
 import mongoose from 'mongoose';
 
 const userSchema = new mongoose.Schema({

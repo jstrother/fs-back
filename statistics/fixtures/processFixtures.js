@@ -1,3 +1,7 @@
+// This file is imported in:
+// - /statistics/leagues/processLeague.js (for processing league fixtures)
+// - /statistics/updating/weeklyUpdates.js (for updating fixture information)
+
 import { Fixture } from '../../schema/index.js';
 
 export default async function processFixtures(fixturesData, leagueId) {

@@ -1,3 +1,7 @@
+// This file is imported in:
+// - /statistics/leagues/processLeague.js (for building complete league information)
+// - /statistics/updating/weeklyUpdates.js (for updating league data)
+
 import extractClubInfo from '../clubs/extractClubInfo.js';
 import processClubRoster from '../players/processClubRoster.js';
 import processFixtures from '../fixtures/processFixtures.js';

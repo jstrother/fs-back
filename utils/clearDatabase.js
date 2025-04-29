@@ -1,3 +1,6 @@
+// This file is currently not imported anywhere in the project.
+// Utility for clearing database during development and testing.
+
 import mongoose from 'mongoose';
 import logger from './logger.js';
 

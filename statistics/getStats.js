@@ -1,3 +1,6 @@
+// This file is imported in:
+// - /statistics/updating/scheduledUpdates.js (for initial data loading)
+
 import processLeague from './leagues/processLeague.js';
 import { fetchLeagues } from '../utils/fetchFunctions.js';
 

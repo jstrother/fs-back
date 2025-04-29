@@ -1,3 +1,6 @@
+// This file is imported in:
+// - /statistics/updating/scheduledUpdates.js (for semi-annual league and club updates)
+
 import { fetchLeagues, fetchSpecificLeague, fetchClubs } from '../../utils/fetchFunctions.js';
 import extractLeagueInfo from '../leagues/extractLeagueInfo.js';
 import enrichLeagueWithSeasonData from '../leagues/enrichLeagueWithSeasonData.js';

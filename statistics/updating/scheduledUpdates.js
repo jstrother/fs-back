@@ -1,3 +1,6 @@
+// This file is imported in:
+// - /schema/index.js (for initializing data and setting up scheduled jobs)
+
 import cron from 'node-cron';
 import getStats from '../getStats.js';
 import updatePlayersAndFixtures from './weeklyUpdates.js';

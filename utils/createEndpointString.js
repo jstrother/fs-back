@@ -1,3 +1,6 @@
+// This file is imported in:
+// - /utils/fetchFunctions.js (for building API endpoints)
+
 import { API_BASE_URL, API_TOKEN } from '../config.js';
 
 // if there are more than one value for includes, pass them as a single string with each value separated by a semi-colon

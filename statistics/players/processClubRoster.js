@@ -1,3 +1,6 @@
+// This file is imported in:
+// - /statistics/clubs/processClub.js (for processing club roster data)
+
 import extractPlayerInfo from './extractPlayerInfo.js';
 import { fetchPlayer, fetchRoster } from '../../utils/fetchFunctions.js';
 

@@ -1,3 +1,7 @@
+// This file is imported in:
+// - /statistics/updating/weeklyUpdates.js (for processing player updates)
+// - /statistics/getStats.js (for initial data loading)
+
 import { Player } from '../../schema/index.js';
 
 export default async function extractPlayerInfo(playerData, clubId) {

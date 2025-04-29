@@ -1,3 +1,8 @@
+// This file is imported in:
+// - /schema/index.js (exports the Fixture model)
+// - /routes/fixtures.js (for fixture-related operations)
+// - /statistics/fixtures/processFixture.js (for fixture data processing)
+
 import mongoose from 'mongoose';
 
 const fixtureSchema = new mongoose.Schema({

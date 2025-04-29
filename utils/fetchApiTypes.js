@@ -1,3 +1,6 @@
+// This file is imported in:
+// - /statistics/updating/scheduledUpdates.js (for semi-annual API type updates)
+
 import { API_TOKEN } from '../config.js';
 import logger from './logger.js';
 import Type from '../schema/api/typeSchema.js';

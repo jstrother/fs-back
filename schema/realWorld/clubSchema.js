@@ -1,3 +1,8 @@
+// This file is imported in:
+// - /schema/index.js (exports the Club model)
+// - /routes/clubs.js (for club-related operations)
+// - /statistics/clubs/processClub.js (for club data processing)
+
 import mongoose from 'mongoose';
 
 const clubSchema = new mongoose.Schema({

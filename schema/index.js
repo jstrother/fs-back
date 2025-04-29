@@ -1,3 +1,12 @@
+// This file is imported in:
+// - /app.js (for database connection)
+// - /statistics/players/extractPlayerInfo.js (for Player model)
+// - /statistics/updating/weeklyUpdates.js (for models)
+// - /routes/auth.js (for User model)
+// - /routes/leagues.js (for League model)
+// - /routes/clubs.js (for Club model)
+// - /routes/fixtures.js (for Fixture model)
+
 import mongoose from 'mongoose';
 import { DB_URL } from '../config.js';
 import logger from '../utils/logger.js';

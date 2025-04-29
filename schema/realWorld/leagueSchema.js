@@ -1,3 +1,8 @@
+// This file is imported in:
+// - /schema/index.js (exports the League model)
+// - /routes/leagues.js (for league-related operations)
+// - /statistics/leagues/processLeague.js (for league data processing)
+
 import mongoose from 'mongoose';
 
 const leagueSchema = new mongoose.Schema({

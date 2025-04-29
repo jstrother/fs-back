@@ -1,3 +1,7 @@
+// This file is imported in:
+// - /statistics/getStats.js (for initial league processing)
+// - /statistics/updating/semiAnnualUpdates.js (for updating league data)
+
 import { League } from '../../schema/index.js';
 import { fetchSpecificLeague, fetchClubs } from '../../utils/fetchFunctions.js';
 import extractLeagueInfo from './extractLeagueInfo.js';

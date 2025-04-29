@@ -1,3 +1,7 @@
+// This file is imported in:
+// - /statistics/clubs/processClub.js (for processing club data)
+// - /statistics/updating/weeklyUpdates.js (for updating club information)
+
 import { Club } from '../../schema/index.js';
 
 export default async function extractClubInfo(club, leagueId) {

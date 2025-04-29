@@ -1,3 +1,7 @@
+// This file is imported in:
+// - /utils/fetchApiTypes.js (for API type definitions)
+// - /statistics/players/enhancePlayerStatsWithTypeInfo.js (for type lookups)
+
 import mongoose from 'mongoose';
 
 const typeSchema = new mongoose.Schema({

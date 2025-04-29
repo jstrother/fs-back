@@ -1,3 +1,6 @@
+// This file is imported in:
+// - /statistics/players/extractPlayerInfo.js (for enhancing player statistics with type information)
+
 import logger from '../../utils/logger.js';
 import Type from '../../schema/api/typeSchema.js';
 

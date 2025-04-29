@@ -1,3 +1,6 @@
+// This file is imported in:
+// - /utils/fetchFunctions.js (for making API requests)
+
 import createEndpointString from './createEndpointString.js';
 
 export default async function createFetchCall(specificEndpoint, uniqueId = '', includes = '') {

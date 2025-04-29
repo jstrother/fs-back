@@ -1,3 +1,7 @@
+// This file is imported in:
+// - /schema/index.js (exports the Player model)
+// - /statistics/players/extractPlayerInfo.js (uses Player model for database operations)
+
 import mongoose from 'mongoose';
 
 const playerSchema = new mongoose.Schema({

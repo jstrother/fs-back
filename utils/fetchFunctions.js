@@ -1,3 +1,9 @@
+// This file is imported in:
+// - /statistics/leagues/processLeague.js (for fetching league and club data)
+// - /statistics/players/processClubRoster.js (for fetching player and roster data)
+// - /statistics/updating/weeklyUpdates.js (for fetching fixture updates)
+// - /statistics/updating/semiAnnualUpdates.js (for fetching league updates)
+
 import createFetchCall from './createFetchCall.js';
 
 export async function fetchLeagues() {

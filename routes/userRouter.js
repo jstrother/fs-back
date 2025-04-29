@@ -1,3 +1,6 @@
+// This file is imported in:
+// - /app.js (for user authentication routes)
+
 import express from "express";
 import mongoose from "mongoose";
 import bcrypt from 'bcrypt';

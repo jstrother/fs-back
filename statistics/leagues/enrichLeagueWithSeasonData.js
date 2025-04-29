@@ -1,3 +1,6 @@
+// This file is imported in:
+// - /statistics/leagues/processLeague.js (for adding season information to league data)
+
 export default function enrichLeagueWithSeasonData(leagueInfo, seasonData) {
   const leagueSeasonDataString = seasonData.data.currentseason;
 

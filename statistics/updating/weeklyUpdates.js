@@ -1,3 +1,6 @@
+// This file is imported in:
+// - /statistics/updating/scheduledUpdates.js (for weekly player and fixture updates)
+
 import processClubRoster from '../players/processClubRoster.js';
 import processFixtures from '../fixtures/processFixtures.js';
 import { League, Club } from '../../schema/index.js';
