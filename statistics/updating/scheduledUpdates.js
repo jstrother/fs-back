@@ -37,8 +37,8 @@ export function setupScheduledJobs() {
   cron.schedule('0 2 1 1,7 *', async () => {
     logger.info('Starting semi-annual update for leagues and clubs');
     try {
-      await updateLeaguesAndClubs();
       await fetchApiTypes();
+      await updateLeaguesAndClubs();
       logger.info('Semi-annual update successfully completed');
     } catch (error) {
       logger.error(`Semi-annual update failed: ${error.message}`);

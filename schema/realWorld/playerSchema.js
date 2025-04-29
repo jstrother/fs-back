@@ -30,8 +30,16 @@ const playerSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  player_club: {
+  commonName: {
     type: String,
+    required: true,
+  },
+  jerseyNumber: {
+    type: Number,
+    required: false,
+  },
+  player_club_id: {
+    type: Number,
     required: true,
   },
   nationality: {
@@ -39,7 +47,7 @@ const playerSchema = new mongoose.Schema({
     required: true,
   },
   stats: {
-    type: Object,
+    type: Array,
     required: true,
   },
   updated_at: {

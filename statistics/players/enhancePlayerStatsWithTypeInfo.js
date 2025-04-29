@@ -8,9 +8,14 @@ export default async function enhancePlayerStatsWithTypeInfo(playerStatsResponse
   try {
     logger.info('Enhancing player statistics with type information');
 
-    if (!playerStatsResponse?.data || !Array.isArray(playerStatsResponse)) {
+    if (!playerStatsResponse || !playerStatsResponse.data) {
       logger.error('Invalid player statistics data format');
       throw new Error('Invalid player statistics data format');
+    }
+
+    if (!Array.isArray(playerStatsResponse.data)) {
+      logger.warn('Player statistics data is not an array');
+      playerStatsResponse.data = [playerStatsResponse.data];
     }
 
     const typeIds = new Set();
