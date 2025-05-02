@@ -4,28 +4,32 @@
 // - /statistics/updating/weeklyUpdates.js (for fetching fixture updates)
 // - /statistics/updating/semiAnnualUpdates.js (for fetching league updates)
 
-import createFetchCall from './createFetchCall.js';
+import { createFootballFetchCall } from './createFetchCall.js';
 
-export async function fetchLeagues() {
-  return createFetchCall('leagues');
+export async function fetchAllLeagues() {
+  return createFootballFetchCall('leagues');
+}
+
+export async function fetchAllPlayers() {
+  return createFootballFetchCall('players');
 }
 
 export async function fetchPlayer(playerId) {
-  return createFetchCall('players', playerId, 'statistics;position');
+  return createFootballFetchCall('players', playerId, 'statistics;position');
 }
 
 export async function fetchRoster(clubId) {
-  return createFetchCall('teams', clubId, 'players');
+  return createFootballFetchCall('teams', clubId, 'players');
 }
 
 export async function fetchSpecificLeague(leagueId) {
-  return createFetchCall('leagues', leagueId, 'currentSeason');
+  return createFootballFetchCall('leagues', leagueId, 'currentSeason');
 }
 
 export async function fetchClubs(seasonId) {
-  return createFetchCall('seasons', seasonId, 'teams;fixtures');
+  return createFootballFetchCall('seasons', seasonId, 'teams;fixtures');
 }
 
 export async function fetchFixtures(seasonId) {
-  return createFetchCall('seasons', seasonId, 'fixtures');
+  return createFootballFetchCall('seasons', seasonId, 'fixtures');
 }
