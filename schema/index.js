@@ -8,14 +8,14 @@
 import mongoose from 'mongoose';
 import { DB_URL } from '../config.js';
 import logger from '../utils/logger.js';
-import { fetchAllPlayers } from '../utils/fetchFunctions.js';
+// import { fetchAllPlayers } from '../utils/fetchFunctions.js';
 // import getStats from '../statistics/getStats.js';
 
 async function connectDB() {
   try {
     await mongoose.connect(DB_URL);
     logger.info('Connected to database')
-    fetchAllPlayers();
+    // fetchAllPlayers();
     logger.info('Application started successfully');
   } catch (error) {
     logger.error(`Error connecting to database: ${error}`);

@@ -1,5 +1,5 @@
 // This file is imported in:
-// - /schema/index.js (for initial player data loading)
+// - /schema/index.js (for initial player data loading - fetchAllPlayers)
 
 import { createFootballFetchCall } from './createFetchCall.js';
 
