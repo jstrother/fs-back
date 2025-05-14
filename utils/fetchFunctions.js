@@ -1,32 +1,36 @@
 // This file is imported in:
 // - /schema/index.js (for initial player data loading - fetchAllPlayers)
 
-import { createFootballFetchCall } from './createFetchCall.js';
+import { createFootballFetchCall, createCoreFetchCall } from './createFetchCall.js';
 
 export async function fetchAllLeagues() {
-  return createFootballFetchCall('leagues');
+  return createFootballFetchCall('leagues', 'currentSeason');
 }
 
 export async function fetchAllPlayers() {
-  return createFootballFetchCall('players');
-}
-
-export async function fetchPlayer(playerId) {
-  return createFootballFetchCall('players', playerId, 'statistics;position');
+  return createFootballFetchCall('players', 'statistics');
 }
 
 export async function fetchRoster(clubId) {
-  return createFootballFetchCall('teams', clubId, 'players');
-}
-
-export async function fetchSpecificLeague(leagueId) {
-  return createFootballFetchCall('leagues', leagueId, 'currentSeason');
+  return createFootballFetchCall('teams', 'players', clubId);
 }
 
 export async function fetchClubs(seasonId) {
-  return createFootballFetchCall('seasons', seasonId, 'teams;fixtures');
+  return createFootballFetchCall('seasons', 'teams;fixtures', seasonId);
 }
 
 export async function fetchFixtures(seasonId) {
-  return createFootballFetchCall('seasons', seasonId, 'fixtures');
+  return createFootballFetchCall('seasons', 'fixtures', seasonId);
+}
+
+export async function fetchCountries() {
+  return createCoreFetchCall('countries');
+}
+
+export async function fetchCities() {
+  return createCoreFetchCall('cities');
+}
+
+export async function fetchTypes() {
+  return createCoreFetchCall('types');
 }

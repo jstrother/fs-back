@@ -1,7 +1,5 @@
 // This file is imported in:
 // - /schema/index.js (exports the Fixture model)
-// - /routes/fixtures.js (for fixture-related operations)
-// - /statistics/fixtures/processFixture.js (for fixture data processing)
 
 import mongoose from 'mongoose';
 
@@ -9,24 +7,12 @@ const fixtureSchema = new mongoose.Schema({
   fixture_id: { 
     type: Number, 
     required: true,
-    unique: true
+    unique: true,
+    index: true,
   },
-  fixture_start: {
-    type: Date,
-    required: true,
-  },
-  fixture_name: {
-    type: String,
-    required: true,
-  },
-  league_id: {
-    type: Number,
-    required: true,
-  },
-  updated_at: { 
-    type: Date, 
-    default: Date.now 
-  }
+  fixture_start: Date,
+  fixture_name: String,
+  league_id: Number,
 }, { timestamps: true });
 
 export default mongoose.model('Fixture', fixtureSchema);

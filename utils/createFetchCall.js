@@ -4,7 +4,7 @@
 import { createFootballEndpointString, createCoreEndpointString } from './createEndpointString.js';
 
 function createFetchCall(endpointCreator) {
-  return async function (specificEndpoint, uniqueId = '', includes = '', page = 1, accumulatedData = []) {
+  return async function (specificEndpoint, includes = '', uniqueId = '', page = 1, accumulatedData = []) {
     try {
       const endpoint = endpointCreator(specificEndpoint, uniqueId, includes, page);
       const response = await fetch(endpoint);

@@ -7,7 +7,7 @@ import { API_FOOTBALL_URL, API_CORE_URL, API_TOKEN } from '../config.js';
 // for example: 'teams;fixtures'
 
 function createEndpointString(baseURL) {
-  return function (specificEndpoint, uniqueId = '', includes = '', page = 1) {
+  return function (specificEndpoint, includes = '', uniqueId = '', page = 1) {
     let endpoint = `${baseURL}${specificEndpoint}`;
 
     if (uniqueId) {
