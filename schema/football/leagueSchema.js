@@ -2,8 +2,9 @@
 // - /schema/index.js (exports the League model)
 
 import mongoose from 'mongoose';
+import { Schema } from 'mongoose';
 
-const leagueSchema = new mongoose.Schema({
+const leagueSchema = new Schema({
   id: { 
     type: Number, 
     required: true,

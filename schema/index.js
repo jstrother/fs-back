@@ -8,14 +8,13 @@
 import mongoose from 'mongoose';
 import { DB_URL } from '../config.js';
 import logger from '../utils/logger.js';
-// import { fetchAllPlayers } from '../utils/fetchFunctions.js';
-// import getStats from '../statistics/getStats.js';
+import saveLeagues from '../db/saveLeagues.js';
 
 async function connectDB() {
   try {
     await mongoose.connect(DB_URL);
     logger.info('Connected to database')
-    // fetchAllPlayers();
+    saveLeagues();
     logger.info('Application started successfully');
   } catch (error) {
     logger.error(`Error connecting to database: ${error}`);
@@ -41,10 +40,13 @@ async function connectDB() {
 
 export { connectDB };
 
-export { default as Player } from './realWorld/playerSchema.js';
-export { default as League } from './realWorld/leagueSchema.js';
-export { default as Club } from './realWorld/clubSchema.js';
-export { default as Fixture } from './realWorld/fixtureSchema.js';
-export { default as Country } from './realWorld/countrySchema.js';
+export { default as Player } from './football/playerSchema.js';
+export { default as League } from './football/leagueSchema.js';
+export { default as Club } from './football/clubSchema.js';
+export { default as Fixture } from './football/fixtureSchema.js';
+
+export { default as City } from './core/citySchema.js';
+export { default as Type } from './core/typeSchema.js';
+export { default as Country } from './core/countrySchema.js';
 
 export { default as User } from './fantasy/userSchema.js';

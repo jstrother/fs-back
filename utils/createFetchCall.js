@@ -2,30 +2,33 @@
 // - /utils/fetchFunctions.js (for making API requests)
 
 import { createFootballEndpointString, createCoreEndpointString } from './createEndpointString.js';
+import logger from './logger.js';
 
 function createFetchCall(endpointCreator) {
-  return async function (specificEndpoint, includes = '', uniqueId = '', page = 1, accumulatedData = []) {
+  return async function (specificEndpoint, includes = null, uniqueId = null, page = 1, accumulatedData = []) {
     try {
-      const endpoint = endpointCreator(specificEndpoint, uniqueId, includes, page);
+      const endpoint = endpointCreator(specificEndpoint, includes, uniqueId, page);
       const response = await fetch(endpoint);
 
       if (!response.ok) {
-        throw new Error(`HTTP error! Status ${response.status}`);
+        const consoleMessage = await response.json();       
+        console.log(consoleMessage);
+        logger.error(`HTTP error! Status ${response.status}`);
       }
 
       const responseData = await response.json();
       const currentData = responseData.data || [];
 
-      if (responseData.pagination.has_more) {
+      if (responseData.pagination?.has_more) {
         const nextPage = page + 1;
         const newData = [...accumulatedData, ...currentData];
-        return this(specificEndpoint, uniqueId, includes, nextPage, newData);
+        return this(specificEndpoint, includes, uniqueId, nextPage, newData);
       }
 
       const finalData = [...accumulatedData, ...currentData];
       return finalData;
     } catch (error) {
-      console.error(`Error creating fetch call: ${error}`);
+      logger.error(`Error creating fetch call: ${error}`);
       throw error;
     }
   };

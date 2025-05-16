@@ -1,5 +1,5 @@
 // This file is imported in:
-// - /schema/index.js (for initial player data loading - fetchAllPlayers)
+// - /db/saveLeagues.js (for saving leagues to the database - fetchAllLeagues)
 
 import { createFootballFetchCall, createCoreFetchCall } from './createFetchCall.js';
 
@@ -21,6 +21,10 @@ export async function fetchClubs(seasonId) {
 
 export async function fetchFixtures(seasonId) {
   return createFootballFetchCall('seasons', 'fixtures', seasonId);
+}
+
+export async function fetchStatistics(playerID) {
+  return createFootballFetchCall('statistics/seasons/players', playerID);
 }
 
 export async function fetchCountries() {

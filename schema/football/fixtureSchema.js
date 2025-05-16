@@ -2,8 +2,9 @@
 // - /schema/index.js (exports the Fixture model)
 
 import mongoose from 'mongoose';
+import { Schema } from 'mongoose';
 
-const fixtureSchema = new mongoose.Schema({
+const fixtureSchema = new Schema({
   fixture_id: { 
     type: Number, 
     required: true,

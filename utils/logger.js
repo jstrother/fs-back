@@ -1,10 +1,4 @@
 // This file is imported in:
-// - /utils/fetchFunctions.js (for API request logging)
-// - /utils/fetchApiTypes.js (for type fetching logs)
-// - /statistics/updating/scheduledUpdates.js (for update logging)
-// - /statistics/updating/weeklyUpdates.js (for weekly update logs)
-// - /statistics/updating/semiAnnualUpdates.js (for semi-annual update logs)
-// - /statistics/players/enhancePlayerStatsWithTypeInfo.js (for player stats logging)
 // - /schema/index.js (for database connection logging)
 
 import winston from 'winston';

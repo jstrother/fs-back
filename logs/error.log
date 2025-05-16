@@ -406,3 +406,34 @@
 {"error":"Invalid player statistics data format","level":"error","message":"Error enhancing player statistics","service":"sportmonks api","stack":"Error: Invalid player statistics data format\n    at enhancePlayerStatsWithTypeInfo (file:///home/jim/Projects/fantasy-soccer/fs-back/statistics/players/enhancePlayerStatsWithTypeInfo.js:13:13)\n    at extractPlayerInfo (file:///home/jim/Projects/fantasy-soccer/fs-back/statistics/players/extractPlayerInfo.js:14:43)\n    at processClubRoster (file:///home/jim/Projects/fantasy-soccer/fs-back/statistics/players/processClubRoster.js:13:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async buildCompleteLeagueInfo (file:///home/jim/Projects/fantasy-soccer/fs-back/statistics/leagues/buildCompleteLeagueInfo.js:18:31)\n    at async processLeague (file:///home/jim/Projects/fantasy-soccer/fs-back/statistics/leagues/processLeague.js:30:10)\n    at async getStats (file:///home/jim/Projects/fantasy-soccer/fs-back/statistics/getStats.js:15:31)\n    at async initializeData (file:///home/jim/Projects/fantasy-soccer/fs-back/statistics/updating/scheduledUpdates.js:14:20)\n    at async startApplication (file:///home/jim/Projects/fantasy-soccer/fs-back/schema/index.js:33:7)","timestamp":"2025-04-29T01:13:14.769Z"}
 {"level":"error","message":"Error connecting to database: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017","service":"sportmonks api","timestamp":"2025-05-01T23:42:23.907Z"}
 {"level":"error","message":"Error starting application: processLeague is not defined","service":"sportmonks api","timestamp":"2025-05-02T01:36:00.194Z"}
+{"level":"error","message":"Error saving leagues: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-16T02:18:40.245Z"}
+{"level":"error","message":"Error saving leagues: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-16T02:20:48.133Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-16T02:20:54.548Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-16T02:21:12.402Z"}
+{"level":"error","message":"HTTP error! Status [object Response]","service":"sportmonks api","timestamp":"2025-05-16T02:21:16.190Z"}
+{"level":"error","message":"HTTP error! Status ","service":"sportmonks api","timestamp":"2025-05-16T02:21:37.079Z"}
+{"level":"error","message":"HTTP error! Status ","service":"sportmonks api","timestamp":"2025-05-16T02:21:43.684Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-16T02:26:55.120Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-16T02:27:04.108Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-16T02:28:32.525Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-16T02:29:31.821Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-16T02:29:33.968Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-16T02:29:37.871Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-16T02:29:44.526Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-16T02:29:49.887Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-16T02:29:52.815Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-16T02:33:20.410Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-16T02:41:26.065Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-16T02:42:55.062Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-16T02:43:06.015Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-16T02:43:37.270Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-16T02:43:40.760Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-16T02:44:10.135Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-16T02:48:20.219Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-16T02:48:46.602Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-16T02:48:49.788Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-16T02:49:32.898Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-16T02:49:44.016Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-16T02:50:37.496Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-16T02:50:43.539Z"}
+{"level":"error","message":"Error creating fetch call: ReferenceError: un is not defined","service":"sportmonks api","timestamp":"2025-05-16T02:52:08.725Z"}

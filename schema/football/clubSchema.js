@@ -2,8 +2,9 @@
 // - /schema/index.js (exports the Club model)
 
 import mongoose from 'mongoose';
+import { Schema } from 'mongoose';
 
-const clubSchema = new mongoose.Schema({
+const clubSchema = new Schema({
   id: { 
     type: Number, 
     required: true,
