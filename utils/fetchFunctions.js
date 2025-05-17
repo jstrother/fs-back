@@ -15,12 +15,16 @@ export async function fetchRoster(clubId) {
   return createFootballFetchCall('teams', 'players', clubId);
 }
 
-export async function fetchClubs(seasonId) {
+export async function fetchSeasons(seasonId) {
   return createFootballFetchCall('seasons', 'teams;fixtures', seasonId);
 }
 
-export async function fetchFixtures(seasonId) {
-  return createFootballFetchCall('seasons', 'fixtures', seasonId);
+export async function fetchClubs(clubId) {
+  return createFootballFetchCall('teams', 'players', clubId);
+}
+
+export async function fetchFixtures(fixtureId) {
+  return createFootballFetchCall('fixtures', 'lineups;participants;statistics', fixtureId);
 }
 
 export async function fetchStatistics(playerID) {

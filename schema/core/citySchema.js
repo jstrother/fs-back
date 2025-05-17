@@ -1,5 +1,7 @@
-import mongoose from "mongoose";
-import { Schema } from "mongoose";
+// This file is imported in:
+// - /schema/index.js (exports the City model)
+
+import { Schema, model } from "mongoose";
 
 const CitySchema = new Schema(
   {
@@ -14,4 +16,4 @@ const CitySchema = new Schema(
   { timestamps: true }
 );
 
-export default mongoose.model("City", CitySchema);
+export default model("City", CitySchema);

@@ -1,8 +1,7 @@
 // This file is imported in:
 // - /schema/index.js (exports the Club model)
 
-import mongoose from 'mongoose';
-import { Schema } from 'mongoose';
+import { Schema, model } from 'mongoose';
 
 const clubSchema = new Schema({
   id: { 
@@ -12,11 +11,10 @@ const clubSchema = new Schema({
     index: true,
   },
   country_id: Number,
-  venue_id: Number,
   name: String,
   short_code: String,
   logo: String,
   league_id: Number,
 }, { timestamps: true });
 
-export default mongoose.model('Club', clubSchema);
+export default model('Club', clubSchema);

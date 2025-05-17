@@ -1,5 +1,7 @@
-import mongoose from 'mongoose';
-import { Schema } from 'mongoose';
+// This file is imported in:
+// - /schema/index.js (exports the Country model)
+
+import { Schema, model } from 'mongoose';
 
 const CountrySchema = new Schema({
   id: {
@@ -14,4 +16,4 @@ const CountrySchema = new Schema({
   flag: String,
 }, { timestamps: true });
 
-export default mongoose.model('Country', CountrySchema);
+export default model('Country', CountrySchema);

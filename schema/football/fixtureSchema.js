@@ -1,8 +1,7 @@
 // This file is imported in:
 // - /schema/index.js (exports the Fixture model)
 
-import mongoose from 'mongoose';
-import { Schema } from 'mongoose';
+import { Schema, model } from 'mongoose';
 
 const fixtureSchema = new Schema({
   fixture_id: { 
@@ -16,4 +15,4 @@ const fixtureSchema = new Schema({
   league_id: Number,
 }, { timestamps: true });
 
-export default mongoose.model('Fixture', fixtureSchema);
+export default model('Fixture', fixtureSchema);

@@ -1,8 +1,7 @@
 // This file is imported in:
 // - /schema/index.js (exports the League model)
 
-import mongoose from 'mongoose';
-import { Schema } from 'mongoose';
+import { Schema, model } from 'mongoose';
 
 const leagueSchema = new Schema({
   id: { 
@@ -21,4 +20,4 @@ const leagueSchema = new Schema({
   season_end: Date,
 }, { timestamps: true });
 
-export default mongoose.model('League', leagueSchema);
+export default model('League', leagueSchema);

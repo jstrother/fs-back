@@ -437,3 +437,35 @@
 {"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-16T02:50:37.496Z"}
 {"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-16T02:50:43.539Z"}
 {"level":"error","message":"Error creating fetch call: ReferenceError: un is not defined","service":"sportmonks api","timestamp":"2025-05-16T02:52:08.725Z"}
+{"level":"error","message":"Error creating fetch call: TypeError: currentData is not iterable","service":"sportmonks api","timestamp":"2025-05-17T20:36:32.808Z"}
+{"level":"error","message":"Error fetching clubs for season ID 23690: TypeError: currentData is not iterable","service":"sportmonks api","timestamp":"2025-05-17T20:36:32.809Z"}
+{"level":"error","message":"Error creating fetch call: TypeError: currentData is not iterable","service":"sportmonks api","timestamp":"2025-05-17T20:36:33.011Z"}
+{"level":"error","message":"Error fetching clubs for season ID 23584: TypeError: currentData is not iterable","service":"sportmonks api","timestamp":"2025-05-17T20:36:33.011Z"}
+{"level":"error","message":"Error creating fetch call: TypeError: currentData is not iterable","service":"sportmonks api","timestamp":"2025-05-17T20:42:19.961Z"}
+{"level":"error","message":"Error fetching clubs for season ID 23690: TypeError: currentData is not iterable","service":"sportmonks api","timestamp":"2025-05-17T20:42:19.962Z"}
+{"level":"error","message":"Error creating fetch call: TypeError: currentData is not iterable","service":"sportmonks api","timestamp":"2025-05-17T20:42:20.273Z"}
+{"level":"error","message":"Error fetching clubs for season ID 23584: TypeError: currentData is not iterable","service":"sportmonks api","timestamp":"2025-05-17T20:42:20.274Z"}
+{"level":"error","message":"Error creating fetch call: TypeError: currentData is not iterable","service":"sportmonks api","timestamp":"2025-05-17T21:27:26.750Z"}
+{"level":"error","message":"Error fetching seasons for league ID 23690: TypeError: currentData is not iterable","service":"sportmonks api","timestamp":"2025-05-17T21:27:26.751Z"}
+{"level":"error","message":"Error creating fetch call: TypeError: currentData is not iterable","service":"sportmonks api","timestamp":"2025-05-17T21:27:27.055Z"}
+{"level":"error","message":"Error fetching seasons for league ID 23584: TypeError: currentData is not iterable","service":"sportmonks api","timestamp":"2025-05-17T21:27:27.056Z"}
+{"level":"error","message":"Error creating fetch call: ReferenceError: currentData is not defined","service":"sportmonks api","timestamp":"2025-05-17T21:29:34.873Z"}
+{"level":"error","message":"Error creating fetch call: ReferenceError: currentData is not defined","service":"sportmonks api","timestamp":"2025-05-17T21:29:40.001Z"}
+{"level":"error","message":"Error creating fetch call: ReferenceError: currentData is not defined","service":"sportmonks api","timestamp":"2025-05-17T21:30:36.692Z"}
+{"level":"error","message":"Error creating fetch call: TypeError: responseData.data is not iterable","service":"sportmonks api","timestamp":"2025-05-17T21:32:20.138Z"}
+{"level":"error","message":"Error fetching seasons for league ID 23690: TypeError: responseData.data is not iterable","service":"sportmonks api","timestamp":"2025-05-17T21:32:20.138Z"}
+{"level":"error","message":"Error creating fetch call: TypeError: responseData.data is not iterable","service":"sportmonks api","timestamp":"2025-05-17T21:32:20.419Z"}
+{"level":"error","message":"Error fetching seasons for league ID 23584: TypeError: responseData.data is not iterable","service":"sportmonks api","timestamp":"2025-05-17T21:32:20.419Z"}
+{"level":"error","message":"Error creating fetch call: TypeError: responseData.data is not iterable","service":"sportmonks api","timestamp":"2025-05-17T21:32:20.620Z"}
+{"level":"error","message":"Error fetching clubs for season ID 23690: TypeError: responseData.data is not iterable","service":"sportmonks api","timestamp":"2025-05-17T21:32:20.620Z"}
+{"level":"error","message":"Error creating fetch call: TypeError: responseData.data is not iterable","service":"sportmonks api","timestamp":"2025-05-17T21:32:20.825Z"}
+{"level":"error","message":"Error fetching clubs for season ID 23584: TypeError: responseData.data is not iterable","service":"sportmonks api","timestamp":"2025-05-17T21:32:20.825Z"}
+{"level":"error","message":"Error creating fetch call: TypeError: responseData is not iterable","service":"sportmonks api","timestamp":"2025-05-17T21:33:56.703Z"}
+{"level":"error","message":"Error creating fetch call: TypeError: responseData.data is not iterable","service":"sportmonks api","timestamp":"2025-05-17T21:35:31.187Z"}
+{"level":"error","message":"Error fetching seasons for league ID 23584: TypeError: responseData.data is not iterable","service":"sportmonks api","timestamp":"2025-05-17T21:35:31.188Z"}
+{"level":"error","message":"Error creating fetch call: TypeError: responseData.data is not iterable","service":"sportmonks api","timestamp":"2025-05-17T21:35:31.392Z"}
+{"level":"error","message":"Error fetching seasons for league ID 23690: TypeError: responseData.data is not iterable","service":"sportmonks api","timestamp":"2025-05-17T21:35:31.392Z"}
+{"level":"error","message":"Error creating fetch call: TypeError: responseData.data is not iterable","service":"sportmonks api","timestamp":"2025-05-17T21:35:31.592Z"}
+{"level":"error","message":"Error fetching clubs for season ID 23584: TypeError: responseData.data is not iterable","service":"sportmonks api","timestamp":"2025-05-17T21:35:31.592Z"}
+{"level":"error","message":"Error creating fetch call: TypeError: responseData.data is not iterable","service":"sportmonks api","timestamp":"2025-05-17T21:35:31.796Z"}
+{"level":"error","message":"Error fetching clubs for season ID 23690: TypeError: responseData.data is not iterable","service":"sportmonks api","timestamp":"2025-05-17T21:35:31.797Z"}

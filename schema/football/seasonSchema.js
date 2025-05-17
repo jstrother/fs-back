@@ -1,9 +1,9 @@
 // This file is imported in:
-// - /schema/index.js (exports the Type model)
+// - /schema/index.js (exports the Season model)
 
 import { Schema, model } from 'mongoose';
 
-const TypeSchema = new Schema({
+const seasonSchema = new Schema({
   id: {
     type: Number,
     unique: true,
@@ -11,6 +11,9 @@ const TypeSchema = new Schema({
     index: true,
   },
   name: String,
+  start_date: Date,
+  end_date: Date,
+  league_id: Number,
 }, { timestamps: true });
 
-export default model('Type', TypeSchema);
+export default model('Season', seasonSchema);

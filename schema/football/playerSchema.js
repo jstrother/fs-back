@@ -1,8 +1,7 @@
 // This file is imported in:
 // - /schema/index.js (exports the Player model)
 
-import mongoose from 'mongoose';
-import { Schema } from 'mongoose';
+import { Schema, model } from 'mongoose';
 
 const playerSchema = new Schema({
   id: {
@@ -22,4 +21,4 @@ const playerSchema = new Schema({
   photo: String,
 }, { timestamps: true });
 
-export default mongoose.model('Player', playerSchema);
+export default model('Player', playerSchema);

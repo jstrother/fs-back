@@ -14,10 +14,22 @@ function createFetchCall(endpointCreator) {
         const consoleMessage = await response.json();       
         console.log(consoleMessage);
         logger.error(`HTTP error! Status ${response.status}`);
+        throw new Error(`HTTP error! Status ${response.status}`);
       }
 
       const responseData = await response.json();
-      const currentData = responseData.data || [];
+      let currentData;
+      
+      if (Array.isArray(responseData.data)) {
+        // If the data is an array, use it directly
+        currentData = responseData.data;
+      } else if (responseData.data) {
+        // If the data is an object, wrap it in an array
+        currentData = [responseData.data];
+      } else {
+        // If there's no data, set currentData to an empty array
+        currentData = [];
+      }
 
       if (responseData.pagination?.has_more) {
         const nextPage = page + 1;
