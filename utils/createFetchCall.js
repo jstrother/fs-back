@@ -11,8 +11,7 @@ function createFetchCall(endpointCreator) {
       const response = await fetch(endpoint);
 
       if (!response.ok) {
-        const consoleMessage = await response.json();       
-        console.log(consoleMessage);
+        const consoleMessage = await response.json();    
         logger.error(`HTTP error! Status ${response.status}`);
         throw new Error(`HTTP error! Status ${response.status}`);
       }

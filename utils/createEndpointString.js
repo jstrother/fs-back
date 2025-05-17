@@ -22,8 +22,7 @@ function createEndpointString(baseURL) {
 
     if (page > 1) {
       endpoint += `&page=${page}`;
-    }    // Log the endpoint for debugging purposes
-    console.log(`Endpoint: ${endpoint}`);
+    }
 
     return endpoint;
   };

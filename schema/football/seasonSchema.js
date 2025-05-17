@@ -14,6 +14,8 @@ const seasonSchema = new Schema({
   start_date: Date,
   end_date: Date,
   league_id: Number,
+  club_ids: [{ type: Number, ref: 'Club' }],
+  fixture_ids: [{ type: Number, ref: 'Fixture' }],
 }, { timestamps: true });
 
 export default model('Season', seasonSchema);

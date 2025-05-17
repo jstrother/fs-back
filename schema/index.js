@@ -4,6 +4,7 @@
 import mongoose from 'mongoose';
 import { DB_URL } from '../config.js';
 import logger from '../utils/logger.js';
+import getSavedSeasonIDs from '../db/getSavedSeasonIDs.js';
 import saveLeagues from '../db/saveLeagues.js';
 import saveSeasons from '../db/saveSeasons.js';
 import saveClubs from '../db/saveClubs.js';
@@ -13,7 +14,9 @@ async function connectDB() {
     await mongoose.connect(DB_URL);
     logger.info('Connected to database')
     
-    const currentSeasonIDs = await saveLeagues();
+    await saveLeagues();
+
+    const currentSeasonIDs = await getSavedSeasonIDs();
 
     if (currentSeasonIDs.length > 0) {
       await saveSeasons(currentSeasonIDs);

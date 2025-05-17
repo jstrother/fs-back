@@ -4,14 +4,11 @@ import { League } from '../schema/index.js';
 import logger from '../utils/logger.js';
 
 export default async function saveLeagues() {
-  const currentSeasonIDs = [];
-
   try {
     const leaguesData = await fetchAllLeagues();
 
     if (!leaguesData || !Array.isArray(leaguesData) || leaguesData.length === 0) {
       logger.warn('No leagues data found to save.');
-      return currentSeasonIDs;
     }
 
     logger.info(`Fetched leagues from API.`);
@@ -31,9 +28,7 @@ export default async function saveLeagues() {
             season_end: league.currentseason?.ending_at ? new Date(league.currentseason.ending_at) : null,
           });
           await newLeague.save();
-          currentSeasonIDs.push(newLeague.season_id);
           logger.info(`League ${league.name} (ID: ${league.id}) saved successfully.`);
-          logger.info(`Collected season IDs: ${currentSeasonIDs}`);
         }
       } catch (error) {
         if (error.code === 11000) {
@@ -47,8 +42,6 @@ export default async function saveLeagues() {
 
     await Promise.all(saveOperations);
     logger.info('All leagues saved successfully (or skipped due to duplicates).');
-
-    return currentSeasonIDs;
   } catch (error) {
     logger.error(`Error saving leagues: ${error}`);
     throw error;

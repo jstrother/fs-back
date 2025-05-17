@@ -5908,3 +5908,795 @@
 {"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T21:44:56.902Z"}
 {"level":"warn","message":"No current season IDs found. Skipping club saving.","service":"sportmonks api","timestamp":"2025-05-17T21:44:56.903Z"}
 {"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T21:44:56.903Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T21:51:44.792Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T21:51:44.828Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T21:51:45.545Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:51:45.577Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:51:45.578Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T21:51:45.579Z"}
+{"level":"warn","message":"No current season IDs found. Skipping club saving.","service":"sportmonks api","timestamp":"2025-05-17T21:51:45.579Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T21:51:45.579Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T21:51:55.204Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T21:51:55.234Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T21:51:55.622Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:51:55.653Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:51:55.654Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T21:51:55.655Z"}
+{"level":"warn","message":"No current season IDs found. Skipping club saving.","service":"sportmonks api","timestamp":"2025-05-17T21:51:55.655Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T21:51:55.655Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T21:52:01.893Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T21:52:01.936Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T21:52:02.572Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:52:02.614Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:52:02.615Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T21:52:02.616Z"}
+{"level":"warn","message":"No current season IDs found. Skipping club saving.","service":"sportmonks api","timestamp":"2025-05-17T21:52:02.617Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T21:52:02.617Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T21:52:30.252Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T21:52:30.293Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T21:52:30.747Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:52:30.792Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:52:30.794Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T21:52:30.795Z"}
+{"level":"warn","message":"No current season IDs found. Skipping club saving.","service":"sportmonks api","timestamp":"2025-05-17T21:52:30.796Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T21:52:30.796Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T21:52:33.613Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T21:52:33.650Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T21:52:34.064Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:52:34.100Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:52:34.102Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T21:52:34.103Z"}
+{"level":"warn","message":"No current season IDs found. Skipping club saving.","service":"sportmonks api","timestamp":"2025-05-17T21:52:34.104Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T21:52:34.104Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T21:52:35.781Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T21:52:35.812Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T21:52:36.180Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:52:36.207Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:52:36.208Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T21:52:36.208Z"}
+{"level":"warn","message":"No current season IDs found. Skipping club saving.","service":"sportmonks api","timestamp":"2025-05-17T21:52:36.208Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T21:52:36.209Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T21:52:38.950Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T21:52:38.980Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T21:52:39.607Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:52:39.636Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:52:39.637Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T21:52:39.637Z"}
+{"level":"warn","message":"No current season IDs found. Skipping club saving.","service":"sportmonks api","timestamp":"2025-05-17T21:52:39.638Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T21:52:39.639Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T21:52:46.631Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T21:52:46.669Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T21:52:47.056Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:52:47.082Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:52:47.083Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T21:52:47.084Z"}
+{"level":"warn","message":"No current season IDs found. Skipping club saving.","service":"sportmonks api","timestamp":"2025-05-17T21:52:47.084Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T21:52:47.084Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T21:52:52.970Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T21:52:52.997Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T21:52:53.374Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:52:53.409Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:52:53.411Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T21:52:53.411Z"}
+{"level":"warn","message":"No current season IDs found. Skipping club saving.","service":"sportmonks api","timestamp":"2025-05-17T21:52:53.412Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T21:52:53.413Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T21:54:44.273Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T21:54:44.313Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T21:54:44.744Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:54:44.776Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:54:44.777Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T21:54:44.778Z"}
+{"level":"warn","message":"No current season IDs found. Skipping club saving.","service":"sportmonks api","timestamp":"2025-05-17T21:54:44.779Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T21:54:44.779Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T21:54:48.026Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T21:54:48.054Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T21:54:48.538Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:54:48.575Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:54:48.576Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T21:54:48.577Z"}
+{"level":"warn","message":"No current season IDs found. Skipping club saving.","service":"sportmonks api","timestamp":"2025-05-17T21:54:48.578Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T21:54:48.578Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T21:54:50.809Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T21:54:50.842Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T21:54:51.292Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:54:51.321Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:54:51.322Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T21:54:51.322Z"}
+{"level":"warn","message":"No current season IDs found. Skipping club saving.","service":"sportmonks api","timestamp":"2025-05-17T21:54:51.323Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T21:54:51.323Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T21:54:55.158Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T21:54:55.194Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T21:54:55.713Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:54:55.751Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:54:55.753Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T21:54:55.754Z"}
+{"level":"warn","message":"No current season IDs found. Skipping club saving.","service":"sportmonks api","timestamp":"2025-05-17T21:54:55.755Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T21:54:55.755Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T21:54:58.331Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T21:54:58.358Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T21:54:58.768Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:54:58.796Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:54:58.797Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T21:54:58.798Z"}
+{"level":"warn","message":"No current season IDs found. Skipping club saving.","service":"sportmonks api","timestamp":"2025-05-17T21:54:58.798Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T21:54:58.799Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T21:55:03.447Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T21:55:03.478Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T21:55:04.209Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:55:04.244Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:55:04.246Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T21:55:04.246Z"}
+{"level":"warn","message":"No current season IDs found. Skipping club saving.","service":"sportmonks api","timestamp":"2025-05-17T21:55:04.247Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T21:55:04.247Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T21:55:05.455Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T21:55:05.490Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T21:55:05.893Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:55:05.922Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:55:05.924Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T21:55:05.924Z"}
+{"level":"warn","message":"No current season IDs found. Skipping club saving.","service":"sportmonks api","timestamp":"2025-05-17T21:55:05.925Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T21:55:05.926Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T21:55:13.569Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T21:55:13.606Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T21:55:14.032Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:55:14.065Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:55:14.071Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T21:55:14.071Z"}
+{"level":"warn","message":"No current season IDs found. Skipping club saving.","service":"sportmonks api","timestamp":"2025-05-17T21:55:14.072Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T21:55:14.072Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T21:55:15.325Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T21:55:15.367Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T21:55:15.878Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:55:15.922Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:55:15.924Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T21:55:15.925Z"}
+{"level":"warn","message":"No current season IDs found. Skipping club saving.","service":"sportmonks api","timestamp":"2025-05-17T21:55:15.925Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T21:55:15.926Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T21:55:18.337Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T21:55:18.370Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T21:55:18.735Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:55:18.762Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:55:18.763Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T21:55:18.763Z"}
+{"level":"warn","message":"No current season IDs found. Skipping club saving.","service":"sportmonks api","timestamp":"2025-05-17T21:55:18.764Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T21:55:18.764Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T21:56:14.530Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T21:56:14.561Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T21:56:15.031Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:56:15.062Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:56:15.064Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T21:56:15.064Z"}
+{"level":"warn","message":"No current season IDs found. Skipping club saving.","service":"sportmonks api","timestamp":"2025-05-17T21:56:15.065Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T21:56:15.065Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T21:56:20.777Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T21:56:20.808Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T21:56:21.199Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:56:21.228Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:56:21.230Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T21:56:21.230Z"}
+{"level":"warn","message":"No current season IDs found. Skipping club saving.","service":"sportmonks api","timestamp":"2025-05-17T21:56:21.231Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T21:56:21.231Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T21:56:32.417Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T21:56:32.473Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T21:56:32.938Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:56:32.981Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:56:32.985Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T21:56:32.986Z"}
+{"level":"warn","message":"No current season IDs found. Skipping club saving.","service":"sportmonks api","timestamp":"2025-05-17T21:56:32.987Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T21:56:32.988Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T21:56:38.700Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T21:56:38.737Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T21:56:39.119Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:56:39.152Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:56:39.154Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T21:56:39.154Z"}
+{"level":"warn","message":"No current season IDs found. Skipping club saving.","service":"sportmonks api","timestamp":"2025-05-17T21:56:39.155Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T21:56:39.155Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T21:56:47.037Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T21:56:47.067Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T21:56:47.522Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:56:47.552Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:56:47.554Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T21:56:47.554Z"}
+{"level":"warn","message":"No current season IDs found. Skipping club saving.","service":"sportmonks api","timestamp":"2025-05-17T21:56:47.555Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T21:56:47.555Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T21:57:04.860Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T21:57:04.897Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T21:57:05.338Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:57:05.370Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:57:05.371Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T21:57:05.372Z"}
+{"level":"warn","message":"No current season IDs found. Skipping club saving.","service":"sportmonks api","timestamp":"2025-05-17T21:57:05.372Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T21:57:05.373Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T21:58:30.556Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T21:58:30.596Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T21:58:31.051Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:58:31.081Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:58:31.082Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T21:58:31.082Z"}
+{"level":"warn","message":"No current season IDs found. Skipping club saving.","service":"sportmonks api","timestamp":"2025-05-17T21:58:31.083Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T21:58:31.083Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T21:58:33.767Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T21:58:33.804Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T21:58:34.220Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:58:34.250Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:58:34.252Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T21:58:34.252Z"}
+{"level":"warn","message":"No current season IDs found. Skipping club saving.","service":"sportmonks api","timestamp":"2025-05-17T21:58:34.253Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T21:58:34.253Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T21:58:37.538Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T21:58:37.569Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T21:58:37.968Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:58:37.996Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:58:37.997Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T21:58:37.998Z"}
+{"level":"warn","message":"No current season IDs found. Skipping club saving.","service":"sportmonks api","timestamp":"2025-05-17T21:58:37.998Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T21:58:37.998Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T21:58:58.076Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T21:58:58.109Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T21:58:58.589Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:58:58.616Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T21:58:58.617Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T21:58:58.618Z"}
+{"level":"warn","message":"No current season IDs found. Skipping club saving.","service":"sportmonks api","timestamp":"2025-05-17T21:58:58.618Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T21:58:58.619Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:02:09.746Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:02:09.779Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:02:10.233Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:02:10.263Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:02:24.637Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:02:24.679Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:02:25.127Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:02:25.157Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:02:28.668Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:02:28.704Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:02:29.380Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:02:29.414Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:02:32.355Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:02:32.388Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:02:32.812Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:02:32.844Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:02:35.142Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:02:35.174Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:02:36.336Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:02:36.370Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:02:36.801Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:02:36.831Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:04:41.395Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:04:41.441Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:04:41.936Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:04:41.970Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:04:44.182Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:04:44.215Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:04:44.699Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:04:44.732Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:04:47.682Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:04:47.715Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:04:48.181Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:04:48.211Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:04:49.345Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:04:49.384Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:04:49.818Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:04:49.853Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:04:52.281Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:04:52.321Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:04:52.890Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:04:52.930Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:04:54.599Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:04:54.637Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:04:55.076Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:04:55.112Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:04:57.282Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:04:57.310Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:04:57.697Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:04:57.730Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:05:05.579Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:05:05.612Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:05:06.011Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:05:06.045Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:05:07.761Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:05:07.798Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:05:08.184Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:05:08.214Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:05:16.620Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:05:16.651Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:05:17.032Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:05:17.065Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:05:19.793Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:05:19.822Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:05:20.229Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:05:20.264Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:05:45.628Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:05:45.659Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:05:46.149Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:05:46.182Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:05:47.266Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:05:47.295Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:05:47.687Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:05:47.714Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:05:55.514Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:05:55.556Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:05:56.697Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:05:56.729Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:05:57.222Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:05:57.261Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:06:12.898Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:06:12.930Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:06:13.394Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:06:13.435Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:06:14.447Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:06:14.476Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:06:14.912Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:06:14.941Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:06:22.562Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:06:22.598Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:06:23.853Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:06:23.885Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:06:24.336Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:06:24.372Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:06:28.016Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:06:28.055Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:06:28.459Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:06:28.491Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:07:33.353Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:07:33.386Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:07:33.790Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:07:33.826Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:07:33.827Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:07:33.828Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-17T22:07:33.841Z"}
+{"level":"info","message":"Beginning to save seasons for 1 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:07:33.842Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:07:34.142Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:07:34.143Z"}
+{"level":"error","message":"Error fetching seasons for league ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:07:34.143Z"}
+{"level":"info","message":"Beginning to save clubs for 1 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:07:34.144Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:07:34.327Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:07:34.328Z"}
+{"level":"error","message":"Error fetching clubs for season ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:07:34.328Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T22:07:34.329Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:08:04.181Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:08:04.209Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:08:04.697Z"}
+{"level":"info","message":"League Premiership (ID: 501) saved successfully.","service":"sportmonks api","timestamp":"2025-05-17T22:08:04.733Z"}
+{"level":"info","message":"League Superliga (ID: 271) saved successfully.","service":"sportmonks api","timestamp":"2025-05-17T22:08:04.735Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:08:04.735Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-17T22:08:04.757Z"}
+{"level":"info","message":"Beginning to save seasons for 1 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:08:04.758Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:08:04.913Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:08:04.913Z"}
+{"level":"error","message":"Error fetching seasons for league ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:08:04.914Z"}
+{"level":"info","message":"Beginning to save clubs for 1 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:08:04.915Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:08:05.103Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:08:05.104Z"}
+{"level":"error","message":"Error fetching clubs for season ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:08:05.105Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T22:08:05.105Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:11:30.667Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:11:30.696Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:11:31.140Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:11:31.184Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:11:31.186Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:11:31.186Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-17T22:11:31.201Z"}
+{"level":"info","message":"Beginning to save seasons for 1 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:11:31.202Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:31.401Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:31.402Z"}
+{"level":"error","message":"Error fetching seasons for league ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:31.403Z"}
+{"level":"info","message":"Beginning to save clubs for 1 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:11:31.404Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:31.598Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:31.599Z"}
+{"level":"error","message":"Error fetching clubs for season ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:31.599Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T22:11:31.600Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:11:32.991Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:11:33.027Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:11:34.391Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:11:34.424Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:11:34.841Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:11:34.873Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:11:34.875Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:11:34.876Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-17T22:11:34.889Z"}
+{"level":"info","message":"","service":"sportmonks api","timestamp":"2025-05-17T22:11:34.890Z"}
+{"level":"info","message":"Beginning to save seasons for 1 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:11:34.893Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:35.090Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:35.092Z"}
+{"level":"error","message":"Error fetching seasons for league ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:35.093Z"}
+{"level":"info","message":"Beginning to save clubs for 1 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:11:35.094Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:35.281Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:35.282Z"}
+{"level":"error","message":"Error fetching clubs for season ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:35.283Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T22:11:35.283Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:11:37.768Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:11:37.811Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:11:38.291Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:11:38.325Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:11:38.327Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:11:38.327Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-17T22:11:38.342Z"}
+{"level":"info","message":"","service":"sportmonks api","timestamp":"2025-05-17T22:11:38.343Z"}
+{"level":"info","message":"Beginning to save seasons for 1 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:11:38.344Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:38.493Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:38.496Z"}
+{"level":"error","message":"Error fetching seasons for league ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:38.497Z"}
+{"level":"info","message":"Beginning to save clubs for 1 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:11:38.497Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:38.681Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:38.682Z"}
+{"level":"error","message":"Error fetching clubs for season ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:38.683Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T22:11:38.683Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:11:40.822Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:11:40.859Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:11:41.246Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:11:41.280Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:11:41.282Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:11:41.282Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-17T22:11:41.297Z"}
+{"level":"info","message":"seasonIDs: [{}]","service":"sportmonks api","timestamp":"2025-05-17T22:11:41.298Z"}
+{"level":"info","message":"Beginning to save seasons for 1 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:11:41.299Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:41.460Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:41.461Z"}
+{"level":"error","message":"Error fetching seasons for league ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:41.462Z"}
+{"level":"info","message":"Beginning to save clubs for 1 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:11:41.462Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:41.649Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:41.650Z"}
+{"level":"error","message":"Error fetching clubs for season ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:41.650Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T22:11:41.650Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:12:20.524Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:12:20.561Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:12:20.987Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:12:21.024Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:12:21.025Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:12:21.026Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-17T22:12:21.038Z"}
+{"level":"info","message":"seasonIDs: [{}]","service":"sportmonks api","timestamp":"2025-05-17T22:12:21.038Z"}
+{"level":"info","message":"Beginning to save seasons for 1 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:12:21.039Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:12:21.266Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:12:21.267Z"}
+{"level":"error","message":"Error fetching seasons for league ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:12:21.268Z"}
+{"level":"info","message":"Beginning to save clubs for 1 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:12:21.269Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:12:21.453Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:12:21.454Z"}
+{"level":"error","message":"Error fetching clubs for season ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:12:21.454Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T22:12:21.454Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:12:37.786Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:12:37.820Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:12:38.299Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:12:38.330Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:12:38.331Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:12:38.332Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-17T22:12:38.344Z"}
+{"level":"info","message":"seasonIDs: [{}]","service":"sportmonks api","timestamp":"2025-05-17T22:12:38.345Z"}
+{"level":"info","message":"Beginning to save seasons for 1 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:12:38.346Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:12:38.571Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:12:38.572Z"}
+{"level":"error","message":"Error fetching seasons for league ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:12:38.573Z"}
+{"level":"info","message":"Beginning to save clubs for 1 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:12:38.574Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:12:38.753Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:12:38.754Z"}
+{"level":"error","message":"Error fetching clubs for season ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:12:38.754Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T22:12:38.754Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:13:45.939Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:13:45.979Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:13:46.426Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:13:46.466Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:13:46.467Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:13:46.468Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-17T22:13:46.485Z"}
+{"level":"info","message":"seasonIDs: ","service":"sportmonks api","timestamp":"2025-05-17T22:13:46.485Z"}
+{"level":"info","message":"Beginning to save seasons for 1 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:13:46.486Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:13:46.771Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:13:46.798Z"}
+{"level":"error","message":"Error fetching seasons for league ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:13:46.799Z"}
+{"level":"info","message":"Beginning to save clubs for 1 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:13:46.815Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:13:47.053Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:13:47.055Z"}
+{"level":"error","message":"Error fetching clubs for season ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:13:47.056Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T22:13:47.056Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:13:49.373Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:13:49.406Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:13:49.795Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:13:49.830Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:13:49.832Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:13:49.833Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-17T22:13:49.845Z"}
+{"0":{},"level":"info","message":"seasonIDs: ","service":"sportmonks api","timestamp":"2025-05-17T22:13:49.847Z"}
+{"level":"info","message":"Beginning to save seasons for 1 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:13:49.848Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:13:50.046Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:13:50.047Z"}
+{"level":"error","message":"Error fetching seasons for league ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:13:50.048Z"}
+{"level":"info","message":"Beginning to save clubs for 1 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:13:50.048Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:13:50.238Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:13:50.239Z"}
+{"level":"error","message":"Error fetching clubs for season ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:13:50.240Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T22:13:50.240Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:20:55.057Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:20:55.092Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:20:55.480Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:20:55.509Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:20:55.510Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:20:55.511Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-17T22:20:55.522Z"}
+{"0":{"seasonIDs":[23690,23584]},"level":"info","message":"seasonIDs: ","service":"sportmonks api","timestamp":"2025-05-17T22:20:55.523Z"}
+{"level":"info","message":"Beginning to save seasons for 1 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:20:55.524Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:20:55.722Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:20:55.723Z"}
+{"level":"error","message":"Error fetching seasons for league ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:20:55.724Z"}
+{"level":"info","message":"Beginning to save clubs for 1 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:20:55.725Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:20:55.906Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:20:55.907Z"}
+{"level":"error","message":"Error fetching clubs for season ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:20:55.907Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T22:20:55.908Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:21:32.256Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:21:32.284Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:21:32.733Z"}
+{"level":"info","message":"League Superliga (ID: 271) saved successfully.","service":"sportmonks api","timestamp":"2025-05-17T22:21:32.764Z"}
+{"level":"info","message":"League Premiership (ID: 501) saved successfully.","service":"sportmonks api","timestamp":"2025-05-17T22:21:32.765Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:21:32.765Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-17T22:21:32.777Z"}
+{"0":{"seasonIDs":[23584,23690]},"level":"info","message":"seasonIDs: ","service":"sportmonks api","timestamp":"2025-05-17T22:21:32.778Z"}
+{"level":"info","message":"Beginning to save seasons for 1 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:21:32.779Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:21:32.997Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:21:32.998Z"}
+{"level":"error","message":"Error fetching seasons for league ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:21:32.998Z"}
+{"level":"info","message":"Beginning to save clubs for 1 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:21:32.999Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:21:33.182Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:21:33.183Z"}
+{"level":"error","message":"Error fetching clubs for season ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:21:33.183Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T22:21:33.184Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:22:17.958Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:22:17.993Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:22:18.403Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:22:18.447Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:22:18.449Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:22:18.449Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-17T22:22:18.464Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:22:20.257Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:22:20.315Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:22:20.846Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:22:20.878Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:22:20.880Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:22:20.880Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-17T22:22:20.891Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:22:53.267Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:22:53.303Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:22:53.717Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:22:53.752Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:22:53.753Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:22:53.754Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-17T22:22:53.767Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:22:57.694Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:22:57.732Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:22:58.137Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:22:58.178Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:22:58.181Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:22:58.181Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-17T22:22:58.195Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:23:01.012Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:23:01.045Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:23:01.479Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:23:01.510Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:23:01.511Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:23:01.512Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-17T22:23:01.529Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:23:10.410Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:23:10.441Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:23:10.919Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:23:10.947Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:23:10.948Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:23:10.949Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-17T22:23:10.958Z"}
+{"0":{"seasonIDs":[23584,23690]},"level":"info","message":"seasonIDs: ","service":"sportmonks api","timestamp":"2025-05-17T22:23:10.959Z"}
+{"level":"warn","message":"No current season IDs found. Skipping club saving.","service":"sportmonks api","timestamp":"2025-05-17T22:23:10.960Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T22:23:10.961Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:23:42.891Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:23:42.929Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:23:43.386Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:23:43.429Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:23:43.432Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:23:43.432Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:23:54.396Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:23:54.431Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:23:54.842Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:23:54.877Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:23:56.434Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:23:56.474Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:23:56.891Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:23:56.922Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:23:56.923Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:23:56.924Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-17T22:23:56.934Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:24:27.473Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:24:27.509Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:24:27.892Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:24:27.918Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:24:27.919Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:24:27.920Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-17T22:24:27.929Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:24:48.120Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:24:48.158Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:24:48.533Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:24:48.564Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:24:48.567Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:24:48.568Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-17T22:24:48.580Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:24:59.445Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:24:59.479Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:24:59.980Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:25:00.022Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:25:00.024Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:25:00.025Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-17T22:25:00.039Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:25:14.277Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:25:14.319Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:25:14.755Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:25:14.794Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:25:14.795Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:25:14.796Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-17T22:25:14.808Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:25:43.443Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:25:43.484Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:25:44.596Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:25:44.646Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:25:45.140Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:25:45.166Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:25:45.168Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:25:45.168Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-17T22:25:45.181Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:25:51.418Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:25:51.456Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:25:51.908Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:25:51.947Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:25:51.950Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:25:51.950Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-17T22:25:51.963Z"}
+{"0":23584,"1":23690,"level":"info","message":"seasonIDs: ","service":"sportmonks api","timestamp":"2025-05-17T22:25:51.965Z"}
+{"level":"info","message":"Beginning to save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:25:51.967Z"}
+{"level":"info","message":"Fetched seasons from API for season ID 23584.","service":"sportmonks api","timestamp":"2025-05-17T22:25:52.280Z"}
+{"level":"info","message":"Season 2024/2025 (ID: 23584) saved successfully.","service":"sportmonks api","timestamp":"2025-05-17T22:25:52.288Z"}
+{"level":"info","message":"All seasons for league ID 23584 saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:25:52.289Z"}
+{"level":"info","message":"Fetched seasons from API for season ID 23690.","service":"sportmonks api","timestamp":"2025-05-17T22:25:52.585Z"}
+{"level":"info","message":"Season 2024/2025 (ID: 23690) saved successfully.","service":"sportmonks api","timestamp":"2025-05-17T22:25:52.590Z"}
+{"level":"info","message":"All seasons for league ID 23690 saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:25:52.591Z"}
+{"level":"info","message":"Beginning to save clubs for 2 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:25:52.592Z"}
+{"level":"warn","message":"No clubs data found for season ID 23584.","service":"sportmonks api","timestamp":"2025-05-17T22:25:52.785Z"}
+{"level":"warn","message":"No clubs data found for season ID 23690.","service":"sportmonks api","timestamp":"2025-05-17T22:25:52.990Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T22:25:52.990Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:26:12.730Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:26:12.765Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:26:13.197Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:26:13.225Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:26:13.226Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:26:13.226Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-17T22:26:13.238Z"}
+{"level":"info","message":"Beginning to save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:26:13.239Z"}
+{"level":"info","message":"Fetched seasons from API for season ID 23584.","service":"sportmonks api","timestamp":"2025-05-17T22:26:13.475Z"}
+{"level":"warn","message":"Season with ID 23584 (2024/2025) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:26:13.483Z"}
+{"level":"info","message":"All seasons for league ID 23584 saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:26:13.484Z"}
+{"level":"info","message":"Fetched seasons from API for season ID 23690.","service":"sportmonks api","timestamp":"2025-05-17T22:26:13.783Z"}
+{"level":"warn","message":"Season with ID 23690 (2024/2025) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:26:13.790Z"}
+{"level":"info","message":"All seasons for league ID 23690 saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:26:13.790Z"}
+{"level":"info","message":"Beginning to save clubs for 2 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:26:13.791Z"}
+{"level":"warn","message":"No clubs data found for season ID 23584.","service":"sportmonks api","timestamp":"2025-05-17T22:26:13.981Z"}
+{"level":"warn","message":"No clubs data found for season ID 23690.","service":"sportmonks api","timestamp":"2025-05-17T22:26:14.186Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T22:26:14.187Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:26:31.510Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:26:31.546Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:26:32.032Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:26:32.062Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:26:32.064Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:26:32.064Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-17T22:26:32.075Z"}
+{"level":"info","message":"Beginning to save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:26:32.076Z"}
+{"level":"info","message":"Fetched seasons from API for season ID 23690.","service":"sportmonks api","timestamp":"2025-05-17T22:26:32.280Z"}
+{"level":"warn","message":"Season with ID 23690 (2024/2025) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:26:32.287Z"}
+{"level":"info","message":"All seasons for league ID 23690 saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:26:32.288Z"}
+{"level":"info","message":"Fetched seasons from API for season ID 23584.","service":"sportmonks api","timestamp":"2025-05-17T22:26:32.488Z"}
+{"level":"warn","message":"Season with ID 23584 (2024/2025) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:26:32.494Z"}
+{"level":"info","message":"All seasons for league ID 23584 saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:26:32.495Z"}
+{"level":"info","message":"Beginning to save clubs for 2 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:26:32.495Z"}
+{"level":"warn","message":"No clubs data found for season ID 23690.","service":"sportmonks api","timestamp":"2025-05-17T22:26:32.720Z"}
+{"level":"warn","message":"No clubs data found for season ID 23584.","service":"sportmonks api","timestamp":"2025-05-17T22:26:32.926Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T22:26:32.926Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:31:56.357Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:31:56.393Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:31:57.064Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:31:57.088Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:31:57.089Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:31:57.090Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-17T22:31:57.098Z"}
+{"level":"info","message":"Beginning to save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:31:57.099Z"}
+{"level":"info","message":"Fetched seasons from API for season ID 23584.","service":"sportmonks api","timestamp":"2025-05-17T22:31:57.347Z"}
+{"level":"warn","message":"Season with ID 23584 (2024/2025) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:31:57.370Z"}
+{"level":"info","message":"All seasons for league ID 23584 saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:31:57.372Z"}
+{"level":"info","message":"Fetched seasons from API for season ID 23690.","service":"sportmonks api","timestamp":"2025-05-17T22:31:57.586Z"}
+{"level":"warn","message":"Season with ID 23690 (2024/2025) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:31:57.594Z"}
+{"level":"info","message":"All seasons for league ID 23690 saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:31:57.594Z"}
+{"level":"info","message":"Beginning to save clubs for 2 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:31:57.595Z"}
+{"level":"warn","message":"No clubs data found for season ID 23584.","service":"sportmonks api","timestamp":"2025-05-17T22:31:57.842Z"}
+{"level":"warn","message":"No clubs data found for season ID 23690.","service":"sportmonks api","timestamp":"2025-05-17T22:31:58.015Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T22:31:58.015Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:32:02.072Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:32:02.103Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:32:02.581Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:32:02.610Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:32:02.612Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:32:02.612Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-17T22:32:02.624Z"}
+{"level":"info","message":"Beginning to save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:32:02.625Z"}
+{"level":"info","message":"Fetched seasons from API for season ID 23584.","service":"sportmonks api","timestamp":"2025-05-17T22:32:02.864Z"}
+{"level":"warn","message":"Season with ID 23584 (2024/2025) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:32:02.871Z"}
+{"level":"info","message":"All seasons for league ID 23584 saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:32:02.871Z"}
+{"level":"info","message":"Fetched seasons from API for season ID 23690.","service":"sportmonks api","timestamp":"2025-05-17T22:32:03.171Z"}
+{"level":"warn","message":"Season with ID 23690 (2024/2025) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:32:03.178Z"}
+{"level":"info","message":"All seasons for league ID 23690 saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:32:03.179Z"}
+{"level":"info","message":"Beginning to save clubs for 2 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:32:03.179Z"}
+{"level":"warn","message":"No clubs data found for season ID 23584.","service":"sportmonks api","timestamp":"2025-05-17T22:32:03.375Z"}
+{"level":"warn","message":"No clubs data found for season ID 23690.","service":"sportmonks api","timestamp":"2025-05-17T22:32:03.575Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T22:32:03.576Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:32:14.704Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:32:14.746Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:32:15.151Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:32:15.182Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:32:15.184Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:32:15.184Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-17T22:32:15.198Z"}
+{"level":"info","message":"Beginning to save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:32:15.199Z"}
+{"level":"info","message":"Fetched seasons from API for season ID 23584.","service":"sportmonks api","timestamp":"2025-05-17T22:32:15.457Z"}
+{"level":"warn","message":"Season with ID 23584 (2024/2025) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:32:15.464Z"}
+{"level":"info","message":"All seasons for league ID 23584 saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:32:15.465Z"}
+{"level":"info","message":"Fetched seasons from API for season ID 23690.","service":"sportmonks api","timestamp":"2025-05-17T22:32:15.651Z"}
+{"level":"warn","message":"Season with ID 23690 (2024/2025) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:32:15.662Z"}
+{"level":"info","message":"All seasons for league ID 23690 saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:32:15.663Z"}
+{"level":"info","message":"Beginning to save clubs for 2 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:32:15.664Z"}
+{"level":"warn","message":"No clubs data found for season ID 23584.","service":"sportmonks api","timestamp":"2025-05-17T22:32:15.829Z"}
+{"level":"warn","message":"No clubs data found for season ID 23690.","service":"sportmonks api","timestamp":"2025-05-17T22:32:16.010Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T22:32:16.011Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:32:18.717Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:32:18.767Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:32:19.190Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:32:19.217Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:32:19.219Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:32:19.219Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-17T22:32:19.230Z"}
+{"level":"info","message":"Beginning to save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:32:19.230Z"}
+{"level":"info","message":"Fetched seasons from API for season ID 23584.","service":"sportmonks api","timestamp":"2025-05-17T22:32:19.451Z"}
+{"level":"warn","message":"Season with ID 23584 (2024/2025) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:32:19.458Z"}
+{"level":"info","message":"All seasons for league ID 23584 saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:32:19.459Z"}
+{"level":"info","message":"Fetched seasons from API for season ID 23690.","service":"sportmonks api","timestamp":"2025-05-17T22:32:19.659Z"}
+{"level":"warn","message":"Season with ID 23690 (2024/2025) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:32:19.672Z"}
+{"level":"info","message":"All seasons for league ID 23690 saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:32:19.673Z"}
+{"level":"info","message":"Beginning to save clubs for 2 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:32:19.674Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:32:21.930Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:32:21.957Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:32:22.544Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:32:22.573Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:32:22.575Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:32:22.575Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-17T22:32:22.587Z"}
+{"level":"info","message":"Beginning to save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:32:22.588Z"}
+{"level":"info","message":"Fetched seasons from API for season ID 23584.","service":"sportmonks api","timestamp":"2025-05-17T22:32:22.780Z"}
+{"level":"warn","message":"Season with ID 23584 (2024/2025) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:32:22.789Z"}
+{"level":"info","message":"All seasons for league ID 23584 saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:32:22.790Z"}
+{"level":"info","message":"Fetched seasons from API for season ID 23690.","service":"sportmonks api","timestamp":"2025-05-17T22:32:23.036Z"}
+{"level":"warn","message":"Season with ID 23690 (2024/2025) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:32:23.043Z"}
+{"level":"info","message":"All seasons for league ID 23690 saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:32:23.044Z"}
+{"level":"info","message":"Beginning to save clubs for 2 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:32:23.045Z"}
+{"level":"warn","message":"No clubs data found for season ID 23584.","service":"sportmonks api","timestamp":"2025-05-17T22:32:23.213Z"}
+{"level":"warn","message":"No clubs data found for season ID 23690.","service":"sportmonks api","timestamp":"2025-05-17T22:32:23.441Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T22:32:23.442Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-17T22:32:29.494Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-17T22:32:29.540Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-17T22:32:29.918Z"}
+{"level":"warn","message":"League with ID 501 (Premiership) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:32:29.947Z"}
+{"level":"warn","message":"League with ID 271 (Superliga) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:32:29.949Z"}
+{"level":"info","message":"All leagues saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:32:29.949Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-17T22:32:29.961Z"}
+{"level":"info","message":"Beginning to save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:32:29.962Z"}
+{"level":"info","message":"Fetched seasons from API for season ID 23584.","service":"sportmonks api","timestamp":"2025-05-17T22:32:30.189Z"}
+{"level":"warn","message":"Season with ID 23584 (2024/2025) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:32:30.199Z"}
+{"level":"info","message":"All seasons for league ID 23584 saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:32:30.200Z"}
+{"level":"info","message":"Fetched seasons from API for season ID 23690.","service":"sportmonks api","timestamp":"2025-05-17T22:32:30.616Z"}
+{"level":"warn","message":"Season with ID 23690 (2024/2025) already exists. Skipping...","service":"sportmonks api","timestamp":"2025-05-17T22:32:30.622Z"}
+{"level":"info","message":"All seasons for league ID 23690 saved successfully (or skipped due to duplicates).","service":"sportmonks api","timestamp":"2025-05-17T22:32:30.623Z"}
+{"level":"info","message":"Beginning to save clubs for 2 leagues","service":"sportmonks api","timestamp":"2025-05-17T22:32:30.624Z"}
+{"level":"warn","message":"No clubs data found for season ID 23584.","service":"sportmonks api","timestamp":"2025-05-17T22:32:30.814Z"}
+{"level":"warn","message":"No clubs data found for season ID 23690.","service":"sportmonks api","timestamp":"2025-05-17T22:32:30.983Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-17T22:32:30.984Z"}

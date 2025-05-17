@@ -469,3 +469,111 @@
 {"level":"error","message":"Error fetching clubs for season ID 23584: TypeError: responseData.data is not iterable","service":"sportmonks api","timestamp":"2025-05-17T21:35:31.592Z"}
 {"level":"error","message":"Error creating fetch call: TypeError: responseData.data is not iterable","service":"sportmonks api","timestamp":"2025-05-17T21:35:31.796Z"}
 {"level":"error","message":"Error fetching clubs for season ID 23690: TypeError: responseData.data is not iterable","service":"sportmonks api","timestamp":"2025-05-17T21:35:31.797Z"}
+{"level":"error","message":"Error connecting to database: TypeError: Cannot read properties of undefined (reading 'length')","service":"sportmonks api","timestamp":"2025-05-17T22:02:10.265Z"}
+{"level":"error","message":"Error connecting to database: TypeError: Cannot read properties of undefined (reading 'length')","service":"sportmonks api","timestamp":"2025-05-17T22:02:25.159Z"}
+{"level":"error","message":"Error connecting to database: TypeError: Cannot read properties of undefined (reading 'length')","service":"sportmonks api","timestamp":"2025-05-17T22:02:29.417Z"}
+{"level":"error","message":"Error connecting to database: TypeError: Cannot read properties of undefined (reading 'length')","service":"sportmonks api","timestamp":"2025-05-17T22:02:32.847Z"}
+{"level":"error","message":"Error connecting to database: TypeError: Cannot read properties of undefined (reading 'length')","service":"sportmonks api","timestamp":"2025-05-17T22:02:36.833Z"}
+{"level":"error","message":"Error connecting to database: TypeError: Cannot read properties of undefined (reading 'length')","service":"sportmonks api","timestamp":"2025-05-17T22:04:41.972Z"}
+{"level":"error","message":"Error connecting to database: TypeError: Cannot read properties of undefined (reading 'length')","service":"sportmonks api","timestamp":"2025-05-17T22:04:44.735Z"}
+{"level":"error","message":"Error connecting to database: TypeError: Cannot read properties of undefined (reading 'length')","service":"sportmonks api","timestamp":"2025-05-17T22:04:48.214Z"}
+{"level":"error","message":"Error connecting to database: TypeError: Cannot read properties of undefined (reading 'length')","service":"sportmonks api","timestamp":"2025-05-17T22:04:49.856Z"}
+{"level":"error","message":"Error connecting to database: TypeError: Cannot read properties of undefined (reading 'length')","service":"sportmonks api","timestamp":"2025-05-17T22:04:52.933Z"}
+{"level":"error","message":"Error connecting to database: TypeError: Cannot read properties of undefined (reading 'length')","service":"sportmonks api","timestamp":"2025-05-17T22:04:55.118Z"}
+{"level":"error","message":"Error connecting to database: TypeError: Cannot read properties of undefined (reading 'length')","service":"sportmonks api","timestamp":"2025-05-17T22:04:57.732Z"}
+{"level":"error","message":"Error connecting to database: TypeError: Cannot read properties of undefined (reading 'length')","service":"sportmonks api","timestamp":"2025-05-17T22:05:06.050Z"}
+{"level":"error","message":"Error connecting to database: TypeError: Cannot read properties of undefined (reading 'length')","service":"sportmonks api","timestamp":"2025-05-17T22:05:08.216Z"}
+{"level":"error","message":"Error connecting to database: TypeError: Cannot read properties of undefined (reading 'length')","service":"sportmonks api","timestamp":"2025-05-17T22:05:17.067Z"}
+{"level":"error","message":"Error connecting to database: TypeError: Cannot read properties of undefined (reading 'length')","service":"sportmonks api","timestamp":"2025-05-17T22:05:20.266Z"}
+{"level":"error","message":"Error connecting to database: TypeError: Cannot read properties of undefined (reading 'length')","service":"sportmonks api","timestamp":"2025-05-17T22:05:46.185Z"}
+{"level":"error","message":"Error connecting to database: TypeError: Cannot read properties of undefined (reading 'length')","service":"sportmonks api","timestamp":"2025-05-17T22:05:47.717Z"}
+{"level":"error","message":"Error connecting to database: TypeError: Cannot read properties of undefined (reading 'length')","service":"sportmonks api","timestamp":"2025-05-17T22:05:57.264Z"}
+{"level":"error","message":"Error connecting to database: TypeError: Cannot read properties of undefined (reading 'length')","service":"sportmonks api","timestamp":"2025-05-17T22:06:13.438Z"}
+{"level":"error","message":"Error connecting to database: TypeError: Cannot read properties of undefined (reading 'length')","service":"sportmonks api","timestamp":"2025-05-17T22:06:14.944Z"}
+{"level":"error","message":"Error connecting to database: TypeError: Cannot read properties of undefined (reading 'length')","service":"sportmonks api","timestamp":"2025-05-17T22:06:24.375Z"}
+{"level":"error","message":"Error connecting to database: TypeError: Cannot read properties of undefined (reading 'length')","service":"sportmonks api","timestamp":"2025-05-17T22:06:28.495Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:07:34.142Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:07:34.143Z"}
+{"level":"error","message":"Error fetching seasons for league ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:07:34.143Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:07:34.327Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:07:34.328Z"}
+{"level":"error","message":"Error fetching clubs for season ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:07:34.328Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:08:04.913Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:08:04.913Z"}
+{"level":"error","message":"Error fetching seasons for league ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:08:04.914Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:08:05.103Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:08:05.104Z"}
+{"level":"error","message":"Error fetching clubs for season ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:08:05.105Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:31.401Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:31.402Z"}
+{"level":"error","message":"Error fetching seasons for league ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:31.403Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:31.598Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:31.599Z"}
+{"level":"error","message":"Error fetching clubs for season ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:31.599Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:35.090Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:35.092Z"}
+{"level":"error","message":"Error fetching seasons for league ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:35.093Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:35.281Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:35.282Z"}
+{"level":"error","message":"Error fetching clubs for season ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:35.283Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:38.493Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:38.496Z"}
+{"level":"error","message":"Error fetching seasons for league ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:38.497Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:38.681Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:38.682Z"}
+{"level":"error","message":"Error fetching clubs for season ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:38.683Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:41.460Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:41.461Z"}
+{"level":"error","message":"Error fetching seasons for league ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:41.462Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:41.649Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:41.650Z"}
+{"level":"error","message":"Error fetching clubs for season ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:11:41.650Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:12:21.266Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:12:21.267Z"}
+{"level":"error","message":"Error fetching seasons for league ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:12:21.268Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:12:21.453Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:12:21.454Z"}
+{"level":"error","message":"Error fetching clubs for season ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:12:21.454Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:12:38.571Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:12:38.572Z"}
+{"level":"error","message":"Error fetching seasons for league ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:12:38.573Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:12:38.753Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:12:38.754Z"}
+{"level":"error","message":"Error fetching clubs for season ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:12:38.754Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:13:46.771Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:13:46.798Z"}
+{"level":"error","message":"Error fetching seasons for league ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:13:46.799Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:13:47.053Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:13:47.055Z"}
+{"level":"error","message":"Error fetching clubs for season ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:13:47.056Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:13:50.046Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:13:50.047Z"}
+{"level":"error","message":"Error fetching seasons for league ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:13:50.048Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:13:50.238Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:13:50.239Z"}
+{"level":"error","message":"Error fetching clubs for season ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:13:50.240Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:20:55.722Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:20:55.723Z"}
+{"level":"error","message":"Error fetching seasons for league ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:20:55.724Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:20:55.906Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:20:55.907Z"}
+{"level":"error","message":"Error fetching clubs for season ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:20:55.907Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:21:32.997Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:21:32.998Z"}
+{"level":"error","message":"Error fetching seasons for league ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:21:32.998Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:21:33.182Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:21:33.183Z"}
+{"level":"error","message":"Error fetching clubs for season ID [object Object]: Error: HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-17T22:21:33.183Z"}
+{"level":"error","message":"Error connecting to database: ReferenceError: currentSeasonIDs is not defined","service":"sportmonks api","timestamp":"2025-05-17T22:22:18.467Z"}
+{"level":"error","message":"Error connecting to database: ReferenceError: currentSeasonIDs is not defined","service":"sportmonks api","timestamp":"2025-05-17T22:22:20.893Z"}
+{"level":"error","message":"Error connecting to database: ReferenceError: season is not defined","service":"sportmonks api","timestamp":"2025-05-17T22:22:53.769Z"}
+{"level":"error","message":"Error connecting to database: ReferenceError: currentSeasonIDs is not defined","service":"sportmonks api","timestamp":"2025-05-17T22:22:58.197Z"}
+{"level":"error","message":"Error connecting to database: ReferenceError: currentSeasonIDs is not defined","service":"sportmonks api","timestamp":"2025-05-17T22:23:01.540Z"}
+{"level":"error","message":"Error connecting to database: ReferenceError: currentSeasonIDs is not defined","service":"sportmonks api","timestamp":"2025-05-17T22:23:43.450Z"}
+{"level":"error","message":"Error connecting to database: ReferenceError: currentSeasonIDs is not defined","service":"sportmonks api","timestamp":"2025-05-17T22:23:54.895Z"}
+{"level":"error","message":"Error connecting to database: ReferenceError: currentSeasonIDs is not defined","service":"sportmonks api","timestamp":"2025-05-17T22:23:56.936Z"}
+{"level":"error","message":"Error connecting to database: TypeError: Cannot read properties of undefined (reading 'length')","service":"sportmonks api","timestamp":"2025-05-17T22:24:27.931Z"}
+{"level":"error","message":"Error connecting to database: TypeError: Cannot read properties of undefined (reading 'length')","service":"sportmonks api","timestamp":"2025-05-17T22:24:48.582Z"}
+{"level":"error","message":"Error connecting to database: TypeError: Cannot read properties of undefined (reading 'length')","service":"sportmonks api","timestamp":"2025-05-17T22:25:00.041Z"}
+{"level":"error","message":"Error connecting to database: TypeError: Cannot read properties of undefined (reading 'length')","service":"sportmonks api","timestamp":"2025-05-17T22:25:14.810Z"}
+{"level":"error","message":"Error connecting to database: TypeError: Cannot read properties of undefined (reading 'length')","service":"sportmonks api","timestamp":"2025-05-17T22:25:45.183Z"}
