@@ -10,47 +10,65 @@ export default async function saveSeasons(seasonIDs) {
       return;
     }
 
-    logger.info(`Beginning to save seasons for ${seasonIDs.length} leagues`);
+    logger.info(`Beginning to fetch and save seasons for ${seasonIDs.length} leagues`);
 
-    for (const seasonID of seasonIDs) {
-      try {
+    const fetchPromises = seasonIDs.map(async (seasonID) => {
+      try{
         const seasonsData = await fetchSeasons(seasonID);
 
-        if (!seasonsData || !Array.isArray(seasonsData) || seasonsData.length === 0) {
-          logger.warn(`No seasons data found for season ID ${seasonID}.`);
-          continue;
+        if (!seasonsData) {
+          logger.warn(`No detailed season data found for season ID ${seasonID}. Skipping...`);
+          return null; // Skip this season ID
         }
 
-        logger.info(`Fetched seasons from API for season ID ${seasonID}.`);
+        return seasonsData;
+      } catch (error) {
+        logger.error(`Error fetching seasons for league ID ${seasonID}: ${error}`);
+        return null; // Skip this season ID on error
+      }
+    });
 
-        const saveOperations = seasonsData.map(async (season) => {
-          try {
-            const newSeason = new Season({
-              id: season.id,
+    const allSeasonsData = await Promise.all(fetchPromises);
+    const validSeasonsData = allSeasonsData.filter((season) => season !== null);
+
+    if (validSeasonsData.length === 0) {
+      logger.warn("No valid seasons data found. Skipping saving seasons.");
+      return;
+    }
+
+    logger.info(`Saving ${validSeasonsData.length} seasons to the database...`);
+
+    const saveOperations = validSeasonsData.map(async seasonData => {
+      const season = Array.isArray(seasonData) ? seasonData[0] : seasonData; // Get the actual season object in case of an array
+      try {
+        const teamIds = season.teams ? season.teams.map(team => team.id) : [];
+        const fixtureIds = season.fixtures ? season.fixtures.map(fixture => fixture.id) : [];
+
+        await Season.findOneAndUpdate(
+          { id: season.id },
+          {
+            $set: {
               name: season.name,
               start_date: season.starting_at ? new Date(season.starting_at) : null,
               end_date: season.ending_at ? new Date(season.ending_at) : null,
-              league_id: seasonID,
-            });
-            await newSeason.save();
-            logger.info(`Season ${season.name} (ID: ${season.id}) saved successfully.`);
-          } catch (error) {
-            if (error.code === 11000) {
-              logger.warn(`Season with ID ${season.id} (${season.name}) already exists. Skipping...`);
-            } else {
-              logger.error(`Error saving season ${season.name} (ID: ${season.id}): ${error}`);
-              throw error;
+              league_id: season.league_id,
+              club_ids: teamIds,
+              fixture_ids: fixtureIds,
             }
+          },
+          {
+            upsert: true,
+            new: true,
+            setDefaultsOnInsert: true,
           }
-        });
-
-        await Promise.all(saveOperations);
-        logger.info(`All seasons for league ID ${seasonID} saved successfully (or skipped due to duplicates).`);
+        );
       } catch (error) {
-        logger.error(`Error fetching seasons for league ID ${seasonID}: ${error}`);
-        continue; // Skip to the next league ID
+        logger.error(`Error saving/updating season ${season.id}: ${error}`);
       }
-    }
+    });
+
+    await Promise.all(saveOperations);
+    logger.info(`Finished saving/updating seasons to the database`);
   } catch (error) {
     logger.error(`Error saving seasons: ${error}`);
     throw error;

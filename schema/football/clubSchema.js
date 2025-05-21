@@ -15,6 +15,7 @@ const clubSchema = new Schema({
   short_code: String,
   logo: String,
   league_id: Number,
+  roster: [{ type: Number, ref: 'Player' }],
 }, { timestamps: true });
 
 export default model('Club', clubSchema);

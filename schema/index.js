@@ -5,9 +5,10 @@ import mongoose from 'mongoose';
 import { DB_URL } from '../config.js';
 import logger from '../utils/logger.js';
 import getSavedSeasonIDs from '../db/getSavedSeasonIDs.js';
+import getSavedClubIDs from '../db/getSavedClubIDs.js';
+import getSavedFixtureIDs from '../db/getSavedFixtureIDs.js';
 import saveLeagues from '../db/saveLeagues.js';
 import saveSeasons from '../db/saveSeasons.js';
-import saveClubs from '../db/saveClubs.js';
 
 async function connectDB() {
   try {
@@ -20,10 +21,12 @@ async function connectDB() {
 
     if (currentSeasonIDs.length > 0) {
       await saveSeasons(currentSeasonIDs);
-      await saveClubs(currentSeasonIDs);
     } else {
       logger.warn('No current season IDs found. Skipping club saving.');
     }
+
+    const currentClubIDs = await getSavedClubIDs();
+    const currentFixtureIDs = await getSavedFixtureIDs();
 
     logger.info('Application started successfully');
   } catch (error) {

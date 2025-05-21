@@ -1,5 +1,7 @@
 // This file is imported in:
 // - /db/saveLeagues.js (for saving leagues to the database - fetchAllLeagues)
+// - /db/saveSeasons.js (for saving seasons to the database - fetchSeasons)
+// - /db/saveClubs.js (for saving clubs to the database - fetchClubs)
 
 import { createFootballFetchCall, createCoreFetchCall } from './createFetchCall.js';
 
@@ -11,10 +13,6 @@ export async function fetchAllPlayers() {
   return createFootballFetchCall('players', 'statistics');
 }
 
-export async function fetchRoster(clubId) {
-  return createFootballFetchCall('teams', 'players', clubId);
-}
-
 export async function fetchSeasons(seasonId) {
   return createFootballFetchCall('seasons', 'teams;fixtures', seasonId);
 }
@@ -24,7 +22,7 @@ export async function fetchClubs(clubId) {
 }
 
 export async function fetchFixtures(fixtureId) {
-  return createFootballFetchCall('fixtures', 'lineups;participants;statistics', fixtureId);
+  return createFootballFetchCall('fixtures', 'lineups;participants', fixtureId);
 }
 
 export async function fetchStatistics(playerID) {

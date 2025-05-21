@@ -9,39 +9,59 @@ export default async function saveLeagues() {
 
     if (!leaguesData || !Array.isArray(leaguesData) || leaguesData.length === 0) {
       logger.warn('No leagues data found to save.');
+      return;
     }
 
     logger.info(`Fetched leagues from API.`);
 
-    const saveOperations = leaguesData.map(async (league) => {
+    const domesticLeagues = leaguesData.filter(league => league.sub_type === 'domestic');
+
+    if (domesticLeagues.length === 0) {
+      logger.warn('No domestic leagues found to save.');
+      return;      
+    }
+
+    logger.info(`Saving ${domesticLeagues.length} domestic leagues to the database...`);
+    const saveOperations = domesticLeagues.map(async league => {
       try {
-        if (league.sub_type === 'domestic') {
-          const newLeague = new League({
-            id: league.id,
-            country_id: league.country_id,
-            name: league.name,
-            short_code: league.short_code,
-            logo: league.image_path,
-            season_id: league.currentseason?.id || null,
-            season_name: league.currentseason?.name || null,
-            season_start: league.currentseason?.starting_at ? new Date(league.currentseason.starting_at) : null,
-            season_end: league.currentseason?.ending_at ? new Date(league.currentseason.ending_at) : null,
-          });
-          await newLeague.save();
-          logger.info(`League ${league.name} (ID: ${league.id}) saved successfully.`);
+        let currentSeasonID = null;
+        let currentSeasonName = null;
+        let currentSeasonStartDate = null;
+        let currentSeasonEndDate = null;
+        if (league.currentseason) {
+          currentSeasonID = league.currentseason.id;
+          currentSeasonName = league.currentseason.name;
+          currentSeasonStartDate = league.currentseason.starting_at ? new Date(league.currentseason.starting_at) : null;
+          currentSeasonEndDate = league.currentseason.ending_at ? new Date(league.currentseason.ending_at) : null;
         }
+
+        await League.findOneAndUpdate(
+          { id: league.id },
+          {
+            $set: {
+              country_id: league.country_id,
+              name: league.name,
+              short_code: league.short_code,
+              logo: league.logo,
+              season_id: currentSeasonID,
+              season_name: currentSeasonName,
+              season_start_date: currentSeasonStartDate,
+              season_end_date: currentSeasonEndDate,
+            }
+          },
+          {
+            upsert: true,
+            new: true,
+            setDefaultsOnInsert: true,
+          }
+        );
       } catch (error) {
-        if (error.code === 11000) {
-          logger.warn(`League with ID ${league.id} (${league.name}) already exists. Skipping...`);
-        } else {
-          logger.error(`Error saving league ${league.name} (ID: ${league.id}): ${error}`);
-          throw error;
-        }
+        logger.error(`Error saving/updating league ${league.name} (ID: ${league.id}): ${error}`);
       }
     });
 
     await Promise.all(saveOperations);
-    logger.info('All leagues saved successfully (or skipped due to duplicates).');
+    logger.info('All leagues saved/updated successfully.');
   } catch (error) {
     logger.error(`Error saving leagues: ${error}`);
     throw error;
