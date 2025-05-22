@@ -1,4 +1,3 @@
-import mongoose from 'mongoose';
 import savedEntities from './saveEntities.js';
 import { fetchAllLeagues } from '../utils/fetchFunctions.js';
 import { League } from '../schema/index.js';

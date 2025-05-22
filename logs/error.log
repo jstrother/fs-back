@@ -681,3 +681,10 @@
 {"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:26:11.711Z"}
 {"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:27:50.140Z"}
 {"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:27:55.272Z"}
+{"level":"error","message":"Error in getClubIDs: ReferenceError: getIDsFromDB is not defined","service":"sportmonks api","timestamp":"2025-05-22T03:04:22.615Z"}
+{"level":"error","message":"Error in getClubIDs: ReferenceError: getIDsFromDB is not defined","service":"sportmonks api","timestamp":"2025-05-22T03:04:27.161Z"}
+{"level":"error","message":"Error in getClubIDs: ReferenceError: getIDsFromDB is not defined","service":"sportmonks api","timestamp":"2025-05-22T03:04:36.771Z"}
+{"level":"error","message":"Error in getClubIDs: ReferenceError: getIDsFromDB is not defined","service":"sportmonks api","timestamp":"2025-05-22T03:04:49.544Z"}
+{"level":"error","message":"Error retrieving club IDs from the seasons collection: TypeError: Cannot read properties of undefined (reading 'IDs')","service":"sportmonks api","timestamp":"2025-05-22T03:04:53.064Z"}
+{"level":"error","message":"Error retrieving club IDs from the seasons collection: TypeError: Cannot read properties of undefined (reading 'IDs')","service":"sportmonks api","timestamp":"2025-05-22T03:05:25.200Z"}
+{"level":"error","message":"Error retrieving club IDs from the seasons collection: TypeError: Cannot read properties of undefined (reading 'IDs')","service":"sportmonks api","timestamp":"2025-05-22T03:05:28.234Z"}

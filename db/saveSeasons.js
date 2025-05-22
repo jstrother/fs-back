@@ -1,4 +1,3 @@
-import mongoose from 'mongoose';
 import { fetchSeasons } from '../utils/fetchFunctions.js';
 import { Season } from '../schema/index.js';
 import logger from '../utils/logger.js';

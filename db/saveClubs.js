@@ -1,12 +1,11 @@
-import mongoose from "mongoose";
-import { fetchClubs } from "../utils/fetchFunctions.js";
-import { Club } from "../schema/index.js";
-import logger from "../utils/logger.js";
+import { fetchClubs } from '../utils/fetchFunctions.js';
+import { Club } from '../schema/index.js';
+import logger from '../utils/logger.js';
 
 export default async function saveClubs(seasonIDs) {
   try {
     if (!seasonIDs || !Array.isArray(seasonIDs) || seasonIDs.length === 0) {
-      logger.warn("No season IDs provided to save clubs.");
+      logger.warn('No season IDs provided to save clubs.');
       return;
     }
 

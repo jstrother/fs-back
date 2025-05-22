@@ -1,5 +1,24 @@
 import logger from '../utils/logger.js';
 
+/**
+ * A generic function to fetch entities from an API and save/update them in the database.
+ * It uses findOneAndUpdate with upsert: true for efficient batch operations.
+ *
+ * @param {object} options - Configuration object for the saving process.
+ * @param {Function} options.fetchFunction - The async function to call to fetch data from the API.
+ * If `fetchArgs` is an array of IDs, this function will be called once for each ID.
+ * It should return a single raw API data object or null/undefined if data is not found.
+ * @param {object} options.Model - The Mongoose Model (e.g., League, Season, Club, Fixture) to save data to.
+ * @param {string} options.uniqueKey - The field name in the API data that serves as the unique identifier
+ * for the document in the database (e.g., 'id', 'fixture_id').
+ * @param {Function} options.mapApiDataToSchema - A function that takes a raw API data object
+ * and returns an object formatted for the Mongoose schema's $set operation.
+ * @param {string} options.entityName - A singular name for the entity (e.g., 'league', 'season') for logging purposes.
+ * @param {Array<any>} [options.fetchArgs=[]] - Optional arguments to pass to the fetchFunction.
+ * If this is an array, `fetchFunction` will be called for each item in this array.
+ * @returns {Promise<void>}
+ */
+
 export default async function saveEntities({
   fetchFunction,
   Model,
