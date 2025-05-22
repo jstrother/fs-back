@@ -8761,3 +8761,1453 @@
 {"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T01:56:03.725Z"}
 {"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T01:56:03.729Z"}
 {"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T01:56:03.730Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:05:51.411Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:05:51.480Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:05:52.376Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:05:52.381Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:05:52.483Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:05:52.512Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:05:52.528Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:05:53.054Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:05:53.092Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:05:53.099Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:05:53.107Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:05:53.108Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:08:23.271Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:08:23.315Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:08:23.818Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:08:23.824Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:08:23.863Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:08:23.881Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:08:23.882Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:08:24.200Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:08:24.234Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:08:24.239Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:08:24.252Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:08:24.255Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:08:32.927Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:08:32.963Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:08:33.762Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:08:33.763Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:08:33.806Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:08:33.819Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:08:33.821Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:08:34.711Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:08:34.747Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:08:35.291Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:08:35.292Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:08:35.324Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:08:35.337Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:08:35.338Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:08:35.665Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:08:35.685Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:08:35.690Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:08:35.697Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:08:35.698Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:08:39.825Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:08:39.857Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:08:40.492Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:08:40.493Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:08:40.531Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:08:40.543Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:08:40.546Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:08:40.820Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:08:40.838Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:08:40.842Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:08:40.848Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:08:40.848Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:08:43.921Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:08:43.959Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:08:45.264Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:08:45.303Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:08:45.784Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:08:45.785Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:08:45.820Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:08:45.830Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:08:45.831Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:08:46.729Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:08:46.764Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:08:47.261Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:08:47.262Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:08:47.299Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:08:47.311Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:08:47.312Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:08:47.753Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:08:47.777Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:08:47.808Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:08:47.814Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:08:47.815Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:08:53.334Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:08:53.379Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:08:53.806Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:08:53.807Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:08:53.844Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:08:53.855Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:08:53.856Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:08:54.129Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:08:54.153Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:08:54.158Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:08:54.164Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:08:54.164Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:09:06.939Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:09:06.968Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:09:08.177Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:09:08.210Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:09:08.655Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:09:08.656Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:09:08.694Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:09:08.708Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:09:08.709Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:09:09.047Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:09:09.063Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:09:09.067Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:09:09.071Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:09:09.072Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:09:15.448Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:09:15.487Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:09:15.930Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:09:15.931Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:09:15.975Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:09:15.984Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:09:15.985Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:09:16.251Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:09:16.274Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:09:16.278Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:09:16.284Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:09:16.285Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:09:18.202Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:09:18.238Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:09:18.797Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:09:18.798Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:09:18.840Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:09:18.852Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:09:18.854Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:09:19.108Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:09:19.134Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:09:19.151Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:09:19.163Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:09:19.164Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:09:24.093Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:09:24.125Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:09:24.506Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:09:24.507Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:09:24.541Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:09:24.552Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:09:24.553Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:09:24.823Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:09:24.845Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:09:24.850Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:09:24.855Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:09:24.855Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:09:28.030Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:09:28.065Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:09:28.549Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:09:28.550Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:09:28.595Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:09:28.608Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:09:28.609Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:09:28.864Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:09:28.889Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:09:28.894Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:09:28.901Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:09:28.902Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:09:32.144Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:09:32.171Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:09:32.573Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:09:32.574Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:09:32.613Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:09:32.624Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:09:32.625Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:09:32.887Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:09:32.928Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:09:32.949Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:09:32.963Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:09:32.964Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:09:38.062Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:09:38.097Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:09:38.557Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:09:38.558Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:09:38.600Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:09:38.616Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:09:38.617Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:09:38.915Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:09:38.954Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:09:38.959Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:09:38.965Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:09:38.965Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:09:44.257Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:09:44.297Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:09:44.782Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:09:44.783Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:09:44.837Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:09:44.852Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:09:44.853Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:09:45.106Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:09:45.124Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:09:45.128Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:09:45.134Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:09:45.135Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:09:48.185Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:09:48.217Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:09:48.626Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:09:48.627Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:09:48.665Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:09:48.676Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:09:48.677Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:09:48.941Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:09:48.963Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:09:48.967Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:09:48.972Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:09:48.973Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:09:55.770Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:09:55.810Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:09:56.281Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:09:56.282Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:09:56.324Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:09:56.346Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:09:56.347Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:09:56.669Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:09:56.695Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:09:56.701Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:09:56.708Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:09:56.709Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:10:05.130Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:10:05.164Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:10:05.602Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:10:05.603Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:10:05.648Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:10:05.661Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:10:05.662Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:10:05.934Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:10:05.959Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:10:05.969Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:10:05.975Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:10:05.976Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:10:09.374Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:10:09.412Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:10:09.891Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:10:09.892Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:10:09.938Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:10:09.949Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:10:09.952Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:10:10.265Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:10:10.285Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:10:10.290Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:10:10.298Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:10:10.298Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:10:14.405Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:10:14.438Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:10:14.920Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:10:14.922Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:10:14.967Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:10:14.982Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:10:14.984Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:10:15.495Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:10:15.516Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:10:15.522Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:10:15.527Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:10:15.528Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:10:27.934Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:10:27.969Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:10:28.371Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:10:28.372Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:10:28.402Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:10:28.411Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:10:28.412Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:10:28.713Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:10:28.733Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:10:28.737Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:10:28.742Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:10:28.743Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:10:32.135Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:10:32.169Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:10:32.569Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:10:32.570Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:10:32.605Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:10:32.616Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:10:32.618Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:10:32.912Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:10:32.928Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:10:32.932Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:10:32.936Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:10:32.936Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:10:36.185Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:10:36.215Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:10:36.615Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:10:36.616Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:10:36.651Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:10:36.661Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:10:36.662Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:10:36.921Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:10:36.936Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:10:36.940Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:10:36.945Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:10:36.945Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:10:43.049Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:10:43.088Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:10:43.511Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:10:43.512Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:10:43.548Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:10:43.561Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:10:43.562Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:10:43.895Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:10:43.913Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:10:43.916Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:10:43.923Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:10:43.923Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:10:55.656Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:10:55.695Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:10:56.280Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:10:56.281Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:10:56.316Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:10:56.327Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:10:56.328Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:10:56.676Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:10:56.701Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:10:56.706Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:10:56.710Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:10:56.711Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:11:00.247Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:11:00.285Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:11:00.752Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:11:00.754Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:11:00.803Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:11:00.819Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:11:00.820Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:11:01.076Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:11:01.100Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:11:01.105Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:11:01.112Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:11:01.113Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:11:05.962Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:11:05.997Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:11:06.422Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:11:06.423Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:11:06.463Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:11:06.473Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:11:06.474Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:11:07.602Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:11:07.633Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:11:08.050Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:11:08.051Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:11:08.089Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:11:08.103Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:11:08.105Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:11:08.403Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:11:08.421Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:11:08.424Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:11:08.428Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:11:08.429Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:11:12.535Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:11:12.570Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:11:13.017Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:11:13.017Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:11:13.045Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:11:13.055Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:11:13.057Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:11:13.365Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:11:13.386Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:11:13.392Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:11:13.396Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:11:13.397Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:11:19.597Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:11:19.643Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:11:20.074Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:11:20.076Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:11:20.117Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:11:20.129Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:11:20.130Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:11:20.425Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:11:20.445Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:11:20.451Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:11:20.456Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:11:20.456Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:11:31.489Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:11:31.528Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:11:31.927Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:11:31.928Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:11:31.972Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:11:31.985Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:11:31.986Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:11:32.301Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:11:32.320Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:11:32.324Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:11:32.331Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:11:32.332Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:11:33.380Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:11:33.415Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:11:33.803Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:11:33.804Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:11:33.839Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:11:33.850Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:11:33.851Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:11:34.097Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:11:34.115Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:11:34.119Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:11:34.125Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:11:34.127Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:11:53.236Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:11:53.269Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:11:53.722Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:11:53.723Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:11:53.762Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:11:53.774Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:11:53.775Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:11:54.051Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:11:54.088Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:11:54.095Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:11:54.101Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:11:54.102Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:11:54.990Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:11:55.026Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:11:55.559Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:11:55.560Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:11:55.603Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:11:55.616Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:11:55.618Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:11:55.880Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:11:55.904Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:11:55.909Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:11:55.914Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:11:55.915Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:12:00.557Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:12:00.595Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:12:01.111Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:12:01.112Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:12:01.154Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:12:01.166Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:12:01.168Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:12:01.486Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:12:01.506Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:12:01.513Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:12:01.519Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:12:01.519Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:12:06.345Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:12:06.386Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:12:06.826Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:12:06.827Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:12:06.865Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:12:06.876Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:12:06.877Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:12:07.129Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:12:07.153Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:12:07.977Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:12:08.009Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:12:08.470Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:12:08.471Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:12:08.510Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:12:08.522Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:12:08.523Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:12:08.782Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:12:08.807Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:12:08.814Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:12:08.818Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:12:08.819Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:12:10.290Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:12:10.329Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:12:10.823Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:12:10.824Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:12:10.864Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:12:10.877Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:12:10.879Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:12:11.222Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:12:11.247Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:12:11.252Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:12:11.256Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:12:11.257Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:12:19.398Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:12:19.434Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:12:19.839Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:12:19.840Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:12:19.877Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:12:19.888Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:12:19.890Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:12:20.170Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:12:20.194Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:12:21.182Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:12:21.228Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:12:21.639Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:12:21.640Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:12:21.677Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:12:21.689Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:12:21.690Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:12:21.959Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:12:21.978Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:12:21.983Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:12:21.987Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:12:21.988Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:12:23.722Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:12:23.758Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:12:24.234Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:12:24.235Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:12:24.269Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:12:24.281Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:12:24.284Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:12:24.539Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:12:24.560Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:12:24.564Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:12:24.567Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:12:24.568Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:12:34.426Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:12:34.466Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:12:34.888Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:12:34.889Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:12:34.919Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:12:34.928Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:12:34.930Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:12:35.187Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:12:35.211Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:12:35.218Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:12:35.223Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:12:35.223Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:12:37.734Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:12:37.761Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:12:38.159Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:12:38.160Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:12:38.193Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:12:38.204Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:12:38.205Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:12:38.469Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:12:38.487Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:12:38.491Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:12:38.496Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:12:38.497Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:12:48.226Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:12:48.265Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:12:48.726Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:12:48.727Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:12:48.780Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:12:48.793Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:12:48.795Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:12:49.061Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:12:49.082Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:12:49.087Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:12:49.092Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:12:49.093Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:12:55.590Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:12:55.623Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:12:56.087Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:12:56.088Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:12:56.128Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:12:56.142Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:12:56.143Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:12:56.475Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:12:56.498Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:12:56.503Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:12:56.510Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:12:56.511Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:12:58.342Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:12:58.375Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:12:58.775Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:12:58.776Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:12:58.816Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:12:58.831Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:12:58.832Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:12:59.124Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:12:59.146Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:12:59.150Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:12:59.156Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:12:59.157Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:13:01.344Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:13:01.376Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:13:02.761Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:13:02.788Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:13:03.253Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:13:03.254Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:13:03.285Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:13:03.298Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:13:03.299Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:13:03.566Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:13:03.588Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:13:03.592Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:13:03.601Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:13:03.602Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:13:09.088Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:13:09.114Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:13:09.496Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:13:09.497Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:13:09.527Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:13:09.538Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:13:09.539Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:13:09.792Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:13:09.813Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:13:09.818Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:13:09.823Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:13:09.824Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:13:20.142Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:13:20.176Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:13:20.679Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:13:20.680Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:13:20.722Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:13:20.735Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:13:20.736Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:13:21.092Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:13:21.108Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:13:21.111Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:13:21.115Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:13:21.116Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:13:23.475Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:13:23.518Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:13:24.037Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:13:24.038Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:13:24.070Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:13:24.080Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:13:24.082Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:13:24.364Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:13:24.385Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:13:24.392Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:13:24.398Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:13:24.399Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:13:27.540Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:13:27.580Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:13:27.982Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:13:27.983Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:13:28.019Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:13:28.027Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:13:28.028Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:13:28.422Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:13:28.443Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:13:28.448Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:13:28.453Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:13:28.453Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:13:33.557Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:13:33.594Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:13:33.993Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:13:33.994Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:13:34.027Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:13:34.037Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:13:34.038Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:13:34.365Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:13:34.383Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:13:34.388Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:13:34.396Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:13:34.397Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:13:36.299Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:13:36.335Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:13:36.837Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:13:36.838Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:13:36.872Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:13:36.886Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:13:36.887Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:13:37.229Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:13:37.246Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:13:37.250Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:13:37.254Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:13:37.255Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:13:52.574Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:13:52.614Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:13:53.018Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:13:53.019Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:13:53.055Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:13:53.067Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:13:53.069Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:13:53.318Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:13:53.336Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:13:53.340Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:13:53.345Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:13:53.345Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:14:01.955Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:14:01.997Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:14:02.425Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:14:02.426Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:14:02.465Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:14:02.478Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:14:02.482Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:14:02.775Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:14:02.794Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:14:02.798Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:14:02.802Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:14:02.803Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:14:05.772Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:14:05.810Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:14:06.232Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:14:06.233Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:14:06.276Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:14:06.287Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:14:06.288Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:14:06.575Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:14:06.597Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:14:06.602Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:14:06.607Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:14:06.607Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:14:07.891Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:14:07.920Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:14:08.372Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:14:08.373Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:14:08.410Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:14:08.423Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:14:08.424Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:14:08.706Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:14:08.731Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:14:08.738Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:14:08.744Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:14:08.744Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:14:15.008Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:14:15.045Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:14:15.444Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:14:15.444Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:14:15.479Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:14:15.489Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:14:15.491Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:14:15.750Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:14:15.771Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:14:15.776Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:14:15.780Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:14:15.781Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:14:24.564Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:14:24.598Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:14:25.008Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:14:25.009Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:14:25.045Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:14:25.056Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:14:25.057Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:14:25.311Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:14:25.334Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:14:25.338Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:14:25.345Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:14:25.346Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:14:29.370Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:14:29.402Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:14:30.491Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:14:30.525Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:14:31.718Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:14:31.756Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:14:32.233Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:14:32.234Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:14:32.265Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:14:32.277Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:14:32.278Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:14:32.532Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:14:32.548Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:14:32.554Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:14:32.558Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:14:32.559Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:14:37.238Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:14:37.277Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:14:37.794Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:14:37.807Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:14:37.863Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:14:37.877Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:14:37.879Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:14:38.153Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:14:38.169Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:14:38.172Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:14:38.177Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:14:38.178Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-21T23:14:41.161Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-21T23:14:41.199Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-21T23:14:41.599Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:14:41.600Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-21T23:14:41.632Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-21T23:14:41.646Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-21T23:14:41.648Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-21T23:14:41.950Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-21T23:14:41.974Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:14:41.978Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-21T23:14:41.982Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-21T23:14:41.982Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T01:52:32.563Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T01:52:32.594Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T01:52:33.441Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-22T01:52:33.442Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-22T01:52:33.488Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T01:52:33.501Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-22T01:52:33.502Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-22T01:52:34.027Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-22T01:52:34.048Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T01:52:34.052Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T01:52:34.059Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T01:52:34.060Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T01:55:29.745Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T01:55:29.786Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T01:55:30.445Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-22T01:55:30.446Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-22T01:55:30.476Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T01:55:30.488Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-22T01:55:30.489Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-22T01:55:30.777Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-22T01:55:30.799Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T01:55:30.805Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T01:55:30.811Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T01:55:30.812Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T01:55:32.943Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T01:55:32.978Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T01:55:33.380Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-22T01:55:33.381Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-22T01:55:33.415Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T01:55:33.424Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-22T01:55:33.425Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-22T01:55:33.708Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-22T01:55:33.724Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T01:55:33.728Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T01:55:33.733Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T01:55:33.734Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T01:55:51.986Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T01:55:52.025Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T01:55:52.510Z"}
+{"level":"info","message":"Saving 2 domestic leagues to the database...","service":"sportmonks api","timestamp":"2025-05-22T01:55:52.511Z"}
+{"level":"info","message":"All leagues saved/updated successfully.","service":"sportmonks api","timestamp":"2025-05-22T01:55:52.551Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T01:55:52.563Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-22T01:55:52.564Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-22T01:55:52.820Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-22T01:55:52.840Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T01:55:52.845Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T01:55:52.851Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T01:55:52.852Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:00:07.391Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:00:07.420Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:00:07.477Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-22T02:00:07.478Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-22T02:00:08.307Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-22T02:00:08.346Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:00:08.352Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:00:08.357Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T02:00:08.358Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:02:03.565Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:02:03.604Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:02:03.667Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-22T02:02:03.668Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-22T02:02:04.358Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-22T02:02:04.413Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:02:04.420Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:02:04.427Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T02:02:04.428Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:03:22.233Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:03:22.266Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:03:22.321Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-22T02:03:22.323Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-22T02:03:23.036Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-22T02:03:23.092Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:03:23.098Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:03:23.104Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T02:03:23.104Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:03:53.036Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:03:53.067Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:03:53.578Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:03:53.589Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-22T02:03:53.590Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-22T02:03:53.845Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-22T02:03:53.884Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:03:53.889Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:03:53.893Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T02:03:53.893Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:04:24.120Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:04:24.155Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:04:24.542Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:04:24.553Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-22T02:04:24.554Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-22T02:04:24.897Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-22T02:04:24.944Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:04:24.951Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:04:24.961Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T02:04:24.965Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:04:27.488Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:04:27.527Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:04:27.984Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:04:28.002Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-22T02:04:28.004Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-22T02:04:28.297Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-22T02:04:28.346Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:04:28.353Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:04:28.359Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T02:04:28.360Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:04:33.966Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:04:33.998Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:04:34.433Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:04:36.407Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:04:36.446Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:04:36.889Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:04:44.131Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:04:44.173Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:04:44.601Z"}
+{"level":"info","message":"Beginning to fetch and save undefineds...","service":"sportmonks api","timestamp":"2025-05-22T02:04:44.602Z"}
+{"level":"warn","message":"No undefineds found in API response.","service":"sportmonks api","timestamp":"2025-05-22T02:04:44.603Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:04:44.614Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-22T02:04:44.615Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-22T02:04:44.873Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-22T02:04:44.915Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:04:44.919Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:04:44.923Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T02:04:44.924Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:04:46.775Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:04:46.809Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:04:47.230Z"}
+{"level":"info","message":"Beginning to fetch and save undefineds...","service":"sportmonks api","timestamp":"2025-05-22T02:04:47.232Z"}
+{"level":"info","message":"Fetched 2 undefineds from API.","service":"sportmonks api","timestamp":"2025-05-22T02:04:47.232Z"}
+{"level":"error","message":"Error saving/updating undefined (ID: undefined): mapApiDataToSchema is not a function","service":"sportmonks api","timestamp":"2025-05-22T02:04:47.233Z"}
+{"level":"error","message":"Error saving/updating undefined (ID: undefined): mapApiDataToSchema is not a function","service":"sportmonks api","timestamp":"2025-05-22T02:04:47.234Z"}
+{"level":"info","message":"Successfully saved/updated undefineds to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:04:47.234Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:04:47.246Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-22T02:04:47.247Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-22T02:04:47.495Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-22T02:04:47.538Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:04:47.543Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:04:47.548Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T02:04:47.549Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:04:49.274Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:04:49.305Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:04:49.795Z"}
+{"level":"info","message":"Beginning to fetch and save undefineds...","service":"sportmonks api","timestamp":"2025-05-22T02:04:49.798Z"}
+{"level":"info","message":"Fetched 2 undefineds from API.","service":"sportmonks api","timestamp":"2025-05-22T02:04:49.798Z"}
+{"level":"error","message":"Error saving/updating undefined (ID: undefined): mapApiDataToSchema is not a function","service":"sportmonks api","timestamp":"2025-05-22T02:04:49.799Z"}
+{"level":"error","message":"Error saving/updating undefined (ID: undefined): mapApiDataToSchema is not a function","service":"sportmonks api","timestamp":"2025-05-22T02:04:49.800Z"}
+{"level":"info","message":"Successfully saved/updated undefineds to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:04:49.801Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:04:49.811Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-22T02:04:49.812Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-22T02:04:50.094Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:04:51.009Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:04:51.043Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:04:51.536Z"}
+{"level":"info","message":"Beginning to fetch and save undefineds...","service":"sportmonks api","timestamp":"2025-05-22T02:04:51.537Z"}
+{"level":"info","message":"Fetched 2 undefineds from API.","service":"sportmonks api","timestamp":"2025-05-22T02:04:51.538Z"}
+{"level":"error","message":"Error saving/updating undefined (ID: 271): mapApiDataToSchema is not a function","service":"sportmonks api","timestamp":"2025-05-22T02:04:51.538Z"}
+{"level":"error","message":"Error saving/updating undefined (ID: 501): mapApiDataToSchema is not a function","service":"sportmonks api","timestamp":"2025-05-22T02:04:51.539Z"}
+{"level":"info","message":"Successfully saved/updated undefineds to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:04:51.540Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:04:51.554Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-22T02:04:51.555Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-22T02:04:51.824Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-22T02:04:51.865Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:04:51.870Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:04:51.875Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T02:04:51.875Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:04:54.824Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:04:54.860Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:04:55.262Z"}
+{"level":"info","message":"Beginning to fetch and save undefineds...","service":"sportmonks api","timestamp":"2025-05-22T02:04:55.264Z"}
+{"level":"info","message":"Fetched 2 undefineds from API.","service":"sportmonks api","timestamp":"2025-05-22T02:04:55.264Z"}
+{"level":"error","message":"Error saving/updating undefined (ID: 271): mapApiDataToSchema is not a function","service":"sportmonks api","timestamp":"2025-05-22T02:04:55.265Z"}
+{"level":"error","message":"Error saving/updating undefined (ID: 501): mapApiDataToSchema is not a function","service":"sportmonks api","timestamp":"2025-05-22T02:04:55.265Z"}
+{"level":"info","message":"Successfully saved/updated undefineds to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:04:55.266Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:04:55.277Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-22T02:04:55.278Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-22T02:04:55.613Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-22T02:04:55.650Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:04:55.655Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:04:55.659Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T02:04:55.660Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:05:01.175Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:05:01.209Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:05:02.247Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:05:02.295Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:05:02.798Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:05:02.800Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:05:02.800Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:05:02.836Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:05:02.851Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-22T02:05:02.852Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-22T02:05:03.138Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-22T02:05:03.155Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:05:03.158Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:05:03.162Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T02:05:03.163Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:05:09.017Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:05:09.053Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:05:09.561Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:05:09.562Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:05:09.563Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:05:09.603Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:05:09.615Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-22T02:05:09.616Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-22T02:05:09.871Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-22T02:05:09.892Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:05:09.898Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:05:09.903Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T02:05:09.903Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:05:13.057Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:05:13.093Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:05:13.506Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:05:13.507Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:05:13.508Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:05:13.548Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:05:13.561Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-22T02:05:13.562Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-22T02:05:13.840Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-22T02:05:13.860Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:05:13.865Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:05:13.872Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T02:05:13.872Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:05:31.443Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:05:31.493Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:05:31.989Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:05:31.991Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:05:31.991Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:05:32.036Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:05:32.049Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-22T02:05:32.050Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-22T02:05:32.374Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-22T02:05:32.395Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:05:32.399Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:05:32.406Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T02:05:32.406Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:06:54.539Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:06:54.578Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:06:55.040Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:06:55.042Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:06:55.042Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:06:55.086Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:06:55.099Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-22T02:06:55.101Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-22T02:06:55.419Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-22T02:06:55.441Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:06:55.447Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:06:55.454Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T02:06:55.455Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:07:06.890Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:07:06.917Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:07:07.323Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:07:07.325Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:07:07.325Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:07:07.358Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:07:07.366Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-22T02:07:07.367Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-22T02:07:07.622Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-22T02:07:07.644Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:07:07.648Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:07:07.654Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T02:07:07.655Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:07:13.922Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:07:13.960Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:07:14.380Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:07:14.381Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:07:14.381Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:07:14.414Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:07:14.425Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-22T02:07:14.426Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-22T02:07:14.773Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-22T02:07:14.788Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:07:14.793Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:07:14.799Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T02:07:14.799Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:07:32.719Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:07:32.756Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:07:33.333Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:07:33.334Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:07:33.335Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:07:33.373Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:07:33.387Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-22T02:07:33.388Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-22T02:07:33.648Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-22T02:07:33.679Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:07:33.687Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:07:33.696Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T02:07:33.699Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:07:50.432Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:07:50.464Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:07:50.942Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:07:50.943Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:07:50.944Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:07:50.984Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:07:50.999Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-22T02:07:51.000Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-22T02:07:51.330Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-22T02:07:51.350Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:07:51.357Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:07:51.363Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T02:07:51.364Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:08:21.239Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:08:21.271Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:08:22.770Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:08:22.807Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:08:23.300Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:08:23.306Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:08:23.307Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:08:23.345Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:08:23.354Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-22T02:08:23.356Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-22T02:08:23.603Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-22T02:08:23.619Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:08:23.622Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:08:23.626Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T02:08:23.626Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:08:47.309Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:08:47.387Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:08:47.860Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:08:47.862Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:08:47.863Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:08:47.905Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:08:47.916Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-22T02:08:47.917Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-22T02:08:48.180Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-22T02:08:48.201Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:08:48.206Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:08:48.214Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T02:08:48.215Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:08:49.859Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:08:49.897Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:08:50.337Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:08:50.339Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:08:50.340Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:08:50.382Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:08:50.396Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-22T02:08:50.397Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-22T02:08:50.671Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-22T02:08:50.696Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:08:50.702Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:08:50.707Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T02:08:50.708Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:08:54.534Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:08:54.562Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:08:55.052Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:08:55.053Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:08:55.054Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:08:55.098Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:08:55.112Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-22T02:08:55.113Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-22T02:08:55.433Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-22T02:08:55.450Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:08:55.454Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:08:55.458Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T02:08:55.459Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:09:00.617Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:09:00.647Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:09:01.090Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:09:01.091Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:09:01.092Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:09:01.147Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:09:01.179Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-22T02:09:01.181Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-22T02:09:01.490Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-22T02:09:01.505Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:09:01.508Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:09:01.514Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T02:09:01.515Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:09:09.148Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:09:09.199Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:09:09.686Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:09:09.692Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:09:09.693Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:09:09.742Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:09:09.757Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-22T02:09:09.758Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-22T02:09:10.009Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-22T02:09:10.031Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:09:10.036Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:09:10.041Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T02:09:10.041Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:09:47.736Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:09:47.765Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:09:48.187Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:09:48.188Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:09:48.188Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:09:48.222Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:09:48.230Z"}
+{"level":"info","message":"Beginning to fetch and save seasons for 2 leagues","service":"sportmonks api","timestamp":"2025-05-22T02:09:48.231Z"}
+{"level":"info","message":"Saving 2 seasons to the database...","service":"sportmonks api","timestamp":"2025-05-22T02:09:48.581Z"}
+{"level":"info","message":"Finished saving/updating seasons to the database","service":"sportmonks api","timestamp":"2025-05-22T02:09:48.598Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:09:48.602Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:09:48.606Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T02:09:48.606Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:12:43.482Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:12:43.527Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:12:44.112Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:12:44.114Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:12:44.114Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:12:44.156Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:12:44.168Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:12:44.173Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:12:44.179Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T02:12:44.180Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:13:11.700Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:13:11.740Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:13:12.166Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:13:12.167Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:13:12.168Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:13:12.210Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:13:12.221Z"}
+{"level":"warn","message":"No unique club IDs found in the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:13:12.228Z"}
+{"level":"warn","message":"No unique fixture IDs found in the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:13:12.232Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T02:13:12.233Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:13:20.373Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:13:20.403Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:13:20.815Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:13:20.816Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:13:20.817Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:13:20.851Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:13:20.860Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:13:23.909Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:13:23.938Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:13:24.583Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:13:24.585Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:13:24.586Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:13:24.619Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:13:24.631Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:13:27.278Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:13:27.308Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:13:27.836Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:13:27.838Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:13:27.838Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:13:27.870Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:13:27.880Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:14:38.255Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:14:38.289Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:14:38.820Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:14:38.825Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:14:38.826Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:14:38.899Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:14:47.624Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:14:47.660Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:14:48.217Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:14:48.218Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:14:48.219Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:14:48.258Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:14:48.270Z"}
+{"level":"info","message":"Beginning to fetch and save undefineds...","service":"sportmonks api","timestamp":"2025-05-22T02:14:48.271Z"}
+{"level":"warn","message":"No undefineds found in API response.","service":"sportmonks api","timestamp":"2025-05-22T02:14:48.271Z"}
+{"level":"warn","message":"No unique club IDs found in the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:14:48.276Z"}
+{"level":"warn","message":"No unique fixture IDs found in the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:14:48.285Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T02:14:48.286Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:15:00.596Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:15:00.659Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:15:01.107Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:15:01.108Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:15:01.109Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:15:01.155Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:15:03.833Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:15:03.881Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:15:04.406Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:15:04.408Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:15:04.408Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:15:04.457Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:15:04.471Z"}
+{"level":"info","message":"Beginning to fetch and save undefineds...","service":"sportmonks api","timestamp":"2025-05-22T02:15:04.472Z"}
+{"level":"warn","message":"No undefineds found in API response.","service":"sportmonks api","timestamp":"2025-05-22T02:15:04.472Z"}
+{"level":"warn","message":"No unique club IDs found in the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:15:04.478Z"}
+{"level":"warn","message":"No unique fixture IDs found in the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:15:04.483Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T02:15:04.484Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:15:05.782Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:15:05.820Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:15:06.344Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:15:06.345Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:15:06.346Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:15:06.383Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:15:06.395Z"}
+{"level":"info","message":"Beginning to fetch and save undefineds...","service":"sportmonks api","timestamp":"2025-05-22T02:15:06.396Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:15:06.616Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:15:10.614Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:15:10.661Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:15:11.264Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:15:11.279Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:15:11.280Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:15:11.347Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:15:11.361Z"}
+{"level":"info","message":"Beginning to fetch and save undefineds...","service":"sportmonks api","timestamp":"2025-05-22T02:15:11.362Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:15:11.635Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:15:17.095Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:15:17.201Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:15:28.819Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:15:28.853Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:15:29.276Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:15:29.278Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:15:29.278Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:15:29.317Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:15:29.331Z"}
+{"level":"info","message":"Beginning to fetch and save undefineds...","service":"sportmonks api","timestamp":"2025-05-22T02:15:29.333Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:15:29.495Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:19:11.150Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:19:11.176Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:19:11.894Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:19:11.895Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:19:11.895Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:19:11.925Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:19:11.933Z"}
+{"level":"info","message":"Beginning to fetch and save seasons...","service":"sportmonks api","timestamp":"2025-05-22T02:19:11.934Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:19:12.170Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:21:37.194Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:21:37.233Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:21:37.928Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:21:37.931Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:21:37.932Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:21:37.984Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:21:37.996Z"}
+{"level":"info","message":"Beginning to fetch and save seasons...","service":"sportmonks api","timestamp":"2025-05-22T02:21:37.997Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:21:38.163Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:21:41.279Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:21:41.309Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:21:42.000Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:21:42.005Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:21:42.005Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:21:42.043Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:21:42.056Z"}
+{"level":"info","message":"Beginning to fetch and save seasons...","service":"sportmonks api","timestamp":"2025-05-22T02:21:42.057Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:21:42.216Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:22:47.228Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:22:47.263Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:22:48.090Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:22:48.091Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:22:48.092Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:22:48.137Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:22:48.149Z"}
+{"level":"info","message":"Beginning to fetch and save seasons...","service":"sportmonks api","timestamp":"2025-05-22T02:22:48.155Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:22:48.313Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:22:56.910Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:22:56.943Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:22:57.345Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:22:57.347Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:22:57.347Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:22:57.387Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:22:57.400Z"}
+{"level":"info","message":"Beginning to fetch and save seasons...","service":"sportmonks api","timestamp":"2025-05-22T02:22:57.401Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:22:57.566Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:23:22.419Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:23:22.455Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:23:22.990Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:23:22.991Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:23:22.992Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:23:23.036Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:23:23.051Z"}
+{"level":"info","message":"Beginning to fetch and save seasons...","service":"sportmonks api","timestamp":"2025-05-22T02:23:23.052Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:23:23.214Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:23:27.955Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:23:27.995Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:23:28.526Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:23:28.528Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:23:28.529Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:23:28.566Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:23:28.580Z"}
+{"level":"info","message":"Beginning to fetch and save seasons...","service":"sportmonks api","timestamp":"2025-05-22T02:23:28.581Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:23:28.756Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:24:50.553Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:24:50.609Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:24:51.181Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:24:51.183Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:24:51.183Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:24:51.230Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:24:51.245Z"}
+{"level":"info","message":"Beginning to fetch and save seasons...","service":"sportmonks api","timestamp":"2025-05-22T02:24:51.247Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:24:51.436Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:24:55.727Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:24:55.766Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:24:56.180Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:24:56.181Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:24:56.182Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:24:56.216Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:24:56.231Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:24:56.394Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:25:10.775Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:25:10.817Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:25:11.251Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:25:11.252Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:25:11.253Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:25:11.296Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:25:11.313Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:25:11.510Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:25:41.575Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:25:41.617Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:25:42.375Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:25:42.377Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:25:42.378Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:25:42.421Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:25:42.435Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:25:42.641Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:26:05.795Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:26:05.831Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:26:06.342Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:26:06.343Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:26:06.344Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:26:06.385Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:26:06.398Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:26:06.605Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:26:10.966Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:26:11.026Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:26:11.452Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:26:11.454Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:26:11.454Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:26:11.489Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:26:11.500Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:26:11.711Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:27:49.365Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:27:49.413Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:27:49.867Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:27:49.869Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:27:49.869Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:27:49.904Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:27:49.919Z"}
+{"level":"info","message":"Beginning to fetch and save seasons...","service":"sportmonks api","timestamp":"2025-05-22T02:27:49.920Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:27:50.140Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:27:54.306Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:27:54.345Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:27:54.893Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:27:54.895Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:27:54.895Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:27:54.932Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:27:54.944Z"}
+{"level":"info","message":"Beginning to fetch and save seasons...","service":"sportmonks api","timestamp":"2025-05-22T02:27:54.946Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:27:55.272Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:28:01.315Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:28:01.351Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:28:01.966Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:28:01.968Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:28:01.968Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:28:02.002Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:28:02.012Z"}
+{"level":"info","message":"Beginning to fetch and save seasons...","service":"sportmonks api","timestamp":"2025-05-22T02:28:02.012Z"}
+{"level":"info","message":"Fetched 1 seasons from API.","service":"sportmonks api","timestamp":"2025-05-22T02:28:02.383Z"}
+{"level":"info","message":"Successfully saved/updated seasons to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:28:02.396Z"}
+{"level":"info","message":"Retrieved 12 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:28:02.399Z"}
+{"level":"info","message":"Retrieved 228 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:28:02.403Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T02:28:02.404Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:29:03.415Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:29:03.455Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:29:03.902Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:29:03.904Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:29:03.904Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:29:03.936Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:29:03.948Z"}
+{"level":"info","message":"Beginning to fetch and save seasons...","service":"sportmonks api","timestamp":"2025-05-22T02:29:03.949Z"}
+{"level":"info","message":"Fetched 1 seasons from API.","service":"sportmonks api","timestamp":"2025-05-22T02:29:04.186Z"}
+{"level":"info","message":"Successfully saved/updated seasons to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:29:04.202Z"}
+{"level":"info","message":"Retrieved 12 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:29:04.207Z"}
+{"level":"info","message":"Retrieved 228 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:29:04.212Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T02:29:04.213Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:38:46.076Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:38:46.111Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:38:46.796Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:38:46.798Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:38:46.798Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:38:46.832Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:38:46.843Z"}
+{"level":"info","message":"Beginning to fetch and save seasons...","service":"sportmonks api","timestamp":"2025-05-22T02:38:46.844Z"}
+{"level":"info","message":"Fetched 2 seasons from API.","service":"sportmonks api","timestamp":"2025-05-22T02:38:47.088Z"}
+{"level":"info","message":"Successfully saved/updated seasons to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:38:47.104Z"}
+{"level":"warn","message":"No unique club IDs found in the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:38:47.108Z"}
+{"level":"warn","message":"No unique fixture IDs found in the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:38:47.112Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T02:38:47.112Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:41:13.733Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:41:13.768Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:41:14.432Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:41:14.435Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:41:14.436Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:41:14.478Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:41:14.495Z"}
+{"level":"info","message":"Beginning to fetch and save seasons...","service":"sportmonks api","timestamp":"2025-05-22T02:41:14.496Z"}
+{"level":"info","message":"Fetched 2 seasons from API.","service":"sportmonks api","timestamp":"2025-05-22T02:41:14.756Z"}
+{"level":"info","message":"Successfully saved/updated seasons to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:41:14.769Z"}
+{"level":"warn","message":"No unique club IDs found in the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:41:14.774Z"}
+{"level":"warn","message":"No unique fixture IDs found in the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:41:14.781Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T02:41:14.782Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:41:22.396Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:41:22.430Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:41:22.823Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:41:22.824Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:41:22.825Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:41:22.863Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:41:22.874Z"}
+{"level":"info","message":"Beginning to fetch and save seasons...","service":"sportmonks api","timestamp":"2025-05-22T02:41:22.876Z"}
+{"level":"info","message":"Fetched 2 seasons from API.","service":"sportmonks api","timestamp":"2025-05-22T02:41:23.440Z"}
+{"level":"info","message":"Successfully saved/updated seasons to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:41:23.462Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:41:23.469Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:41:23.474Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T02:41:23.475Z"}
+{"level":"info","message":"Server running on port 3000","service":"sportmonks api","timestamp":"2025-05-22T02:41:35.915Z"}
+{"level":"info","message":"Connected to database","service":"sportmonks api","timestamp":"2025-05-22T02:41:35.941Z"}
+{"level":"info","message":"Fetched leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:41:36.365Z"}
+{"level":"info","message":"Beginning to fetch and save leagues...","service":"sportmonks api","timestamp":"2025-05-22T02:41:36.367Z"}
+{"level":"info","message":"Fetched 2 leagues from API.","service":"sportmonks api","timestamp":"2025-05-22T02:41:36.367Z"}
+{"level":"info","message":"Successfully saved/updated leagues to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:41:36.396Z"}
+{"level":"info","message":"Retrieved 1 saved season IDs from the database.","service":"sportmonks api","timestamp":"2025-05-22T02:41:36.407Z"}
+{"level":"info","message":"Beginning to fetch and save seasons...","service":"sportmonks api","timestamp":"2025-05-22T02:41:36.408Z"}
+{"level":"info","message":"Fetched 2 seasons from API.","service":"sportmonks api","timestamp":"2025-05-22T02:41:36.758Z"}
+{"level":"info","message":"Successfully saved/updated seasons to the database.","service":"sportmonks api","timestamp":"2025-05-22T02:41:36.773Z"}
+{"level":"info","message":"Retrieved 25 unique club IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:41:36.777Z"}
+{"level":"info","message":"Retrieved 421 unique fixture IDs from the Seasons collection.","service":"sportmonks api","timestamp":"2025-05-22T02:41:36.780Z"}
+{"level":"info","message":"Application started successfully","service":"sportmonks api","timestamp":"2025-05-22T02:41:36.781Z"}

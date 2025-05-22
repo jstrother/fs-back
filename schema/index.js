@@ -18,7 +18,7 @@ async function connectDB() {
     await saveLeagues();
 
     const currentSeasonIDs = await getSavedSeasonIDs();
-
+    
     if (currentSeasonIDs.length > 0) {
       await saveSeasons(currentSeasonIDs);
     } else {

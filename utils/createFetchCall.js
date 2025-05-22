@@ -40,6 +40,7 @@ function createFetchCall(endpointCreator) {
       return finalData;
     } catch (error) {
       logger.error(`Error creating fetch call: ${error}`);
+      console.error(`Error creating fetch call: ${error.stack}`);
       throw error;
     }
   };

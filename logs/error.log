@@ -648,3 +648,36 @@
 {"level":"error","message":"Error saving seasons: TypeError: Cannot read properties of undefined (reading 'id')","service":"sportmonks api","timestamp":"2025-05-21T01:44:23.813Z"}
 {"level":"error","message":"Error saving seasons: TypeError: Cannot read properties of undefined (reading 'id')","service":"sportmonks api","timestamp":"2025-05-21T01:44:27.314Z"}
 {"level":"error","message":"Error saving seasons: TypeError: Cannot read properties of undefined (reading 'id')","service":"sportmonks api","timestamp":"2025-05-21T01:44:47.083Z"}
+{"level":"error","message":"Error saving undefineds: fetchFunction is not a function","service":"sportmonks api","timestamp":"2025-05-22T02:04:34.435Z"}
+{"level":"error","message":"Error saving undefineds: fetchFunction is not a function","service":"sportmonks api","timestamp":"2025-05-22T02:04:36.891Z"}
+{"level":"error","message":"Error saving/updating undefined (ID: undefined): mapApiDataToSchema is not a function","service":"sportmonks api","timestamp":"2025-05-22T02:04:47.233Z"}
+{"level":"error","message":"Error saving/updating undefined (ID: undefined): mapApiDataToSchema is not a function","service":"sportmonks api","timestamp":"2025-05-22T02:04:47.234Z"}
+{"level":"error","message":"Error saving/updating undefined (ID: undefined): mapApiDataToSchema is not a function","service":"sportmonks api","timestamp":"2025-05-22T02:04:49.799Z"}
+{"level":"error","message":"Error saving/updating undefined (ID: undefined): mapApiDataToSchema is not a function","service":"sportmonks api","timestamp":"2025-05-22T02:04:49.800Z"}
+{"level":"error","message":"Error saving/updating undefined (ID: 271): mapApiDataToSchema is not a function","service":"sportmonks api","timestamp":"2025-05-22T02:04:51.538Z"}
+{"level":"error","message":"Error saving/updating undefined (ID: 501): mapApiDataToSchema is not a function","service":"sportmonks api","timestamp":"2025-05-22T02:04:51.539Z"}
+{"level":"error","message":"Error saving/updating undefined (ID: 271): mapApiDataToSchema is not a function","service":"sportmonks api","timestamp":"2025-05-22T02:04:55.265Z"}
+{"level":"error","message":"Error saving/updating undefined (ID: 501): mapApiDataToSchema is not a function","service":"sportmonks api","timestamp":"2025-05-22T02:04:55.265Z"}
+{"level":"error","message":"Error saving undefineds: fetchFunction is not a function","service":"sportmonks api","timestamp":"2025-05-22T02:13:20.862Z"}
+{"level":"error","message":"Error saving undefineds: fetchFunction is not a function","service":"sportmonks api","timestamp":"2025-05-22T02:13:24.632Z"}
+{"level":"error","message":"Error saving undefineds: fetchFunction is not a function","service":"sportmonks api","timestamp":"2025-05-22T02:13:27.881Z"}
+{"level":"error","message":"Error saving undefineds: fetchFunction is not a function","service":"sportmonks api","timestamp":"2025-05-22T02:14:38.917Z"}
+{"level":"error","message":"Error saving undefineds: a is not defined","service":"sportmonks api","timestamp":"2025-05-22T02:15:01.170Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:15:06.616Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:15:11.635Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:15:29.495Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:19:12.170Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:21:38.163Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:21:42.216Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:22:48.313Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:22:57.566Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:23:23.214Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:23:28.756Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:24:51.436Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:24:56.394Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:25:11.510Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:25:42.641Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:26:06.605Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:26:11.711Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:27:50.140Z"}
+{"level":"error","message":"HTTP error! Status 422","service":"sportmonks api","timestamp":"2025-05-22T02:27:55.272Z"}
