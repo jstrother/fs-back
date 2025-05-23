@@ -4,14 +4,19 @@
 import mongoose from 'mongoose';
 import { DB_URL } from '../config.js';
 import logger from '../utils/logger.js';
+
 import getSavedSeasonIDs from '../db/getSavedSeasonIDs.js';
 import getSavedClubIDs from '../db/getSavedClubIDs.js';
 import getSavedFixtureIDs from '../db/getSavedFixtureIDs.js';
 import getSavedPlayerIDs from '../db/getSavedPlayerIDs.js';
+
 import saveLeagues from '../db/saveLeagues.js';
 import saveSeasons from '../db/saveSeasons.js';
 import saveClubs from '../db/saveClubs.js';
 import saveFixtures from '../db/saveFixtures.js';
+
+import { shouldSync, updateSyncStatus } from '../utils/syncManager.js';
+import { default as SyncStatus} from './utility/syncStatusSchema.js';
 
 async function connectDB() {
   try {
@@ -66,3 +71,5 @@ export { default as Type } from './core/typeSchema.js';
 export { default as Country } from './core/countrySchema.js';
 
 export { default as User } from './fantasy/userSchema.js';
+
+export { default as SyncStatus } from './utility/syncStatusSchema.js';
