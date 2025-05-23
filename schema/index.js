@@ -9,6 +9,8 @@ import getSavedClubIDs from '../db/getSavedClubIDs.js';
 import getSavedFixtureIDs from '../db/getSavedFixtureIDs.js';
 import saveLeagues from '../db/saveLeagues.js';
 import saveSeasons from '../db/saveSeasons.js';
+import saveClubs from '../db/saveClubs.js';
+import saveFixtures from '../db/saveFixtures.js';
 
 async function connectDB() {
   try {
@@ -27,6 +29,19 @@ async function connectDB() {
 
     const currentClubIDs = await getSavedClubIDs();
     const currentFixtureIDs = await getSavedFixtureIDs();
+
+    if (currentClubIDs.length > 0) {
+      await saveClubs(currentClubIDs);
+    } else {
+      logger.warn('No current club IDs found. Skipping club saving.');
+    }
+
+    if (currentFixtureIDs.length > 0) {
+      await saveFixtures(currentFixtureIDs);
+    }
+    else {
+      logger.warn('No current fixture IDs found. Skipping fixture saving.');
+    }
 
     logger.info('Application started successfully');
   } catch (error) {

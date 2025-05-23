@@ -24,7 +24,7 @@ export default async function saveSeasons(seasonIDs) {
       fetchArgs: seasonIDs,
     });
   } catch (error) {
-    logger.error(`Error saving seasons: ${error}`);
+    logger.error(`Unhandled error in saveSeasons function: ${error.message}`);
     throw error;
   }
 }
