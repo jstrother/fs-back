@@ -13,7 +13,7 @@ export default async function getSavedFixtureIDs() {
 
     return fixtureIDs;
   } catch (error) {
-    logger.error(`Error in getFixtureIDs: ${error}`);
+    logger.error(`Error in getSavedFixtureIDs: ${error}`);
     throw error;
   }
 }

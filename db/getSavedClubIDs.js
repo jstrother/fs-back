@@ -13,7 +13,7 @@ export default async function getSavedClubIDs() {
     
     return clubIDs;
   } catch (error) {
-    logger.error(`Error in getClubIDs: ${error}`);
+    logger.error(`Error in getSavedClubIDs: ${error}`);
     throw error;
   }
 }
