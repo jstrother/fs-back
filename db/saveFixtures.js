@@ -1,8 +1,22 @@
+/**
+ * @file Saves or updates fixture data in the database for specified fixture IDs.
+ * This module orchestrates the fetching of detailed fixture information (including participants and lineups)
+ * from the API and its upsertion into the Fixture collection using a generic batch saving utility.
+ */
 import { fetchFixtures } from '../utils/fetchFunctions.js';
 import { Fixture } from '../schema/index.js';
-import saveEntities from './saveEntities.js';
+import saveEntities from '../utils/saveEntities.js';
 import logger from '../utils/logger.js';
 
+/**
+ * Fetches detailed fixture data from the API based on a list of fixture IDs
+ * and saves/updates them in the database.
+ * It leverages the `saveEntities` utility for efficient bulk operations.
+ *
+ * @param {number[]} fixtureIDs - An array of unique fixture IDs to fetch and save.
+ * @returns {Promise<void>} A promise that resolves when all specified fixtures have been processed.
+ * @throws {Error} If an unhandled error occurs during the saving process.
+ */
 export default async function saveFixtures(fixtureIDs) {
   try {
     await saveEntities({

@@ -1,3 +1,10 @@
+/**
+ * @file Manages the synchronization logic for various data entities, including rate limiting and status updates.
+ * This module provides functions to determine if a sync is needed, update sync timestamps,
+ * and orchestrate the full synchronization process for a given entity type.
+ * It ensures that data fetching from external APIs respects defined intervals to prevent excessive requests.
+ */
+
 import mongoose from 'mongoose';
 import { SyncStatus } from '../schema/index.js';
 import logger from './logger.js';

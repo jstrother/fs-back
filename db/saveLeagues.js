@@ -1,8 +1,21 @@
-import savedEntities from './saveEntities.js';
+/**
+ * @file Saves or updates league data in the database.
+ * This module fetches all active domestic leagues from the API, filters them,
+ * and then upserts their data into the League collection.
+ */
+import savedEntities from '../utils/saveEntities.js';
 import { fetchAllLeagues } from '../utils/fetchFunctions.js';
 import { League } from '../schema/index.js';
 import logger from '../utils/logger.js';
 
+/**
+ * Fetches all domestic league data from the API and saves/updates them in the database.
+ * It filters for 'domestic' league types and then uses the `saveEntities` utility
+ * for efficient bulk operations.
+ *
+ * @returns {Promise<void>} A promise that resolves when all domestic leagues have been processed.
+ * @throws {Error} If an unhandled error occurs during the saving process.
+ */
 export default async function saveLeagues() {
   try {
     const leaguesData = await fetchAllLeagues();

@@ -1,6 +1,8 @@
-// This file is imported in:
-// - /app.js (for user authentication routes)
-
+/**
+ * @file Express router for user authentication (registration and login).
+ * This module handles API endpoints related to user management, including
+ * creating new users, hashing passwords, and issuing JWTs for authentication.
+ */
 import express from "express";
 import mongoose from "mongoose";
 import bcrypt from 'bcrypt';
@@ -11,6 +13,66 @@ import { JWT_SECRET } from "../config.js";
 
 const userRouter = express.Router();
 
+/**
+ * @swagger
+ * /api/users/register:
+ * post:
+ * summary: Register a new user
+ * description: Creates a new user account with email, username, and password.
+ * tags:
+ * - Users
+ * requestBody:
+ * required: true
+ * content:
+ * application/json:
+ * schema:
+ * type: object
+ * required:
+ * - email
+ * - password
+ * - username
+ * properties:
+ * email:
+ * type: string
+ * format: email
+ * description: The user's email address.
+ * password:
+ * type: string
+ * format: password
+ * description: The user's chosen password.
+ * username:
+ * type: string
+ * description: The user's chosen unique username.
+ * responses:
+ * 201:
+ * description: User created and successfully logged in. Returns a JWT.
+ * content:
+ * application/json:
+ * schema:
+ * type: object
+ * properties:
+ * message:
+ * type: string
+ * example: User created and logged in
+ * token:
+ * type: string
+ * description: JSON Web Token for authentication.
+ * 400:
+ * description: User already exists or validation error.
+ * content:
+ * application/json:
+ * schema:
+ * type: object
+ * properties:
+ * message:
+ * type: string
+ * example: User already exists
+ * errors:
+ * type: object
+ * description: Details about validation errors (if applicable).
+ * 500:
+ * description: Server error during registration.
+ */
 userRouter.post("/register", async (req, res) => {
   try {
     const { email, password, username } = req.body;
@@ -48,6 +110,55 @@ userRouter.post("/register", async (req, res) => {
   }
 });
 
+/**
+ * @swagger
+ * /api/users/login:
+ * post:
+ * summary: Log in a user
+ * description: Authenticates a user with email/username and password, returning a JWT upon successful login.
+ * tags:
+ * - Users
+ * requestBody:
+ * required: true
+ * content:
+ * application/json:
+ * schema:
+ * type: object
+ * required:
+ * - password
+ * properties:
+ * email:
+ * type: string
+ * format: email
+ * description: The user's email address (either email or username is required).
+ * username:
+ * type: string
+ * description: The user's username (either email or username is required).
+ * password:
+ * type: string
+ * format: password
+ * description: The user's password.
+ * responses:
+ * 200:
+ * description: User successfully logged in. Returns a JWT.
+ * content:
+ * application/json:
+ * schema:
+ * type: object
+ * properties:
+ * token:
+ * type: string
+ * description: JSON Web Token for authentication.
+ * 401:
+ * description: User not found or invalid password.
+ * content:
+ * application/json:
+ * schema:
+ * type: string
+ * example: User not found
+ * 500:
+ * description: Server error during login.
+ */
 userRouter.post("/login", async (req, res) => {
   try {
     const { email, password, username } = req.body;

@@ -1,6 +1,9 @@
-// This file is imported in:
-// - /app.js (for database connection)
-
+/**
+ * @file Main database connection and initial data synchronization orchestration file.
+ * This file establishes the connection to MongoDB and initiates the data sync process
+ * for various football entities (leagues, seasons, clubs, fixtures, players)
+ * based on defined sync intervals.
+ */
 import mongoose from 'mongoose';
 import { DB_URL } from '../config.js';
 import logger from '../utils/logger.js';
@@ -8,15 +11,21 @@ import logger from '../utils/logger.js';
 import getSavedSeasonIDs from '../db/getSavedSeasonIDs.js';
 import getSavedClubIDs from '../db/getSavedClubIDs.js';
 import getSavedFixtureIDs from '../db/getSavedFixtureIDs.js';
-// import getSavedPlayerIDs from '../db/getSavedPlayerIDs.js';
+import getSavedPlayerIDs from '../db/getSavedPlayerIDs.js';
 
 import saveLeagues from '../db/saveLeagues.js';
 import saveSeasons from '../db/saveSeasons.js';
 import saveClubs from '../db/saveClubs.js';
 import saveFixtures from '../db/saveFixtures.js';
+import savePlayers from '../db/savePlayers.js';
 
 import dataSyncHandler from '../utils/syncManager.js';
 
+/**
+ * Establishes a connection to the MongoDB database and orchestrates the initial data synchronization.
+ * This function is called once at application startup.
+ * @returns {Promise<void>}
+ */
 async function connectDB() {
   try {
     await mongoose.connect(DB_URL);
@@ -29,6 +38,8 @@ async function connectDB() {
     await dataSyncHandler('clubs', saveClubs, getSavedClubIDs);
 
     await dataSyncHandler('fixtures', saveFixtures, getSavedFixtureIDs);
+
+    await dataSyncHandler('players', savePlayers, getSavedPlayerIDs);
 
     logger.info('Application started successfully');
   } catch (error) {

@@ -1,8 +1,18 @@
-// This file is imported in:
-// - /schema/index.js (for database connection logging)
-
+/**
+ * @file Centralized logging utility for the application.
+ * Configures Winston to handle different log levels (info, warn, error)
+ * and directs output to files (error.log, combined.log) and the console
+ * (in non-production environments).
+ */
 import winston from 'winston';
 
+/**
+ * The Winston logger instance configured for the application.
+ * It provides methods like `logger.info()`, `logger.warn()`, `logger.error()`
+ * for logging messages at various levels.
+ *
+ * @type {winston.Logger}
+ */
 const logger = winston.createLogger({
   level: 'info',
   format: winston.format.combine(
@@ -33,4 +43,8 @@ if (process.env.NODE_ENV !== 'production') {
   }));
 }
 
+/**
+ * Exports the configured Winston logger instance as the default export.
+ * @exports default logger
+ */
 export default logger;
