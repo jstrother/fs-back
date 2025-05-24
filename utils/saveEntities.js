@@ -1,3 +1,12 @@
+/**
+ * @file Generic utility for fetching and saving multiple entities to the database in a batch.
+ * This module provides a flexible function `saveEntities` that can be used to
+ * upsert various types of data (e.g., leagues, seasons, clubs, players, types)
+ * from an external API into corresponding Mongoose models. It handles
+ * both fetching entities by individual IDs and processing pre-fetched arrays of data.
+ * It uses `findOneAndUpdate` with `upsert: true` for efficient database operations
+ * and includes robust error logging for individual fetches and saves.
+ */
 import logger from '../utils/logger.js';
 
 /**

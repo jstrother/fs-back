@@ -18,8 +18,8 @@ function createEndpointString(baseURL) {
    * This function is returned by `createEndpointString` with a pre-set `baseURL`.
    *
    * @param {string} specificEndpoint - The main part of the endpoint after the base URL (e.g., 'leagues', 'seasons/123').
-   * @param {string | null} [includes=null] - A comma or semicolon-separated string of related resources to include (e.g., 'country;type').
-   * @param {number | null} [uniqueId=null] - A unique identifier to append to the endpoint (e.g., a specific league ID).
+   * @param {string | null} [includes=null] - An optional semicolon-separated string of related resources to include (e.g., 'country;type').
+   * @param {number | null} [uniqueId=null] - Aa optional unique identifier to append to the endpoint (e.g., a specific league ID).
    * @param {number} [page=1] - The page number for paginated results. Defaults to 1.
    * @returns {string} The complete API endpoint URL.
    */
@@ -39,7 +39,6 @@ function createEndpointString(baseURL) {
     if (page > 1) {
       endpoint += `&page=${page}`;
     }
-
     return endpoint;
   };
 }

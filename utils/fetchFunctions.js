@@ -83,6 +83,6 @@ export async function fetchCities() {
  * Fetches a list of all data types (e.g., player types, injury types) from the Core API.
  * @returns {Promise<Array<object>>} A promise that resolves with an array of type data objects.
  */
-export async function fetchTypes() {
+export async function fetchAllTypes() {
   return createCoreFetchCall('types');
 }

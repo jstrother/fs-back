@@ -27,13 +27,12 @@ function createFetchCall(endpointCreator) {
    * @param {Array<any>} [accumulatedData=[]] - An array to accumulate data across multiple paginated calls.
    * @returns {Promise<Array<any>>} A promise that resolves with an array of all fetched data, concatenated from all pages if pagination exists. Throws an error on fetch failure.
    */
-  return async function (specificEndpoint, includes = null, uniqueId = null, page = 1, accumulatedData = []) {
+  return async function fetchRecursive(specificEndpoint, includes = null, uniqueId = null, page = 1, accumulatedData = []) {
     try {
       const endpoint = endpointCreator(specificEndpoint, includes, uniqueId, page);
       const response = await fetch(endpoint);
 
       if (!response.ok) {
-        const consoleMessage = await response.json();    
         logger.error(`HTTP error! Status ${response.status}`);
         throw new Error(`HTTP error! Status ${response.status}`);
       }
@@ -55,7 +54,7 @@ function createFetchCall(endpointCreator) {
       if (responseData.pagination?.has_more) {
         const nextPage = page + 1;
         const newData = [...accumulatedData, ...currentData];
-        return this(specificEndpoint, includes, uniqueId, nextPage, newData);
+        return fetchRecursive(specificEndpoint, includes, uniqueId, nextPage, newData);
       }
 
       const finalData = [...accumulatedData, ...currentData];

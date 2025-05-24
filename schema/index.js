@@ -18,6 +18,7 @@ import saveSeasons from '../db/saveSeasons.js';
 import saveClubs from '../db/saveClubs.js';
 import saveFixtures from '../db/saveFixtures.js';
 import savePlayers from '../db/savePlayers.js';
+import saveTypes from '../db/saveTypes.js';
 
 import dataSyncHandler from '../utils/syncManager.js';
 
@@ -31,15 +32,17 @@ async function connectDB() {
     await mongoose.connect(DB_URL);
     logger.info('Connected to database')
     
-    await dataSyncHandler('leagues', saveLeagues);
+    // await dataSyncHandler('leagues', saveLeagues);
 
-    await dataSyncHandler('seasons', saveSeasons, getSavedSeasonIDs);
+    await dataSyncHandler('types', saveTypes);
+
+    // await dataSyncHandler('seasons', saveSeasons, getSavedSeasonIDs);
     
-    await dataSyncHandler('clubs', saveClubs, getSavedClubIDs);
+    // await dataSyncHandler('clubs', saveClubs, getSavedClubIDs);
 
-    await dataSyncHandler('fixtures', saveFixtures, getSavedFixtureIDs);
+    // await dataSyncHandler('fixtures', saveFixtures, getSavedFixtureIDs);
 
-    await dataSyncHandler('players', savePlayers, getSavedPlayerIDs);
+    // await dataSyncHandler('players', savePlayers, getSavedPlayerIDs);
 
     logger.info('Application started successfully');
   } catch (error) {
