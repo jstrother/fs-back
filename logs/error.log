@@ -9642,3 +9642,33 @@
 {"level":"error","message":"HTTP error! Status 429","service":"sportmonks api","timestamp":"2025-05-23T21:22:54.035Z"}
 {"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 429","service":"sportmonks api","timestamp":"2025-05-23T21:22:54.035Z"}
 {"level":"error","message":"Error fetching individual fixture for 19404988: HTTP error! Status 429","service":"sportmonks api","timestamp":"2025-05-23T21:22:54.035Z"}
+{"level":"error","message":"Error retrieving leagues IDs: idGetterFunction is not a function","service":"sportmonks api","timestamp":"2025-05-24T18:10:17.464Z"}
+{"level":"error","message":"Error retrieving season IDs from the leagues collection: TypeError: Cannot read properties of undefined (reading 'IDs')","service":"sportmonks api","timestamp":"2025-05-24T18:10:17.529Z"}
+{"level":"error","message":"Error rin getSavedSeasonIDs: TypeError: Cannot read properties of undefined (reading 'IDs')","service":"sportmonks api","timestamp":"2025-05-24T18:10:17.530Z"}
+{"level":"error","message":"Error retrieving seasons IDs: Cannot read properties of undefined (reading 'IDs')","service":"sportmonks api","timestamp":"2025-05-24T18:10:17.530Z"}
+{"level":"error","message":"Error retrieving club IDs from the seasons collection: TypeError: Cannot read properties of undefined (reading 'IDs')","service":"sportmonks api","timestamp":"2025-05-24T18:10:17.536Z"}
+{"level":"error","message":"Error in getSavedClubIDs: TypeError: Cannot read properties of undefined (reading 'IDs')","service":"sportmonks api","timestamp":"2025-05-24T18:10:17.537Z"}
+{"level":"error","message":"Error retrieving clubs IDs: Cannot read properties of undefined (reading 'IDs')","service":"sportmonks api","timestamp":"2025-05-24T18:10:17.537Z"}
+{"level":"error","message":"Error retrieving fixture IDs from the seasons collection: TypeError: Cannot read properties of undefined (reading 'IDs')","service":"sportmonks api","timestamp":"2025-05-24T18:10:17.543Z"}
+{"level":"error","message":"Error in getSavedFixtureIDs: TypeError: Cannot read properties of undefined (reading 'IDs')","service":"sportmonks api","timestamp":"2025-05-24T18:10:17.544Z"}
+{"level":"error","message":"Error retrieving fixtures IDs: Cannot read properties of undefined (reading 'IDs')","service":"sportmonks api","timestamp":"2025-05-24T18:10:17.545Z"}
+{"level":"error","message":"Error retrieving leagues IDs: idGetterFunction is not a function","service":"sportmonks api","timestamp":"2025-05-24T18:13:50.542Z"}
+{"level":"error","message":"Error retrieving season IDs from the leagues collection: TypeError: Cannot read properties of undefined (reading 'IDs')","service":"sportmonks api","timestamp":"2025-05-24T18:13:50.597Z"}
+{"level":"error","message":"Error rin getSavedSeasonIDs: TypeError: Cannot read properties of undefined (reading 'IDs')","service":"sportmonks api","timestamp":"2025-05-24T18:13:50.598Z"}
+{"level":"error","message":"Error retrieving seasons IDs: Cannot read properties of undefined (reading 'IDs')","service":"sportmonks api","timestamp":"2025-05-24T18:13:50.599Z"}
+{"level":"error","message":"Error retrieving club IDs from the seasons collection: TypeError: Cannot read properties of undefined (reading 'IDs')","service":"sportmonks api","timestamp":"2025-05-24T18:13:50.621Z"}
+{"level":"error","message":"Error in getSavedClubIDs: TypeError: Cannot read properties of undefined (reading 'IDs')","service":"sportmonks api","timestamp":"2025-05-24T18:13:50.621Z"}
+{"level":"error","message":"Error retrieving clubs IDs: Cannot read properties of undefined (reading 'IDs')","service":"sportmonks api","timestamp":"2025-05-24T18:13:50.622Z"}
+{"level":"error","message":"Error retrieving fixture IDs from the seasons collection: TypeError: Cannot read properties of undefined (reading 'IDs')","service":"sportmonks api","timestamp":"2025-05-24T18:13:50.631Z"}
+{"level":"error","message":"Error in getSavedFixtureIDs: TypeError: Cannot read properties of undefined (reading 'IDs')","service":"sportmonks api","timestamp":"2025-05-24T18:13:50.632Z"}
+{"level":"error","message":"Error retrieving fixtures IDs: Cannot read properties of undefined (reading 'IDs')","service":"sportmonks api","timestamp":"2025-05-24T18:13:50.633Z"}
+{"level":"error","message":"Error retrieving leagues IDs: idGetterFunction is not a function","service":"sportmonks api","timestamp":"2025-05-24T18:16:37.615Z"}
+{"level":"error","message":"Error retrieving season IDs from the leagues collection: TypeError: Cannot read properties of undefined (reading 'IDs')","service":"sportmonks api","timestamp":"2025-05-24T18:16:37.682Z"}
+{"level":"error","message":"Error rin getSavedSeasonIDs: TypeError: Cannot read properties of undefined (reading 'IDs')","service":"sportmonks api","timestamp":"2025-05-24T18:16:37.682Z"}
+{"level":"error","message":"Error retrieving seasons IDs: Cannot read properties of undefined (reading 'IDs')","service":"sportmonks api","timestamp":"2025-05-24T18:16:37.683Z"}
+{"level":"error","message":"Error retrieving club IDs from the seasons collection: TypeError: Cannot read properties of undefined (reading 'IDs')","service":"sportmonks api","timestamp":"2025-05-24T18:16:37.695Z"}
+{"level":"error","message":"Error in getSavedClubIDs: TypeError: Cannot read properties of undefined (reading 'IDs')","service":"sportmonks api","timestamp":"2025-05-24T18:16:37.696Z"}
+{"level":"error","message":"Error retrieving clubs IDs: Cannot read properties of undefined (reading 'IDs')","service":"sportmonks api","timestamp":"2025-05-24T18:16:37.697Z"}
+{"level":"error","message":"Error retrieving fixture IDs from the seasons collection: TypeError: Cannot read properties of undefined (reading 'IDs')","service":"sportmonks api","timestamp":"2025-05-24T18:16:37.706Z"}
+{"level":"error","message":"Error in getSavedFixtureIDs: TypeError: Cannot read properties of undefined (reading 'IDs')","service":"sportmonks api","timestamp":"2025-05-24T18:16:37.707Z"}
+{"level":"error","message":"Error retrieving fixtures IDs: Cannot read properties of undefined (reading 'IDs')","service":"sportmonks api","timestamp":"2025-05-24T18:16:37.708Z"}

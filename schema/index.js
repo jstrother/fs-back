@@ -8,48 +8,27 @@ import logger from '../utils/logger.js';
 import getSavedSeasonIDs from '../db/getSavedSeasonIDs.js';
 import getSavedClubIDs from '../db/getSavedClubIDs.js';
 import getSavedFixtureIDs from '../db/getSavedFixtureIDs.js';
-import getSavedPlayerIDs from '../db/getSavedPlayerIDs.js';
+// import getSavedPlayerIDs from '../db/getSavedPlayerIDs.js';
 
 import saveLeagues from '../db/saveLeagues.js';
 import saveSeasons from '../db/saveSeasons.js';
 import saveClubs from '../db/saveClubs.js';
 import saveFixtures from '../db/saveFixtures.js';
 
-import { shouldSync, updateSyncStatus } from '../utils/syncManager.js';
-import { default as SyncStatus} from './utility/syncStatusSchema.js';
+import dataSyncHandler from '../utils/syncManager.js';
 
 async function connectDB() {
   try {
     await mongoose.connect(DB_URL);
     logger.info('Connected to database')
     
-    await saveLeagues();
+    await dataSyncHandler('leagues', saveLeagues);
 
-    const currentSeasonIDs = await getSavedSeasonIDs();
+    await dataSyncHandler('seasons', saveSeasons, getSavedSeasonIDs);
     
-    if (currentSeasonIDs.length > 0) {
-      await saveSeasons(currentSeasonIDs);
-    } else {
-      logger.warn('No current season IDs found. Skipping club saving.');
-    }
+    await dataSyncHandler('clubs', saveClubs, getSavedClubIDs);
 
-    const currentClubIDs = await getSavedClubIDs();
-    const currentFixtureIDs = await getSavedFixtureIDs();
-
-    if (currentClubIDs.length > 0) {
-      await saveClubs(currentClubIDs);
-    } else {
-      logger.warn('No current club IDs found. Skipping club saving.');
-    }
-
-    if (currentFixtureIDs.length > 0) {
-      await saveFixtures(currentFixtureIDs);
-    }
-    else {
-      logger.warn('No current fixture IDs found. Skipping fixture saving.');
-    }
-
-    const currentPlayerIDs = await getSavedPlayerIDs();
+    await dataSyncHandler('fixtures', saveFixtures, getSavedFixtureIDs);
 
     logger.info('Application started successfully');
   } catch (error) {
