@@ -32,15 +32,15 @@ async function connectDB() {
     await mongoose.connect(DB_URL);
     logger.info('Connected to database')
     
-    // await dataSyncHandler('leagues', saveLeagues);
+    await dataSyncHandler('leagues', saveLeagues);
 
-    await dataSyncHandler('types', saveTypes);
+    // await dataSyncHandler('types', saveTypes);
 
-    // await dataSyncHandler('seasons', saveSeasons, getSavedSeasonIDs);
+    await dataSyncHandler('seasons', saveSeasons, getSavedSeasonIDs);
     
-    // await dataSyncHandler('clubs', saveClubs, getSavedClubIDs);
+    await dataSyncHandler('clubs', saveClubs, getSavedClubIDs);
 
-    // await dataSyncHandler('fixtures', saveFixtures, getSavedFixtureIDs);
+    await dataSyncHandler('fixtures', saveFixtures, getSavedFixtureIDs);
 
     // await dataSyncHandler('players', savePlayers, getSavedPlayerIDs);
 

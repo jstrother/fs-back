@@ -22,7 +22,6 @@ export default async function getSavedSeasonIDs() {
       idField: 'season_id',
       entityName: 'season',
     });
-
     return seasonIDs;
   } catch (error) {
     logger.error(`Error rin getSavedSeasonIDs: ${error}`);

@@ -31,6 +31,10 @@ function createFetchCall(endpointCreator) {
     try {
       const endpoint = endpointCreator(specificEndpoint, includes, uniqueId, page);
       const response = await fetch(endpoint);
+      
+      if (specificEndpoint === 'fixtures') {
+        console.log(`createFetchCall response: `, response);
+      }
 
       if (!response.ok) {
         logger.error(`HTTP error! Status ${response.status}`);

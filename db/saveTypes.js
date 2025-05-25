@@ -19,11 +19,6 @@ import logger from '../utils/logger.js';
 export default async function saveTypes() {
   try {
     const typesData = await fetchAllTypes();
-
-     logger.info(`DEBUG: Value of typesData received by saveTypes: ${JSON.stringify(typesData).substring(0, 500)}`);
-    logger.info(`DEBUG: Is typesData an array? ${Array.isArray(typesData)}`);
-    logger.info(`DEBUG: Length of typesData: ${typesData ? typesData.length : 'N/A (not an array)'}`);
-
     await saveEntities({
       fetchFunction: async (id, typeItem) => typeItem,
       Model: Type,

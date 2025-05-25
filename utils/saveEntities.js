@@ -42,12 +42,11 @@ export default async function saveEntities({
     let apiData = [];
 
     if (Array.isArray(fetchArgs) && fetchArgs.length > 0) {
-      const fetchPromises = fetchArgs.map(async arg => {
+      const fetchPromises = fetchArgs.map(async (arg) => {
         try {
           const data = await fetchFunction(arg);
           return data;
         } catch (error) {
-          logger.error(`Error fetching individual ${entityName} for ${arg}: ${error.message}`);
           return null;
         }
       });

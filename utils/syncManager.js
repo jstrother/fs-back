@@ -93,7 +93,6 @@ export default async function dataSyncHandler(entityType, saveFunction, idGetter
   if (idGetterFunction) {
     try {
       ids = await idGetterFunction();
-      
       if (!ids || ids.length === 0) {
         logger.warn(`No ${entityType} IDs found. Skipping ${entityType} data fetching.`);
         return;
