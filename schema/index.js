@@ -34,7 +34,7 @@ async function connectDB() {
     
     await dataSyncHandler('leagues', saveLeagues);
 
-    // await dataSyncHandler('types', saveTypes);
+    await dataSyncHandler('types', saveTypes);
 
     await dataSyncHandler('seasons', saveSeasons, getSavedSeasonIDs);
     
@@ -42,7 +42,7 @@ async function connectDB() {
 
     await dataSyncHandler('fixtures', saveFixtures, getSavedFixtureIDs);
 
-    // await dataSyncHandler('players', savePlayers, getSavedPlayerIDs);
+    await dataSyncHandler('players', savePlayers, getSavedPlayerIDs);
 
     logger.info('Application started successfully');
   } catch (error) {

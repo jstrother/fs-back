@@ -16472,3 +16472,6 @@
 {"level":"error","message":"Error creating fetch call: TypeError: fetch failed","service":"sportmonks api","timestamp":"2025-05-25T19:23:56.833Z"}
 {"level":"error","message":"Error creating fetch call: TypeError: fetch failed","service":"sportmonks api","timestamp":"2025-05-25T19:23:56.834Z"}
 {"level":"error","message":"Error creating fetch call: TypeError: fetch failed","service":"sportmonks api","timestamp":"2025-05-25T19:23:56.835Z"}
+{"level":"error","message":"Error creating fetch call: TypeError: fetch failed","service":"sportmonks api","timestamp":"2025-05-29T00:37:43.125Z"}
+{"level":"error","message":"Error creating fetch call: TypeError: fetch failed","service":"sportmonks api","timestamp":"2025-05-29T00:37:43.131Z"}
+{"level":"error","message":"Error creating fetch call: TypeError: fetch failed","service":"sportmonks api","timestamp":"2025-05-29T00:37:43.133Z"}

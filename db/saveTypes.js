@@ -18,16 +18,18 @@ import logger from '../utils/logger.js';
  */
 export default async function saveTypes() {
   try {
-    const typesData = await fetchAllTypes();
     await saveEntities({
-      fetchFunction: async (id, typeItem) => typeItem,
+      fetchFunction: async () => {
+        const typesData = await fetchAllTypes();
+        return Array.isArray(typesData) ? typesData : [typesData];
+      },
       Model: Type,
       uniqueKey: 'id',
       mapApiDataToSchema: type => ({
         name: type.name,
       }),
       entityName: 'type',
-      fetchArgs: typesData,
+      fetchArgs: [],
     });
     logger.info(`Finished saving/updating types from API.`);
   } catch (error) {
