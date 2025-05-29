@@ -16475,3 +16475,8 @@
 {"level":"error","message":"Error creating fetch call: TypeError: fetch failed","service":"sportmonks api","timestamp":"2025-05-29T00:37:43.125Z"}
 {"level":"error","message":"Error creating fetch call: TypeError: fetch failed","service":"sportmonks api","timestamp":"2025-05-29T00:37:43.131Z"}
 {"level":"error","message":"Error creating fetch call: TypeError: fetch failed","service":"sportmonks api","timestamp":"2025-05-29T00:37:43.133Z"}
+{"level":"error","message":"HTTP error! Status 429","service":"sportmonks api","timestamp":"2025-05-29T01:26:48.931Z"}
+{"level":"error","message":"Error creating fetch call: Error: HTTP error! Status 429","service":"sportmonks api","timestamp":"2025-05-29T01:26:48.938Z"}
+{"level":"error","message":"Error saving citys: HTTP error! Status 429","service":"sportmonks api","timestamp":"2025-05-29T01:26:48.942Z"}
+{"level":"error","message":"Unhandled error in saveCities function: Error: HTTP error! Status 429","service":"sportmonks api","timestamp":"2025-05-29T01:26:48.942Z"}
+{"level":"error","message":"Error during cities sync process: HTTP error! Status 429","service":"sportmonks api","timestamp":"2025-05-29T01:26:48.943Z"}

@@ -29,11 +29,9 @@ export default async function saveTypes() {
         name: type.name,
       }),
       entityName: 'type',
-      fetchArgs: [],
     });
-    logger.info(`Finished saving/updating types from API.`);
   } catch (error) {
-    logger.error(`Error saving types: ${error}`);
+    logger.error(`Unhandled error in saveTypes function: ${error}`);
     throw error;
   }
 }

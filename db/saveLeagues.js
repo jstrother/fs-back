@@ -49,7 +49,6 @@ export default async function saveLeagues() {
         season_end_date: league.currentseason.end_date ? new Date(league.currentseason.end_date) : null,
       }),
       entityName: 'league',
-      fetchArgs: [],
     });
   } catch (error) {
     logger.error(`Error saving leagues: ${error}`);

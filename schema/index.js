@@ -19,6 +19,7 @@ import saveClubs from '../db/saveClubs.js';
 import saveFixtures from '../db/saveFixtures.js';
 import savePlayers from '../db/savePlayers.js';
 import saveTypes from '../db/saveTypes.js';
+import saveCountries from '../db/saveCountries.js';
 
 import dataSyncHandler from '../utils/syncManager.js';
 
@@ -27,14 +28,12 @@ import dataSyncHandler from '../utils/syncManager.js';
  * This function is called once at application startup.
  * @returns {Promise<void>}
  */
-async function connectDB() {
+export default async function connectDB() {
   try {
     await mongoose.connect(DB_URL);
     logger.info('Connected to database')
     
     await dataSyncHandler('leagues', saveLeagues);
-
-    await dataSyncHandler('types', saveTypes);
 
     await dataSyncHandler('seasons', saveSeasons, getSavedSeasonIDs);
     
@@ -44,6 +43,10 @@ async function connectDB() {
 
     await dataSyncHandler('players', savePlayers, getSavedPlayerIDs);
 
+    await dataSyncHandler('types', saveTypes);
+
+    await dataSyncHandler('countries', saveCountries);
+
     logger.info('Application started successfully');
   } catch (error) {
     logger.error(`Error connecting to database: ${error}`);
@@ -51,15 +54,12 @@ async function connectDB() {
   }
 }
 
-export { connectDB };
-
 export { default as Player } from './football/playerSchema.js';
 export { default as League } from './football/leagueSchema.js';
 export { default as Club } from './football/clubSchema.js';
 export { default as Fixture } from './football/fixtureSchema.js';
 export { default as Season } from './football/seasonSchema.js';
 
-export { default as City } from './core/citySchema.js';
 export { default as Type } from './core/typeSchema.js';
 export { default as Country } from './core/countrySchema.js';
 

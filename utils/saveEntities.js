@@ -37,7 +37,7 @@ export default async function saveEntities({
   fetchArgs = [],
 }) {
   try {
-    logger.info(`Beginning to fetch and save ${entityName}s...`);
+    logger.info(`Beginning to fetch and save ${entityName} entity...`);
 
     let apiData = [];
 
@@ -58,11 +58,11 @@ export default async function saveEntities({
     }
 
     if (!apiData || apiData.length === 0) {
-      logger.warn(`No ${entityName}s found in API response.`);
+      logger.warn(`No ${entityName} entities found in API response.`);
       return;
     }
 
-    logger.info(`Fetched ${apiData.length} ${entityName}s from API.`);
+    logger.info(`Fetched ${apiData.length} ${entityName} entities from API.`);
 
     const saveOperations = apiData.map(async apiDataItem => {
       try {
@@ -81,9 +81,9 @@ export default async function saveEntities({
     });
 
     await Promise.all(saveOperations);
-    logger.info(`Successfully saved/updated ${entityName}s to the database.`);
+    logger.info(`Successfully saved/updated ${entityName} entities to the database.`);
   } catch (error) {
-    logger.error(`Error saving ${entityName}s: ${error.message}`);
+    logger.error(`Error saving ${entityName} entities: ${error.message}`);
     throw error;
   }
 }

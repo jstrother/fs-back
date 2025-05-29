@@ -17,7 +17,15 @@ const syncStatusSchema = new Schema({
     type: String,
     required: true,
     unique: true,
-    enum: ['players', 'clubs', 'fixtures', 'seasons', 'leagues'],
+    enum: [
+      'players',
+      'clubs',
+      'fixtures',
+      'seasons',
+      'leagues',
+      'countries',
+      'types',
+    ],
   },
   last_synced_at: {
     type: Date,

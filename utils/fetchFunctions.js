@@ -72,14 +72,6 @@ export async function fetchCountries() {
 }
 
 /**
- * Fetches a list of all cities from the Core API.
- * @returns {Promise<Array<object>>} A promise that resolves with an array of city data objects.
- */
-export async function fetchCities() {
-  return createCoreFetchCall('cities');
-}
-
-/**
  * Fetches a list of all data types (e.g., player types, injury types) from the Core API.
  * @returns {Promise<Array<object>>} A promise that resolves with an array of type data objects.
  */
