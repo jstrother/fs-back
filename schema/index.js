@@ -19,7 +19,6 @@ import saveClubs from '../db/saveClubs.js';
 import saveFixtures from '../db/saveFixtures.js';
 import savePlayers from '../db/savePlayers.js';
 import saveTypes from '../db/saveTypes.js';
-import saveCountries from '../db/saveCountries.js';
 
 import dataSyncHandler from '../utils/syncManager.js';
 
@@ -45,8 +44,6 @@ export default async function connectDB() {
 
     await dataSyncHandler('types', saveTypes);
 
-    await dataSyncHandler('countries', saveCountries);
-
     logger.info('Application started successfully');
   } catch (error) {
     logger.error(`Error connecting to database: ${error}`);
@@ -61,7 +58,6 @@ export { default as Fixture } from './football/fixtureSchema.js';
 export { default as Season } from './football/seasonSchema.js';
 
 export { default as Type } from './core/typeSchema.js';
-export { default as Country } from './core/countrySchema.js';
 
 export { default as User } from './fantasy/userSchema.js';
 

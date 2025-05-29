@@ -20,7 +20,7 @@ export async function fetchAllLeagues() {
  * @returns {Promise<Array<object>>} A promise that resolves with an array containing the player's data.
  */
 export async function fetchPlayers(playerId) {
-  return createFootballFetchCall('players', 'statistics', playerId);
+  return createFootballFetchCall('players', 'statistics.details;country', playerId);
 }
 
 /**
@@ -51,24 +51,6 @@ export async function fetchClubs(clubId) {
  */
 export async function fetchFixtures(fixtureId) {
   return createFootballFetchCall('fixtures', 'lineups;participants', fixtureId);
-}
-
-
-/**
- * Fetches seasonal statistics for players from the API.
- * @param {number} [playerID] - The player ID to filter statistics for.
- * @returns {Promise<Array<object>>} A promise that resolves with an array of player statistics data.
- */
-export async function fetchStatistics(playerID) {
-  return createFootballFetchCall('statistics/seasons/players', playerID);
-}
-
-/**
- * Fetches a list of all countries from the Core API.
- * @returns {Promise<Array<object>>} A promise that resolves with an array of country data objects.
- */
-export async function fetchCountries() {
-  return createCoreFetchCall('countries');
 }
 
 /**

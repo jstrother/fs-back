@@ -23,7 +23,6 @@ const syncStatusSchema = new Schema({
       'fixtures',
       'seasons',
       'leagues',
-      'countries',
       'types',
     ],
   },
