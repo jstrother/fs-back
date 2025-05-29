@@ -17,7 +17,7 @@ export async function fetchAllLeagues() {
  * Fetches detailed player data from the API for a specific player ID.
  * Includes player statistics.
  * @param {number} playerId - The ID of the player to fetch.
- * @returns {Promise<Array<object>>} A promise that resolves with an array containing the player's data.
+ * @returns {Promise<Array<object>>} A promise that resolves with an array containing the player's data along with statistics details and country info.
  */
 export async function fetchPlayers(playerId) {
   return createFootballFetchCall('players', 'statistics.details;country', playerId);

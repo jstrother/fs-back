@@ -18,6 +18,10 @@ import logger from '../utils/logger.js';
  * @throws {Error} If an unhandled error occurs during the saving process.
  */
 export default async function saveClubs(clubIDs) {
+  if (!Array.isArray(clubIDs) || clubIDs.length === 0) {
+    logger.warn('No club IDs provided to saveClubs function.');
+    return;
+  }
   try {
     await saveEntities({
       fetchFunction: async id => {

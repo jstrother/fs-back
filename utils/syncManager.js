@@ -85,22 +85,41 @@ async function updateSyncStatus(entityType) {
  * This function will be called with `ids` if provided, or without if no IDs are needed.
  * @param {Function} [idGetterFunction=null] - An optional async function that retrieves an array of IDs needed by the saveFunction
  * (e.g., getSavedSeasonIDs, getClubIDsFromSeasons).
+ * @param {Function} [secondaryIdGetterFunction=null] - An optional async function that retrieves a secondary array of IDs if needed.
  * @returns {Promise<void>}
  */
-export default async function dataSyncHandler(entityType, saveFunction, idGetterFunction = null) {
-  let ids = [];
+export default async function dataSyncHandler(entityType, saveFunction, idGetterFunction = null, secondaryIdGetterFunction = null) {
+  
+
+  let primaryIDs = [];
+  let secondaryIDs = [];
 
   if (idGetterFunction) {
     try {
-      ids = await idGetterFunction();
-      if (!ids || ids.length === 0) {
+      primaryIDs = await idGetterFunction();
+      if (!primaryIDs || primaryIDs.length === 0) {
         logger.warn(`No ${entityType} IDs found. Skipping ${entityType} data fetching.`);
         return;
       }
 
-      logger.info(`Retrieved ${ids.length} IDs for ${entityType}`);
+      logger.info(`Retrieved ${primaryIDs.length} IDs for ${entityType}`);
     } catch (error) {
       logger.error(`Error retrieving ${entityType} IDs: ${error.message}`);
+      return;
+    }
+  }
+
+  if (secondaryIdGetterFunction) {
+    try {
+      secondaryIDs = await secondaryIdGetterFunction();
+      if (!secondaryIDs || secondaryIDs.length === 0) {
+        logger.warn(`No secondary IDs found for ${entityType}. Skipping secondary data fetching.`);
+        return;
+      }
+
+      logger.info(`Retrieved ${secondaryIDs.length} secondary IDs via ${secondaryIdGetterFunction.name || 'provided function'}.`);
+    } catch (error) {
+      logger.error(`Error retrieving secondary IDs for ${entityType}: ${error.message}`);
       return;
     }
   }
@@ -108,9 +127,14 @@ export default async function dataSyncHandler(entityType, saveFunction, idGetter
   if (await shouldSync(entityType)) {
     logger.info(`Initiating ${entityType} syncing...`);
     try {
-      if (idGetterFunction) {
-        await saveFunction(ids);
+      if (entityType === 'players') {
+        logger.info(`Calling savePlayers with ${primaryIDs.length} player IDs and ${secondaryIDs.length} season IDs.`);
+        await saveFunction(primaryIDs, secondaryIDs);
+      } else if (idGetterFunction) {
+        logger.info(`Calling ${saveFunction.name} with ${primaryIDs.length} IDs for ${entityType}.`);
+        await saveFunction(primaryIDs);
       } else {
+        logger.info(`Calling ${saveFunction.name} without IDs for ${entityType}.`);
         await saveFunction();
       }
 

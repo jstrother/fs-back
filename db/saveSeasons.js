@@ -18,6 +18,10 @@ import saveEntities from '../utils/saveEntities.js';
  * @throws {Error} If an unhandled error occurs during the saving process.
  */
 export default async function saveSeasons(seasonIDs) {
+  if (!Array.isArray(seasonIDs) || seasonIDs.length === 0) {
+    logger.warn('No season IDs provided to saveSeasons function.');
+    return;
+  }
   try {
     await saveEntities({
       fetchFunction: async id => {

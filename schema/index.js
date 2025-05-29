@@ -40,7 +40,7 @@ export default async function connectDB() {
 
     await dataSyncHandler('fixtures', saveFixtures, getSavedFixtureIDs);
 
-    await dataSyncHandler('players', savePlayers, getSavedPlayerIDs);
+    await dataSyncHandler('players', savePlayers, getSavedPlayerIDs, getSavedSeasonIDs);
 
     await dataSyncHandler('types', saveTypes);
 

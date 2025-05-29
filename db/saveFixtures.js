@@ -18,6 +18,10 @@ import logger from '../utils/logger.js';
  * @throws {Error} If an unhandled error occurs during the saving process.
  */
 export default async function saveFixtures(fixtureIDs) {
+  if (!Array.isArray(fixtureIDs) || fixtureIDs.length === 0) {
+    logger.warn('No fixture IDs provided to saveFixtures function.');
+    return;
+  }
   try {
     await saveEntities({
       fetchFunction: async (id) => {
