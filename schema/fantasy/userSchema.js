@@ -28,10 +28,6 @@ const userSchema = new Schema({
     required: true,
     unique: true,
   },
-  updated_at: {
-    type: Date,
-    default: Date.now,
-  }
 }, { timestamps: true });
 
 export default model('User', userSchema);

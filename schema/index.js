@@ -60,5 +60,6 @@ export { default as Season } from './football/seasonSchema.js';
 export { default as Type } from './core/typeSchema.js';
 
 export { default as User } from './fantasy/userSchema.js';
+export {default as FantasyClub } from './fantasy/fantasyClubSchema.js';
 
 export { default as SyncStatus } from './utility/syncStatusSchema.js';
