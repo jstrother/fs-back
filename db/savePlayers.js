@@ -17,36 +17,62 @@ import logger from '../utils/logger.js';
  * @param {number[]} currentSeasonIDs - An array of current season IDs to filter players by season.
  * Player statistics will only be fetched for the current season.
  * @returns {Promise<void>}
- * @throws {Error} Throws an error if the fetching or saving process fails.
+ * @throws {Error} Throws an error if an unhandled error occurs during the fetching or saving process.
  */
 export default async function savePlayers(playerIDs, currentSeasonIDs) {
   if (!Array.isArray(playerIDs) || playerIDs.length === 0) {
-    logger.warn('No player IDs provided to savePlayers function.');
+    logger.warn('No player IDs provided to savePlayers function. Skipping operation.');
     return;
   }
   if (!Array.isArray(currentSeasonIDs) || currentSeasonIDs.length === 0) {
-    logger.warn('No current season IDs provided to savePlayers function.');
-    return;
+    logger.warn('No current season IDs provided to savePlayers function. Statistics may not be filtered correctly. Proceeding without season filtering for stats.');
+    // You might choose to throw an error here instead if currentSeasonIDs are mandatory
   }
+
   try {
+    logger.info(`Starting to fetch player data for ${playerIDs.length} IDs.`);
+
+    const allPlayersToSave = [];
+
+    // Pre-fetch all player data based on the provided IDs
+    // fetchPlayers(id) returns Promise<Array<object>> (e.g., [playerObject])
+    const fetchPromises = playerIDs.map(async (id) => {
+      try {
+        const playerArray = await fetchPlayers(id);
+        // We expect playerArray to be [playerObject] or empty if not found
+        return playerArray && playerArray.length > 0 ? playerArray[0] : null;
+      } catch (error) {
+        logger.error(`Failed to fetch player ID ${id}: ${error.message}`);
+        return null; // Return null for failed fetches
+      }
+    });
+
+    const fetchedResults = await Promise.all(fetchPromises);
+
+    // Filter out any null results from failed fetches
+    const validPlayers = fetchedResults.filter(player => player !== null);
+
+    if (validPlayers.length === 0) {
+        logger.warn(`No valid player data could be fetched for the provided IDs. Skipping save.`);
+        return;
+    }
+
+    allPlayersToSave.push(...validPlayers); // Add all valid players to the array
+
+    // Now, call saveEntities, passing a fetchFunction that just returns our already-collected array
     await saveEntities({
-      fetchFunction: async id => {
-        const playerData = await fetchPlayers(id);
-        return Array.isArray(playerData) ? playerData[0] : playerData;
-      },
+      fetchFunction: async () => allPlayersToSave, // This function returns a Promise resolving to our collected array
       Model: Player,
       uniqueKey: 'id',
+      // mapApiDataToSchema can still access currentSeasonIDs from the outer scope
       mapApiDataToSchema: player => {
-        if (!player) {
-          logger.warn(`No player data found for ID: ${player.id}`);
-          return null;
-        }
-
         let currentSeasonStats = null;
         if (player.statistics && Array.isArray(player.statistics) && currentSeasonIDs.length > 0) {
-          currentSeasonStats = player.statistics.find(stat => 
+          currentSeasonStats = player.statistics.find(stat =>
             currentSeasonIDs.includes(stat.season_id)
           );
+          // The API might return 'details' as an object if there's only one,
+          // but we always want it as an array for consistency
           if (currentSeasonStats && currentSeasonStats.details && !Array.isArray(currentSeasonStats.details)) {
             currentSeasonStats.details = [currentSeasonStats.details];
           }
@@ -63,16 +89,17 @@ export default async function savePlayers(playerIDs, currentSeasonIDs) {
           common_name: player.common_name,
           photo: player.image_path,
           display_name: player.display_name,
-          country_name: player.country.name,
-          country_flag: player.country.image_path,
-          country_fifa_name: player.country.fifa_name,
-          country_iso3: player.country.iso3,
-          statistics: currentSeasonStats,
-        }
+          country_name: player.country?.name || null, // Defensive checks for nested properties
+          country_flag: player.country?.image_path || null,
+          country_fifa_name: player.country?.fifa_name || null,
+          country_iso3: player.country?.iso3 || null,
+          statistics: currentSeasonStats, // This will be null if no matching season stats found
+        };
       },
-        entityName: 'player',
-        fetchArgs: playerIDs,
+      entityName: 'player',
     });
+
+    logger.info(`Successfully processed and saved/updated ${validPlayers.length} player entities.`);
   } catch (error) {
     logger.error(`Unhandled error in savePlayers function: ${error.message}`);
     throw error;

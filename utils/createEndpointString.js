@@ -2,7 +2,7 @@
  * @file Utility functions for constructing API endpoint URLs for the football data provider.
  * This file centralizes the logic for building API request strings to ensure consistency.
  */
-import { API_FOOTBALL_URL, API_CORE_URL, API_TOKEN } from '../config.js';
+import { API_FOOTBALL_URL, API_CORE_URL } from '../config.js';
 
 /**
  * A higher-order function that returns a specialized function for constructing API endpoints.
@@ -30,15 +30,21 @@ function createEndpointString(baseURL) {
       endpoint += `/${uniqueId}`;
     }
 
-    endpoint += API_TOKEN;
+    const queryParams = new URLSearchParams();
 
     if (includes) {
-      endpoint += `&includes=${includes}`;
+      queryParams.append('includes', includes);
     }
 
     if (page > 1) {
-      endpoint += `&page=${page}`;
+      queryParams.append('page', page.toString());
     }
+
+    const queryString = queryParams.toString();
+    if (queryString) {
+      endpoint = `${endpoint}?${queryString}`;
+    }
+    
     return endpoint;
   };
 }

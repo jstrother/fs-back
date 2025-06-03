@@ -19,15 +19,42 @@ import logger from '../utils/logger.js';
  */
 export default async function saveClubs(clubIDs) {
   if (!Array.isArray(clubIDs) || clubIDs.length === 0) {
-    logger.warn('No club IDs provided to saveClubs function.');
+    logger.warn('No club IDs provided to saveClubs function. Skipping operation.');
     return;
   }
+
   try {
+    logger.info(`Starting to fetch club data for ${clubIDs.length} IDs.`);
+
+    const allClubsToSave = [];
+
+    // Pre-fetch all club data based on the provided IDs concurrently
+    const fetchPromises = clubIDs.map(async (id) => {
+      try {
+        const clubArray = await fetchClubs(id); // fetchClubs(id) returns Promise<[clubObject]>
+        // Extract the single club object or return null if not found
+        return clubArray && clubArray.length > 0 ? clubArray[0] : null;
+      } catch (error) {
+        logger.error(`Failed to fetch club ID ${id}: ${error.message}`);
+        return null; // Return null for failed fetches
+      }
+    });
+
+    const fetchedResults = await Promise.all(fetchPromises);
+
+    // Filter out any null results from failed fetches
+    const validClubs = fetchedResults.filter(club => club !== null);
+
+    if (validClubs.length === 0) {
+        logger.warn(`No valid club data could be fetched for the provided IDs. Skipping save.`);
+        return;
+    }
+
+    allClubsToSave.push(...validClubs); // Add all valid clubs to the array
+
+    // Call saveEntities, passing a fetchFunction that simply returns our already-collected array
     await saveEntities({
-      fetchFunction: async id => {
-        const clubData = await fetchClubs(id);
-        return Array.isArray(clubData) ? clubData[0] : clubData;
-      },
+      fetchFunction: async () => allClubsToSave, // This function returns a Promise resolving to our collected array
       Model: Club,
       uniqueKey: 'id',
       mapApiDataToSchema: club => ({
@@ -35,12 +62,14 @@ export default async function saveClubs(clubIDs) {
         logo: club.image_path,
         country_id: club.country_id,
         short_code: club.short_code,
+        // Ensure 'players' array exists before mapping
         roster: club.players ? club.players.map(player => player.player_id) : [],
         league_id: club.leagueId,
       }),
       entityName: 'club',
-      fetchArgs: clubIDs,
     });
+
+    logger.info(`Successfully processed and saved/updated ${validClubs.length} club entities.`);
   } catch (error) {
     logger.error(`Unhandled error in saveClubs function: ${error.message}`);
     throw error;

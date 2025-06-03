@@ -3,7 +3,9 @@
  * This module provides a higher-order function that generates specialized async functions
  * for making API requests, handling endpoint creation, pagination, and basic error logging.
  */
+import fetch from 'node-fetch';
 import { createFootballEndpointString, createCoreEndpointString } from './createEndpointString.js';
+import { SPORTMONKS_API_KEY } from '../config.js';
 import logger from './logger.js';
 
 /**
@@ -12,59 +14,79 @@ import logger from './logger.js';
  *
  * @param {function(string, string | null, number | null, number): string} endpointCreator - A function
  * (like `createFootballEndpointString` or `createCoreEndpointString`) that constructs the full API URL.
- * @returns {function(string, string | null, number | null, number, Array<any>): Promise<Array<any>>}
- * An async function that executes the fetch call.
+ * @returns {function(string, string | null, number | null): AsyncGenerator<any, void, void>}
+ * An async generator function that fetches data page by page and yields individual items.
+ * The returned generator takes `specificEndpoint`, `includes`, and `uniqueId` as arguments.
  */
 function createFetchCall(endpointCreator) {
   /**
-   * Executes an API fetch call, handling pagination recursively.
-   * This function is designed to be called by its parent `createFetchCall`'s returned closure.
+   * An asynchronous generator function that fetches data from a paginated API endpoint.
+   * This function fetches data page by page and yields individual items as they are received.
    *
-   * @param {string} specificEndpoint - The specific API path (e.g., 'leagues', 'seasons/123').
-   * @param {string | null} [includes=null] - A comma or semicolon-separated string of related resources to include.
-   * @param {number | null} [uniqueId=null] - A unique identifier for a specific resource.
-   * @param {number} [page=1] - The current page number for paginated requests.
-   * @param {Array<any>} [accumulatedData=[]] - An array to accumulate data across multiple paginated calls.
-   * @returns {Promise<Array<any>>} A promise that resolves with an array of all fetched data, concatenated from all pages if pagination exists. Throws an error on fetch failure.
+   * @param {string} specificEndpoint - The main part of the endpoint after the base URL (e.g., 'leagues', 'seasons/123').
+   * @param {string | null} [includes=null] - An optional semicolon-separated string of related resources to include.
+   * @param {number | null} [uniqueId=null] - An optional unique identifier for a specific resource.
+   * @returns {AsyncGenerator<any, void, void>} An async generator that yields individual data items.
+   * @throws {Error} If the API call fails (e.g., network error, non-OK HTTP status).
    */
-  return async function fetchRecursive(specificEndpoint, includes = null, uniqueId = null, page = 1, accumulatedData = []) {
-    try {
-      const endpoint = endpointCreator(specificEndpoint, includes, uniqueId, page);
-      const response = await fetch(endpoint);
+  return async function* fetchPaginatedData(specificEndpoint, includes = null, uniqueId = null) {
+    let page = 1;
+    let hasMore = true;
 
-      if (!response.ok) {
-        logger.error(`HTTP error! Status ${response.status}`);
-        throw new Error(`HTTP error! Status ${response.status}`);
+    while (hasMore) {
+      try {
+        let endpoint = endpointCreator(specificEndpoint, includes, uniqueId, page);
+
+        const separator = endpoint.includes('?') ? '&' : '?';
+        endpoint = `${endpoint}${separator}api_token=${SPORTMONKS_API_KEY}`;
+
+        logger.info(`Fetching data from endpoint: ${endpoint}`);
+
+        const response = await fetch(endpoint, {
+          method: 'GET',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+        });
+
+        if (!response.ok) {
+          const errorMsg = `HTTP error! Status ${response.status} for ${endpoint}`;
+          logger.error(errorMsg);
+          throw new Error(errorMsg);
+        }
+
+        const responseData = await response.json();
+        let currentData;
+
+        if (Array.isArray(responseData.data)) {
+          // If the data is an array, use it directly
+          currentData = responseData.data;
+        } else if (responseData.data) {
+          // If the data is an object, wrap it in an array
+          currentData = [responseData.data];
+        } else {
+          // If there's no data, set currentData to an empty array
+          currentData = [];
+        }
+
+        for (const item of currentData) {
+          yield item; // Yield each item individually
+        }
+
+        hasMore = responseData.pagination?.has_more || false;
+
+        if (hasMore) {
+          page++; // Increment the page for the next iteration
+        }
+        logger.info(`Fetched ${currentData.length} items from page ${page - 1}`);
+
+      } catch (error) {
+        logger.error(`Error creating fetch call for page ${page}: ${error.message}`);
+        console.error(`Error creating fetch call: ${error.stack}`);
+        throw error;
       }
-
-      const responseData = await response.json();
-      let currentData;
-      
-      if (Array.isArray(responseData.data)) {
-        // If the data is an array, use it directly
-        currentData = responseData.data;
-      } else if (responseData.data) {
-        // If the data is an object, wrap it in an array
-        currentData = [responseData.data];
-      } else {
-        // If there's no data, set currentData to an empty array
-        currentData = [];
-      }
-
-      if (responseData.pagination?.has_more) {
-        const nextPage = page + 1;
-        const newData = [...accumulatedData, ...currentData];
-        return fetchRecursive(specificEndpoint, includes, uniqueId, nextPage, newData);
-      }
-
-      const finalData = [...accumulatedData, ...currentData];
-      return finalData;
-    } catch (error) {
-      logger.error(`Error creating fetch call: ${error}`);
-      console.error(`Error creating fetch call: ${error.stack}`);
-      throw error;
-    }
-  };
+    }    
+  }
 }
 
 /**

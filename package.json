@@ -20,5 +20,8 @@
     "node-cron": "^3.0.3",
     "nodemon": "^3.1.7",
     "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "node-fetch": "^3.3.2"
   }
 }

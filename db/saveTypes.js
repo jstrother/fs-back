@@ -19,10 +19,7 @@ import logger from '../utils/logger.js';
 export default async function saveTypes() {
   try {
     await saveEntities({
-      fetchFunction: async () => {
-        const typesData = await fetchAllTypes();
-        return Array.isArray(typesData) ? typesData : [typesData];
-      },
+      fetchFunction: fetchAllTypes,
       Model: Type,
       uniqueKey: 'id',
       mapApiDataToSchema: type => ({
@@ -31,7 +28,7 @@ export default async function saveTypes() {
       entityName: 'type',
     });
   } catch (error) {
-    logger.error(`Unhandled error in saveTypes function: ${error}`);
+    logger.error(`Unhandled error in saveTypes function: ${error.message}`); // Added .message for better logging
     throw error;
   }
 }
