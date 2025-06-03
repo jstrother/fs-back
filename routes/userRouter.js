@@ -8,9 +8,9 @@ import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 
 import { User, FantasyClub } from '../schema/index.js';
-import { JWT_SECRET } from '../config.js';
-import authMiddleware from '../middleware/authMiddleware.js';
-import logger from '../utils/logger.js';
+import { JWT_SECRET } from '../config.js'; // Ensure this contains your secret key
+import authMiddleware from '../middleware/authMiddleware.js'; // This is your authentication middleware
+import logger from '../utils/logger.js'; // Ensure your logger is properly configured for backend
 
 const userRouter = express.Router();
 
@@ -46,7 +46,7 @@ const userRouter = express.Router();
  * description: The user's chosen unique username.
  * responses:
  * 201:
- * description: User created and successfully logged in. Returns a JWT.
+ * description: User created and JWT set in HTTP-only cookie.
  * content:
  * application/json:
  * schema:
@@ -55,32 +55,20 @@ const userRouter = express.Router();
  * message:
  * type: string
  * example: User created and logged in
- * token:
- * type: string
- * description: JSON Web Token for authentication.
  * 400:
  * description: User already exists or validation error.
- * content:
- * application/json:
- * schema:
- * type: object
- * properties:
- * message:
- * type: string
- * example: User already exists
- * errors:
- * type: object
- * description: Details about validation errors (if applicable).
  * 500:
  * description: Server error during registration.
  */
 userRouter.post('/register', async (req, res) => {
   try {
     const { email, password, username } = req.body;
+
     const existingUser = await User.findOne({
       $or: [{ email }, { username }],
     });
     if (existingUser) {
+      logger.warn(`Registration attempt for existing user: ${email || username}`);
       return res.status(400).json('User already exists');
     }
 
@@ -93,21 +81,26 @@ userRouter.post('/register', async (req, res) => {
     });
 
     await user.save();
+    logger.info(`New user registered: ${user.username} (${user.email})`);
 
-    const token = jwt.sign({ user: { id: user._id } }, JWT_SECRET, { expiresIn: '1h' });
+    const token = jwt.sign({ user: { id: user._id } }, JWT_SECRET, { expiresIn: '1h' }); // JWT payload expires in 1 hour
 
-    res.status(201).json({ message: 'User created and logged in', token });
+    res.cookie('token', token, {
+      httpOnly: true,
+      secure: process.env.NODE_ENV === 'production',
+      sameSite: 'Lax',
+      maxAge: 3600000, // Cookie expires in 1 hour (1000ms * 60s * 60min = 3,600,000ms)
+    });
+
+    res.status(201).json({ message: 'User created and logged in' }); // No longer sending token in body
   } catch (error) {
     if (error.name === 'ValidationError') {
-      // Mongoose validation error
-      logger.error('Mongoose Validation Error:', error.errors);
+      logger.error('Mongoose Validation Error during registration:', error.errors);
       res.status(400).json({ message: 'Validation Error', errors: error.errors });
     } else {
-      // Other errors
       logger.error('Error during registration:', error);
-      res.status(500).json(error);
+      res.status(500).json({ message: 'Server error during registration.' });
     }
-    logger.log('Uh-oh! Something went wrong! Unable to register');
   }
 });
 
@@ -116,7 +109,7 @@ userRouter.post('/register', async (req, res) => {
  * /api/users/login:
  * post:
  * summary: Log in a user
- * description: Authenticates a user with email/username and password, returning a JWT upon successful login.
+ * description: Authenticates a user with email/username and password, setting a JWT in an HTTP-only cookie upon successful login.
  * tags:
  * - Users
  * requestBody:
@@ -141,22 +134,17 @@ userRouter.post('/register', async (req, res) => {
  * description: The user's password.
  * responses:
  * 200:
- * description: User successfully logged in. Returns a JWT.
+ * description: User successfully logged in and JWT set in HTTP-only cookie.
  * content:
  * application/json:
  * schema:
  * type: object
  * properties:
- * token:
+ * message:
  * type: string
- * description: JSON Web Token for authentication.
+ * example: User successfully logged in
  * 401:
  * description: User not found or invalid password.
- * content:
- * application/json:
- * schema:
- * type: string
- * example: User not found
  * 500:
  * description: Server error during login.
  */
@@ -168,84 +156,94 @@ userRouter.post('/login', async (req, res) => {
     });
 
     if (!user) {
+      logger.warn(`Login attempt for non-existent user: ${email || username}`);
       return res.status(401).json('User not found');
     }
 
     const passwordMatch = await bcrypt.compare(password, user.password);
 
     if (!passwordMatch) {
+      logger.warn(`Login attempt with invalid password for user: ${user.username}`);
       return res.status(401).json('Invalid password');
     }
 
     const token = jwt.sign({ user: { id: user._id } }, JWT_SECRET, { expiresIn: '1h' });
 
-    res.json({ token });
-    logger.log('logged in');
+    // Set the JWT as an HTTP-only cookie
+    res.cookie('token', token, {
+      httpOnly: true,
+      secure: process.env.NODE_ENV === 'production',
+      sameSite: 'Lax',
+      maxAge: 3600000, // 1 hour
+    });
+
+    logger.info(`User logged in: ${user.username}`);
+    res.status(200).json({ message: 'User successfully logged in' }); // No longer sending token in body
   } catch (error) {
-    res.status(500).json(error);
-    logger.log('Uh-oh! Something went wrong! Unable to login');
+    logger.error('Error during login:', error);
+    res.status(500).json({ message: 'Server error during login.' });
   }
+});
 
-  /**
-   * @swagger
-   * /api/users/has-club:
-   * get:
-   * summary: Check if the authenticated user has a fantasy club
-   * description: Returns true if the logged-in user owns a fantasy club, false otherwise.
-   * tags:
-   * - Users
-   * security:
-   * - BearerAuth: []
-   * responses:
-   * 200:
-   * description: Status of the user's fantasy club.
-   * content:
-   * application/json:
-   * schema:
-   * type: object
-   * properties:
-   * hasClub:
-   * type: boolean
-   * description: True if the user has a club, false otherwise.
-   * clubId:
-   * type: string
-   * description: The ID of the fantasy club if it exists.
-   * clubName:
-   * type: string
-   * description: The name of the fantasy club if it exists.
-   * 401:
-   * description: Unauthorized - No token or invalid token.
-   * 500:
-   * description: Server error.
-   */
-  userRouter.get('/has-club', authMiddleware, async (req, res) => {
-    try {
-      if (!req.user || !req.user.id) {
-        logger.error('Authentication middleware did not provide user ID for /has-club endpoint');
-        return res.status(500).json({
-          message: 'User not authenticated or ID missing',
-        });
-      }
 
-      const userId = req.user.id;
-      logger.info(`Checking if user ${userId} has a fantasy club`);
-
-      const club = FantasyClub.findOne({ owner: userId});
-
-      if (club) {
-        logger.info(`User ${userId} has a club named ${club.name}`);
-        return res.json({ hasClub: true, clubId: club._id, clubName: club.name });
-      } else {
-        logger.info(`User ${userId} does not have a fantasy club`);
-        return res.json({ hasClub: false });
-      }
-    } catch (error) {
-      logger.error(`Error checking club status for user ${req.user ? req.user.id : 'unknown'}: ${error.message}`);
-      res.status(500).json({
-        message: 'Server error when checking club status',
-      });
+/**
+ * @swagger
+ * /api/users/has-club:
+ * get:
+ * summary: Check if the authenticated user has a fantasy club
+ * description: Returns true if the logged-in user owns a fantasy club, false otherwise.
+ * tags:
+ * - Users
+ * security:
+ * - BearerAuth: []
+ * responses:
+ * 200:
+ * description: Status of the user's fantasy club.
+ * content:
+ * application/json:
+ * schema:
+ * type: object
+ * properties:
+ * hasClub:
+ * type: boolean
+ * description: True if the user has a club, false otherwise.
+ * clubId:
+ * type: string
+ * description: The ID of the fantasy club if it exists.
+ * clubName:
+ * type: string
+ * description: The name of the fantasy club if it exists.
+ * 401:
+ * description: Unauthorized - No token or invalid token.
+ * 500:
+ * description: Server error.
+ */
+userRouter.get('/has-club', authMiddleware, async (req, res) => {
+  try {
+    // Ensure req.user and req.user.id are populated by authMiddleware
+    if (!req.user || !req.user.id) {
+      logger.error('Authentication middleware did not provide user ID for /has-club endpoint. Token might be invalid or missing.');
+      // It's better to respond with a 401 if authentication failed
+      return res.status(401).json({ message: 'Unauthorized: User ID missing.' });
     }
-  });
+
+    const userId = req.user.id;
+    logger.info(`Checking if user ${userId} has a fantasy club`);
+
+    // Use await for Mongoose query
+    const club = await FantasyClub.findOne({ owner: userId });
+
+    if (club) {
+      logger.info(`User ${userId} has a club named ${club.name}`);
+      return res.json({ hasClub: true, clubId: club._id, clubName: club.name });
+    } else {
+      logger.info(`User ${userId} does not have a fantasy club`);
+      return res.json({ hasClub: false });
+    }
+  } catch (error) {
+    logger.error(`Error checking club status for user ${req.user ? req.user.id : 'unknown'}: ${error.message}`);
+    res.status(500).json({ message: 'Server error when checking club status.' });
+  }
 });
 
 export default userRouter;

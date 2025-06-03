@@ -2,11 +2,12 @@
 // It is executed directly via 'node server.js' or through npm scripts.
 
 import express from 'express';
-import bodyParser from 'body-parser';
+import cookieParser from 'cookie-parser';
 import cors from 'cors';
 
 import connectDB from './schema/index.js';
 import userRouter from './routes/userRouter.js';
+import fantasyClubRouter from './routes/fantasyClubRouter.js';
 import logger from './utils/logger.js';
 
 import { PORT, FRONTEND_URL } from './config.js';
@@ -19,17 +20,12 @@ app.use(cors({
   origin: FRONTEND_URL,
   credentials: true,
 }));
-app.use(bodyParser.json());
+app.use(express.json());
+app.use(cookieParser());
 app.use(express.static('public'));
+
 app.use('/user', userRouter);
-
-app.get('/', (req, res) => {
-  res.send('Fantasy Soccer for All!');
-});
-
-app.get('/user', (req, res) => {
-  res.send('User Route');
-});
+app.use('/fantasy-club', fantasyClubRouter);
 
 app.listen(PORT, () => {
   logger.info(`Server running on port ${PORT}`);

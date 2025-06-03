@@ -22,6 +22,7 @@
     "winston": "^3.17.0"
   },
   "devDependencies": {
+    "cookie-parser": "^1.4.7",
     "node-fetch": "^3.3.2"
   }
 }
