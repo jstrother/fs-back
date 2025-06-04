@@ -24,8 +24,8 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(express.static('public'));
 
-app.use('/user', userRouter);
-app.use('/fantasy-club', fantasyClubRouter);
+app.use('/api/user', userRouter);
+app.use('/api/fantasy-club', fantasyClubRouter);
 
 app.listen(PORT, () => {
   logger.info(`Server running on port ${PORT}`);

@@ -18,7 +18,7 @@ import logger from '../utils/logger.js';
  * @returns {void}
  */
 const authMiddleware = (req, res, next) => {
-  const token = req.header('Authorization')?.replace('Bearer ', '');
+  const token = req.cookies.token;
 
   if (!token) {
     logger.warn('Authentication attempt without token: Authorization denied');
@@ -33,7 +33,8 @@ const authMiddleware = (req, res, next) => {
     next();
   } catch (error) {
     logger.error(`Auth middleware error: Token is not valid - ${error.message}`);
-    res.status(401).json({
+    res.clearCookie('token');
+    return res.status(401).json({
       message: 'Token is not valid',
     });
   }

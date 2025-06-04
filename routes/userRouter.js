@@ -246,4 +246,108 @@ userRouter.get('/has-club', authMiddleware, async (req, res) => {
   }
 });
 
+/**
+ * @swagger
+ * /api/users/auth/status:
+ * get:
+ * summary: Get authentication status and user/club details
+ * description: Checks if the user is authenticated via JWT cookie and returns user details, including fantasy club status.
+ * tags:
+ * - Users
+ * security:
+ * - CookieAuth: [] # Indicates that authentication is via cookie
+ * responses:
+ * 200:
+ * description: User authentication status and details.
+ * content:
+ * application/json:
+ * schema:
+ * type: object
+ * properties:
+ * isAuthenticated:
+ * type: boolean
+ * description: True if the user is authenticated, false otherwise.
+ * user:
+ * type: object
+ * properties:
+ * id: { type: string }
+ * username: { type: string }
+ * email: { type: string }
+ * hasClub: { type: boolean }
+ * clubId: { type: string }
+ * clubName: { type: string }
+ * 401:
+ * description: Not authenticated (shouldn't happen if authMiddleware handles it, but good for clarity).
+ * 500:
+ * description: Server error.
+ */
+userRouter.get('/auth/status', authMiddleware, async (req, res) => {
+  try {
+    if (!req.user || !req.user.id) {
+      logger.error('Authentication middleware did not provide user ID for /auth/status endpoint. Token might be invalid or missing.');
+      return res.status(401).json({
+        isAuthenticated: false,
+        message: 'User data not found.',
+      });
+    }
+
+    const userId = req.user.id;
+    const user = await User.findById(userId).select('-password');
+
+    if (!user) {
+      logger.warn(`User with ID ${userId} not found during auth status check.`);
+      res.clearCookie('token', { path: '/' }); // Clear cookie if user not found
+      return res.status(401).json({
+        isAuthenticated: false,
+        message: 'User not found.',
+      });
+    }
+
+    const club = await FantasyClub.findOne({ owner: userId });
+    const hasClub = !!club;
+    const clubId = club ? club._id : null;
+    const clubName = club ? club.name : null;
+
+    logger.info(`User ${user.username} (${user.email}) authentication status checked. Has club: ${hasClub}`);
+
+    res.status(200).json({
+      isAuthenticated: true,
+      user: {
+        id: user.id,
+        username: user.username,
+        email: user.email,
+      },
+      hasClub,
+      clubId,
+      clubName,
+    });
+  } catch (error) {
+    logger.error(`Error checking authentication status for user ${req.user ? req.user.id : 'unknown'}: ${error.message}`);
+    res.status(500).json({ message: 'Server error when checking authentication status.' });
+  }
+});
+
+/**
+ * @swagger
+ * /api/users/logout:
+ * post:
+ * summary: Log out a user
+ * description: Clears the authentication JWT cookie, effectively logging out the user.
+ * tags:
+ * - Users
+ * responses:
+ * 200:
+ * description: User successfully logged out.
+ */
+userRouter.post('/logout', (req, res) => {
+    res.clearCookie('token', {
+      httpOnly: true,
+      secure: process.env.NODE_ENV === 'production',
+      sameSite: 'Lax',
+      path: '/',
+    });
+    logger.info('User logged out (cookie cleared).');
+    res.status(200).json({ message: 'Logged out successfully.' });
+});
+
 export default userRouter;
