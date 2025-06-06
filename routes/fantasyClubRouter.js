@@ -63,7 +63,7 @@ const fantasyClubRouter = express.Router();
  */
 fantasyClubRouter.post('/', authMiddleware, async (req, res) => {
   try {
-    const { name } = req.body;
+    const { name, roster } = req.body;
     const userId = req.user.id; // Get user ID from authenticated request
 
     // Check if user already owns a club (unique: true on owner in schema helps, but explicit check is good)
@@ -77,7 +77,7 @@ fantasyClubRouter.post('/', authMiddleware, async (req, res) => {
     const newClub = new FantasyClub({
       name,
       owner: userId,
-      roster: [], // Initialize with an empty roster
+      roster,
       fantasyPoints: 0, // Initialize with 0 points
     });
 
