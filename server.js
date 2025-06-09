@@ -8,6 +8,8 @@ import cors from 'cors';
 import connectDB from './schema/index.js';
 import userRouter from './routes/userRouter.js';
 import fantasyClubRouter from './routes/fantasyClubRouter.js';
+import playerRouter from './routes/playerRouter.js';
+
 import logger from './utils/logger.js';
 
 import { PORT, FRONTEND_URL } from './config.js';
@@ -26,6 +28,7 @@ app.use(express.static('public'));
 
 app.use('/api/user', userRouter);
 app.use('/api/fantasy-club', fantasyClubRouter);
+app.use('/api/players', playerRouter);
 
 app.listen(PORT, () => {
   logger.info(`Server running on port ${PORT}`);
