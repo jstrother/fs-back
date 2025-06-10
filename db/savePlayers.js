@@ -7,6 +7,7 @@ import { fetchPlayers } from '../utils/fetchFunctions.js';
 import { Player } from '../schema/index.js';
 import saveEntities from '../utils/saveEntities.js';
 import logger from '../utils/logger.js';
+import parseDateString from '../utils/parseDateString.js';
 
 /**
  * Fetches detailed player data from the API based on a list of player IDs
@@ -83,7 +84,13 @@ export default async function savePlayers(playerIDs, currentSeasonIDs) {
         logger.info(`Using today's date for club filtering: ${today.toISOString()}`);
         if (player.teams && Array.isArray(player.teams) && player.teams.length > 0) {
           player.teams.forEach(team => {
-            if (team.start <= today && (!team.end || team.end >= today)) {
+            const [startYear, startMonth, startDay] = parseDateString(team.start);
+            const [endYear, endMonth, endDay] = parseDateString(team.end);
+
+            const teamStartDate = new Date(startYear, startMonth, startDay);
+            const teamEndDate = team.end ? new Date(endYear, endMonth, endDay) : null;
+            
+            if (teamStartDate <= today && (teamEndDate && teamEndDate >= today)) {
               clubId = team.team_id;
             }
           });
