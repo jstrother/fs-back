@@ -78,6 +78,17 @@ export default async function savePlayers(playerIDs, currentSeasonIDs) {
           }
         }
 
+        let clubId = null;
+        let today = new Date(2025, 4, 30); // Default to a specific date for testing; replace with new Date() for production
+        logger.info(`Using today's date for club filtering: ${today.toISOString()}`);
+        if (player.teams && Array.isArray(player.teams) && player.teams.length > 0) {
+          player.teams.forEach(team => {
+            if (team.start <= today && (!team.end || team.end >= today)) {
+              clubId = team.team_id;
+            }
+          });
+        }
+
         return {
           id: player.id,
           position_id: player.position_id,
@@ -89,6 +100,7 @@ export default async function savePlayers(playerIDs, currentSeasonIDs) {
           common_name: player.common_name,
           photo: player.image_path,
           display_name: player.display_name,
+          club_id: clubId,
           country_name: player.country?.name || null, // Defensive checks for nested properties
           country_flag: player.country?.image_path || null,
           country_fifa_name: player.country?.fifa_name || null,

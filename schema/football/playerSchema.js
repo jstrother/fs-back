@@ -72,6 +72,7 @@ const playerSchema = new Schema({
   name: String,
   display_name: String,
   photo: String,
+  club_id: Number,
   country_name: String,
   country_flag: String,
   country_fifa_name: String,
