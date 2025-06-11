@@ -80,8 +80,7 @@ export default async function savePlayers(playerIDs, currentSeasonIDs) {
         }
 
         let clubId = null;
-        let today = new Date(2025, 4, 30); // Default to a specific date for testing; replace with new Date() for production
-        logger.info(`Using today's date for club filtering: ${today.toISOString()}`);
+        let today = new Date();
         if (player.teams && Array.isArray(player.teams) && player.teams.length > 0) {
           player.teams.forEach(team => {
             const [startYear, startMonth, startDay] = parseDateString(team.start);
