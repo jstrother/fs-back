@@ -43,12 +43,6 @@ export default async function savePlayers(playerIDs, currentSeasonIDs) {
     const positionTypes = await Type.find({ group: 'position' }).lean();
     const positionMap = new Map(positionTypes.map(type => [type.id, type.name])); // Map position IDs to names
     logger.info(`Fetched ${positionTypes.length} position types from the database.`);
-    logger.debug('DEBUG: positionMap contents:', Array.from(positionMap.entries()));
-
-    const detailedPositionTypes = await Type.find({ group: 'detailed_position' }).lean();
-    const detailedPositionMap = new Map(detailedPositionTypes.map(type => [type.id, type.name])); // Map detailed position IDs to names
-    logger.info(`Fetched ${detailedPositionMap.size} detailed position types from the database.`);
-    logger.debug('DEBUG: detailedPositionMap contents:', Array.from(detailedPositionMap.entries()));
 
     const statisticTypes = await Type.find({ group: 'statistic' }).lean();
     const statisticMap = new Map(statisticTypes.map(type => [type.id, type.name])); // Map statistic IDs to names
@@ -142,10 +136,9 @@ export default async function savePlayers(playerIDs, currentSeasonIDs) {
             }
           }
         }
-        logger.debug(`Player ID ${player.id}: API position_id: ${player.position_id}, detailed_position_id: ${player.detailed_position_id}`);
+
         const positionName = positionMap.get(player.position_id) || 'Unknown';
-        const detailedPositionName = detailedPositionMap.get(player.detailed_position_id) || 'Unknown';
-        logger.debug(`Player ID ${player.id}: API position_id: ${player.position_id}, detailed_position_id: ${player.detailed_position_id}`);
+        const detailedPositionName = positionMap.get(player.detailed_position_id) || 'Unknown';        
 
         return {
           id: player.id,

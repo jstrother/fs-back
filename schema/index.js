@@ -31,6 +31,8 @@ export default async function connectDB() {
   try {
     await mongoose.connect(DB_URL);
     logger.info('Connected to database')
+
+    await dataSyncHandler('types', saveTypes);
     
     await dataSyncHandler('leagues', saveLeagues);
 
@@ -41,8 +43,6 @@ export default async function connectDB() {
     await dataSyncHandler('fixtures', saveFixtures, getSavedFixtureIDs);
 
     await dataSyncHandler('players', savePlayers, getSavedPlayerIDs, getSavedSeasonIDs);
-
-    await dataSyncHandler('types', saveTypes);
 
     logger.info('Application started successfully');
   } catch (error) {
