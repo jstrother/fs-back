@@ -19,7 +19,14 @@ const TypeSchema = new Schema({
     required: true,
     index: true,
   },
-  name: String,
+  name: {
+    type: String,
+    required: true,
+  },
+  group: {
+    type: String,
+    required: true,
+  },
 }, { timestamps: true });
 
 export default model('Type', TypeSchema);

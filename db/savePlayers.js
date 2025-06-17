@@ -4,7 +4,7 @@
  * and its upsertion into the Player collection using a generic batch saving utility.
  */
 import { fetchPlayers } from '../utils/fetchFunctions.js';
-import { Player } from '../schema/index.js';
+import { Player, Club, Type } from '../schema/index.js';
 import saveEntities from '../utils/saveEntities.js';
 import logger from '../utils/logger.js';
 import parseDateString from '../utils/parseDateString.js';
@@ -13,6 +13,7 @@ import parseDateString from '../utils/parseDateString.js';
  * Fetches detailed player data from the API based on a list of player IDs
  * and saves/updates them in the database.
  * It uses the generic saveEntities utility for efficiency.
+ * It now enriches player data with club references and human-readable position names.
  *
  * @param {number[]} playerIDs - An array of player IDs to fetch and save.
  * @param {number[]} currentSeasonIDs - An array of current season IDs to filter players by season.
@@ -26,12 +27,32 @@ export default async function savePlayers(playerIDs, currentSeasonIDs) {
     return;
   }
   if (!Array.isArray(currentSeasonIDs) || currentSeasonIDs.length === 0) {
-    logger.warn('No current season IDs provided to savePlayers function. Statistics may not be filtered correctly. Proceeding without season filtering for stats.');
-    // You might choose to throw an error here instead if currentSeasonIDs are mandatory
+    logger.error('No current season IDs provided to savePlayers function. Statistics may not be filtered correctly. Proceeding without season filtering for stats.');
+    throw new Error('Current season IDs must be provided to filter player statistics.');
   }
 
   try {
     logger.info(`Starting to fetch player data for ${playerIDs.length} IDs.`);
+
+    logger.info('Pre-fetching Club and Type data for player associations.');
+
+    const allClubs = await Club.find({}).lean();
+    const clubMap = new Map(allClubs.map(club => [club.id, club._id])); // Map club IDs to Mongoose ObjectIds
+    logger.info(`Fetched ${allClubs.length} clubs from the database.`);
+
+    const positionTypes = await Type.find({ group: 'position' }).lean();
+    const positionMap = new Map(positionTypes.map(type => [type.id, type.name])); // Map position IDs to names
+    logger.info(`Fetched ${positionTypes.length} position types from the database.`);
+    logger.debug('DEBUG: positionMap contents:', Array.from(positionMap.entries()));
+
+    const detailedPositionTypes = await Type.find({ group: 'detailed_position' }).lean();
+    const detailedPositionMap = new Map(detailedPositionTypes.map(type => [type.id, type.name])); // Map detailed position IDs to names
+    logger.info(`Fetched ${detailedPositionMap.size} detailed position types from the database.`);
+    logger.debug('DEBUG: detailedPositionMap contents:', Array.from(detailedPositionMap.entries()));
+
+    const statisticTypes = await Type.find({ group: 'statistic' }).lean();
+    const statisticMap = new Map(statisticTypes.map(type => [type.id, type.name])); // Map statistic IDs to names
+    logger.info(`Fetched ${statisticMap.size} statistic types from the database.`);
 
     const allPlayersToSave = [];
 
@@ -65,7 +86,6 @@ export default async function savePlayers(playerIDs, currentSeasonIDs) {
       fetchFunction: async () => allPlayersToSave, // This function returns a Promise resolving to our collected array
       Model: Player,
       uniqueKey: 'id',
-      // mapApiDataToSchema can still access currentSeasonIDs from the outer scope
       mapApiDataToSchema: player => {
         let currentSeasonStats = null;
         if (player.statistics && Array.isArray(player.statistics) && currentSeasonIDs.length > 0) {
@@ -77,36 +97,69 @@ export default async function savePlayers(playerIDs, currentSeasonIDs) {
           if (currentSeasonStats && currentSeasonStats.details && !Array.isArray(currentSeasonStats.details)) {
             currentSeasonStats.details = [currentSeasonStats.details];
           }
+
+          // Enrich statistics details with human-readable names
+          if (currentSeasonStats && currentSeasonStats.details) {
+            currentSeasonStats.details = currentSeasonStats.details.map((detail) => {
+              const statisticName = statisticMap.get(detail.type_id) || 'Unknown Statistic';
+              return {
+                ...detail,
+                statistic_name: statisticName,
+              };
+            });
+          }
         }
 
-        let clubId = null;
+        let apiClubId = null;
+        let mongoClubObjectId = null;
+
         let today = new Date();
-        if (player.teams && Array.isArray(player.teams) && player.teams.length > 0) {
-          player.teams.forEach(team => {
-            const [startYear, startMonth, startDay] = parseDateString(team.start);
-            const [endYear, endMonth, endDay] = parseDateString(team.end);
 
-            const teamStartDate = new Date(startYear, startMonth, startDay);
-            const teamEndDate = team.end ? new Date(endYear, endMonth, endDay) : null;
-            
-            if (teamStartDate <= today && (teamEndDate && teamEndDate >= today)) {
-              clubId = team.team_id;
-            }
+        if (player.teams && Array.isArray(player.teams) && player.teams.length > 0) {
+          // Sort teams by start date to find the most recent club
+          const sortedTeams = player.teams.sort((a, b) => {
+            const dateA = a.start ? new Date(...parseDateString(a.start_date)) : new Date(0);
+            const dateB = b.start ? new Date(...parseDateString(b.start_date)) : new Date(0);
+            return dateB.getTime() - dateA.getTime(); // Sort descending to get the most recent first
           });
+
+          for (const team of sortedTeams) {
+            const [startYear, startMonth, startDay] = parseDateString(team.start_date);
+            const teamStartDate = new Date(startYear, startMonth, startDay);
+
+            let teamEndDate = null;
+            if (team.end_date) {
+              const [endYear, endMonth, endDay] = parseDateString(team.end_date);
+              teamEndDate = new Date(endYear, endMonth, endDay);
+            }
+
+            if (teamStartDate <= today && (!teamEndDate || teamEndDate >= today)) {
+              apiClubId = team.team_id; // Use the team ID from the most recent club
+              mongoClubObjectId = clubMap.get(apiClubId); // Get the corresponding MongoDB ObjectId
+              if (mongoClubObjectId) {
+                break; // Exit loop once we find a valid club
+              }
+            }
+          }
         }
+        logger.debug(`Player ID ${player.id}: API position_id: ${player.position_id}, detailed_position_id: ${player.detailed_position_id}`);
+        const positionName = positionMap.get(player.position_id) || 'Unknown';
+        const detailedPositionName = detailedPositionMap.get(player.detailed_position_id) || 'Unknown';
+        logger.debug(`Player ID ${player.id}: API position_id: ${player.position_id}, detailed_position_id: ${player.detailed_position_id}`);
 
         return {
           id: player.id,
           position_id: player.position_id,
+          position_name: positionName,
           detailed_position_id: player.detailed_position_id,
-          type_id: player.type_id,
+          detailed_position_name: detailedPositionName,
           firstName: player.firstname,
           lastName: player.lastname,
           name: player.name,
           common_name: player.common_name,
           photo: player.image_path,
           display_name: player.display_name,
-          club_id: clubId,
+          club: mongoClubObjectId,
           country_name: player.country?.name || null, // Defensive checks for nested properties
           country_flag: player.country?.image_path || null,
           country_fifa_name: player.country?.fifa_name || null,

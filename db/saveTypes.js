@@ -24,6 +24,7 @@ export default async function saveTypes() {
       uniqueKey: 'id',
       mapApiDataToSchema: type => ({
         name: type.name,
+        group: type.model_type,
       }),
       entityName: 'type',
     });
