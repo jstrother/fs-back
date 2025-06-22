@@ -10,16 +10,13 @@ import { Schema, model } from 'mongoose';
  * @typedef {Object} PlayerStatisticDetail
  * @property {number} id - Unique identifier for the statistic detail entry.
  * @property {number} type_id - The type of statistic represented (e.g., goals, assists, cards).
+ * @property {string} [statistic_name='Unknown Statistic'] - The human-readable name of the statistic (e.g., "Goals", "Assists").
  * @property {Object} value - The actual statistic value, which can be a complex object (e.g., { total: 4, goals: 4, penalties: 0 }).
- * @property {number | null} [value.total] - The total value for this statistic.
- * @property {number | null} [value.goals] - The goals value, if applicable.
- * @property {number | null} [value.penalties] - The penalties value, if applicable.
- * @property {number | null} [value.home] - The home value, if applicable.
- * @property {number | null} [value.away] - The away value, if applicable.
  */
 const PlayerStatisticDetailSchema = new Schema({
   id: Number,
   type_id: Number,
+  statistic_name: { type: String, default: 'Unknown Statistic' },
   value: Schema.Types.Mixed, // Allows for complex objects
 }, { _id: false });
 
@@ -78,7 +75,7 @@ const playerSchema = new Schema({
   country_flag: String,
   country_fifa_name: String,
   country_iso3: String,
-  statistics: PlayerStatisticSchema,
+  statistics: [PlayerStatisticSchema],
 }, { timestamps: true });
 
 export default model('Player', playerSchema);

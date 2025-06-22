@@ -18,6 +18,8 @@ import logger from '../utils/logger.js';
  */
 export default async function saveTypes() {
   try {
+    logger.info('Beginning to fetch and save type data.');
+    
     await saveEntities({
       fetchFunction: fetchAllTypes,
       Model: Type,

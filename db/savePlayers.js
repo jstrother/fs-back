@@ -47,6 +47,8 @@ export default async function savePlayers(playerIDs, currentSeasonIDs) {
     const statisticTypes = await Type.find({ group: 'statistic' }).lean();
     const statisticMap = new Map(statisticTypes.map(type => [type.id, type.name])); // Map statistic IDs to names
     logger.info(`Fetched ${statisticMap.size} statistic types from the database.`);
+    // DEBUG: Log contents of statisticMap to ensure it's populated with expected data
+    logger.debug('DEBUG: statisticMap contents (ID => Name):', Array.from(statisticMap.entries()));
 
     const allPlayersToSave = [];
 
@@ -95,7 +97,10 @@ export default async function savePlayers(playerIDs, currentSeasonIDs) {
           // Enrich statistics details with human-readable names
           if (currentSeasonStats && currentSeasonStats.details) {
             currentSeasonStats.details = currentSeasonStats.details.map((detail) => {
+              // DEBUG: Log the type_id and its type for each statistic detail
+              logger.debug(`Player ID ${player.id}: Stat Detail lookup for type_id: ${detail.type_id} (Type: ${typeof detail.type_id})`);
               const statisticName = statisticMap.get(detail.type_id) || 'Unknown Statistic';
+              logger.debug(`Player ID ${player.id}: Stat Detail type_id ${detail.type_id} looked up as: ${statisticName}`);
               return {
                 ...detail,
                 statistic_name: statisticName,
