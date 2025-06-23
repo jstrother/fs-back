@@ -36,7 +36,7 @@ const playerRouter = express.Router();
 playerRouter.get('/', authMiddleware, async (req, res) => {
   try {
     // Find all players in the database
-    const players = await Player.find({});
+    const players = await Player.find({}).populate('club');
     logger.info(`Backend: Fetched ${players.length} players.`);
     res.status(200).json(players);
   } catch (error) {
